@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Stlite app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@stlite/browser@0.89.1/build/stlite.css"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module">
+import { mount } from "https://cdn.jsdelivr.net/npm/@stlite/browser@0.89.1/build/stlite.js"
+mount(
+  {
+    archives: [
+      {
+        url: "./data.zip",
+        format: "zip",
+        options: {},
+      },
+    ],
+    requirements: ["beautifulsoup4", "lxml"],
+    entrypoint: "main.py",
+     files: {
+        "main.py": {
+        url: "main.py",
+        },
+       "highlight_component/index.html": {
+        url: "highlight_component/index.html",
+        },
+       "highlight_component/__init__.py": {
+        url: "highlight_component/__init__.py",
+        },
+    },
+  },
+  document.getElementById("root")
+)
+
+function Uu(n){const a=window.atob(n),i=a.length,l=new Uint8Array(i);for(let u=0;u<i;u++)l[u]=a.charCodeAt(u);return l}
+    </script>
+  </body>
+</html>

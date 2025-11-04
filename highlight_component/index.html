@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Highlight Component (Stable + Persistent)</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 12px;
+      margin: 0;
+    }
+
+    #toolbar {
+      margin-bottom: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    #toolbar label {
+      font-weight: bold;
+      font-size: 16px;
+      margin-right: 8px;
+    }
+
+    button {
+      padding: 6px 10px;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      background: #f8f9fa;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    button:hover {
+      background: #e9ecef;
+      transform: scale(1.05);
+    }
+
+    /* Active button styles */
+    #greenBtn.active {
+      border-color: #28a745;
+      background-color: #d4edda;
+      box-shadow: 0 0 6px rgba(40, 167, 69, 0.4);
+    }
+
+    #yellowBtn.active {
+      border-color: #ffc107;
+      background-color: #fff3cd;
+      box-shadow: 0 0 6px rgba(255, 193, 7, 0.4);
+    }
+
+    #redBtn.active {
+      border-color: #dc3545;
+      background-color: #f8d7da;
+      box-shadow: 0 0 6px rgba(220, 53, 69, 0.4);
+    }
+
+    #removeBtn.active {
+      border-color: #6c757d;
+      background-color: #e2e3e5;
+      box-shadow: 0 0 6px rgba(108, 117, 125, 0.4);
+    }
+
+    #text {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      background: #fff;
+      white-space: pre-wrap;
+      line-height: 1.5;
+      user-select: text;
+    }
+
+    mark.green { background: #d1e7dd; }
+    mark.yellow { background: #fff3cd; }
+    mark.red { background: #f8d7da; }
+  </style>
+</head>
+<body>
+  <div id="toolbar">
+    <label>🖍 Highlighter:</label>
+    <button id="greenBtn" data-color="green">🟢 Enriching</button>
+    <button id="yellowBtn" data-color="yellow">🟡 Not relevant</button>
+    <button id="redBtn" data-color="red">🔴 Factually wrong</button>
+    <button id="removeBtn" data-color="remove">🧼 Eraser</button>
+  </div>
+
+  <div id="text"></div>
+
+  <script>
+    let currentColor = "yellow";
+    let highlights = [];
+    let basePlainText = "";
+    const textDiv = document.getElementById("text");
+    const toolbarButtons = document.querySelectorAll("#toolbar button");
+
+    // Activate button UI
+    toolbarButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        currentColor = btn.dataset.color;
+        toolbarButtons.forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+      });
+    });
+    document.getElementById("yellowBtn").classList.add("active");
+
+    // Apply or remove highlight
+    function applyHighlight() {
+      const sel = window.getSelection();
+      if (!sel || sel.rangeCount === 0 || sel.toString().trim().length === 0) return;
+      const range = sel.getRangeAt(0);
+      if (!textDiv.contains(range.commonAncestorContainer)) return;
+
+      // Compute offsets
+      const preRange = document.createRange();
+      preRange.selectNodeContents(textDiv);
+      preRange.setEnd(range.startContainer, range.startOffset);
+      const start = preRange.toString().length;
+      const end = start + range.toString().length;
+      const plainText = textDiv.textContent;
+
+      if (currentColor === "remove") {
+        highlights = highlights.filter((h) => end < h.start || start > h.end);
+      } else {
+        highlights.push({ start, end, color: currentColor });
+      }
+
+      renderHighlights();
+      postValue();
+      sel.removeAllRanges();
+    }
+
+    function renderHighlights() {
+      const text = basePlainText || textDiv.textContent || "";
+      let html = "";
+      let last = 0;
+      const sorted = [...highlights].sort((a, b) => a.start - b.start);
+      for (const h of sorted) {
+        html += text.slice(last, h.start);
+        html += `<mark class="${h.color}">${text.slice(h.start, h.end)}</mark>`;
+        last = h.end;
+      }
+      html += text.slice(last);
+      textDiv.innerHTML = html;
+      setFrameHeight();
+    }
+
+    // Streamlit communication
+    function postValue() {
+      window.parent.postMessage({
+        isStreamlitMessage: true,
+        type: "streamlit:setComponentValue",
+        apiVersion: 1,
+        value: highlights
+      }, "*");
+    }
+
+    function setFrameHeight() {
+      window.parent.postMessage({
+        isStreamlitMessage: true,
+        type: "streamlit:setFrameHeight",
+        apiVersion: 1,
+        height: document.body.scrollHeight
+      }, "*");
+    }
+
+    window.addEventListener("message", (event) => {
+      const msg = event.data;
+      if (msg.type === "streamlit:render") {
+        if (msg.args?.text && msg.args.text !== basePlainText) {
+          basePlainText = msg.args.text;
+        }
+        highlights = msg.args?.highlights || [];
+        renderHighlights();
+      }
+    });
+
+    window.parent.postMessage({
+      isStreamlitMessage: true,
+      type: "streamlit:componentReady",
+      apiVersion: 1
+    }, "*");
+
+    textDiv.addEventListener("mouseup", applyHighlight);
+    new ResizeObserver(setFrameHeight).observe(document.body);
+  </script>
+</body>
+</html>
