@@ -1,0 +1,199 @@
+{
+  "fonc-12-889223-g005_D.jpg": {
+    "image_ref": "fonc-12-889223-g005",
+    "panel": "D",
+    "label": "Figure 5",
+    "caption": "Atypical Spitz lesions. (A, B) “SPARK” compound nevus, showing a relatively broad atypical melanocytic proliferation (A) , with bridging of rete ridge and mild fibroplasia (B) . (C–E) Atypical Spitz tumor (AST), characterized by a relatively symmetrical melanocytic proliferation with little maturation with descent (C) , effacement of the epidermis (D) and relatively dense cellularity of both spindled and epithelioid melanocytes (E) .",
+    "context": "",
+    "enriched_caption": "Histopathologic examination of an Atypical Spitz tumor (AST) reveals effacement of the epidermis.",
+    "used_verbatims": [
+      "effacement of the epidermis",
+      "Atypical Spitz tumor (AST)"
+    ]
+  },
+  "fonc-12-889223-g006_C.jpg": {
+    "image_ref": "fonc-12-889223-g006",
+    "panel": "C",
+    "label": "Figure 6",
+    "caption": "Spitzoid melanoma. There is a broad atypical compound spitzoid melanocytic proliferation with notable asymmetry (A) , cells in pagetoid array (B) , frequently single celled at the junction, alternating with irregular and confluent nests, with effacement of the epidermis (C) , asymmetric pigmentation and clusters of lymphocytes (D) . This lesion was classified as spitzoid melanoma and not Spitz melanoma based on the detection of a BRAF V600E mutation on NGS studies.",
+    "context": "Molecular pathology is often used to confirm suspicion based on morphologic assessment. Genetic alterations associated with Spitz melanoma include kinase fusions, PTEN mutations, homozygous loss of 9p21, and HRAS mutations ( 18 , 65 ). Because of the wide variance in genetic alterations in lesions morphologically categorized under SM, three subclasses of SM have been proposed: Spitz melanoma, spitzoid melanoma without identified MAPK activating mutations, and spitzoid melanoma non-spitz MAPK activating mutations ( 65 ). Spitz melanoma is defined as a morphologically diagnosed SM that also exhibits typical Spitz tumor-associated genetic alterations involving HRAS, ALK, NTRK1, BRAF, MAP3K8, and CDKN2A ( 65 ). When a non-Spitz mutation, such as a BRAF mutation, is identified, the lesion should be classified as SM; an example is illustrated in Figure 6 .",
+    "enriched_caption": "Panel C illustrates the effacement of the epidermis due to alternating irregular and confluent nests of melanocytic proliferation. This lesion is classified as spitzoid melanoma, distinguished from Spitz melanoma by the detection of a BRAF V600E mutation on NGS studies, representing a non-Spitz MAPK activating mutation.",
+    "used_verbatims": [
+      "effacement of the epidermis",
+      "alternating with irregular and confluent nests",
+      "classified as spitzoid melanoma and not Spitz melanoma",
+      "BRAF V600E mutation on NGS studies",
+      "non-Spitz mutation"
+    ]
+  },
+  "fonc-12-889223-g006_D.jpg": {
+    "image_ref": "fonc-12-889223-g006",
+    "panel": "D",
+    "label": "Figure 6",
+    "caption": "Spitzoid melanoma. There is a broad atypical compound spitzoid melanocytic proliferation with notable asymmetry (A) , cells in pagetoid array (B) , frequently single celled at the junction, alternating with irregular and confluent nests, with effacement of the epidermis (C) , asymmetric pigmentation and clusters of lymphocytes (D) . This lesion was classified as spitzoid melanoma and not Spitz melanoma based on the detection of a BRAF V600E mutation on NGS studies.",
+    "context": "Molecular pathology is often used to confirm suspicion based on morphologic assessment. Genetic alterations associated with Spitz melanoma include kinase fusions, PTEN mutations, homozygous loss of 9p21, and HRAS mutations ( 18 , 65 ). Because of the wide variance in genetic alterations in lesions morphologically categorized under SM, three subclasses of SM have been proposed: Spitz melanoma, spitzoid melanoma without identified MAPK activating mutations, and spitzoid melanoma non-spitz MAPK activating mutations ( 65 ). Spitz melanoma is defined as a morphologically diagnosed SM that also exhibits typical Spitz tumor-associated genetic alterations involving HRAS, ALK, NTRK1, BRAF, MAP3K8, and CDKN2A ( 65 ). When a non-Spitz mutation, such as a BRAF mutation, is identified, the lesion should be classified as SM; an example is illustrated in Figure 6 .",
+    "enriched_caption": "This panel illustrates a spitzoid melanoma characterized by asymmetric pigmentation and clusters of lymphocytes, which was classified as spitzoid melanoma (rather than Spitz melanoma) due to the detection of a BRAF V600E mutation on NGS studies.",
+    "used_verbatims": [
+      "asymmetric pigmentation and clusters of lymphocytes",
+      "Spitzoid melanoma",
+      "BRAF V600E mutation on NGS studies"
+    ]
+  },
+  "fonc-12-889223-g005_A.jpg": {
+    "image_ref": "fonc-12-889223-g005",
+    "panel": "A",
+    "label": "Figure 5",
+    "caption": "Atypical Spitz lesions. (A, B) “SPARK” compound nevus, showing a relatively broad atypical melanocytic proliferation (A) , with bridging of rete ridge and mild fibroplasia (B) . (C–E) Atypical Spitz tumor (AST), characterized by a relatively symmetrical melanocytic proliferation with little maturation with descent (C) , effacement of the epidermis (D) and relatively dense cellularity of both spindled and epithelioid melanocytes (E) .",
+    "context": "",
+    "enriched_caption": "Histopathologic interpretation of panel A reveals a relatively broad atypical melanocytic proliferation, a characteristic finding within a “SPARK” compound nevus, classified under atypical Spitz lesions.",
+    "used_verbatims": [
+      "Atypical Spitz lesions",
+      "“SPARK” compound nevus",
+      "relatively broad atypical melanocytic proliferation"
+    ]
+  },
+  "fonc-12-889223-g005_B.jpg": {
+    "image_ref": "fonc-12-889223-g005",
+    "panel": "B",
+    "label": "Figure 5",
+    "caption": "Atypical Spitz lesions. (A, B) “SPARK” compound nevus, showing a relatively broad atypical melanocytic proliferation (A) , with bridging of rete ridge and mild fibroplasia (B) . (C–E) Atypical Spitz tumor (AST), characterized by a relatively symmetrical melanocytic proliferation with little maturation with descent (C) , effacement of the epidermis (D) and relatively dense cellularity of both spindled and epithelioid melanocytes (E) .",
+    "context": "",
+    "enriched_caption": "Panel B, part of an atypical Spitz lesion classified as a “SPARK” compound nevus, histopathologically demonstrates bridging of rete ridge and mild fibroplasia.",
+    "used_verbatims": [
+      "Atypical Spitz lesions",
+      "“SPARK” compound nevus",
+      "bridging of rete ridge",
+      "mild fibroplasia"
+    ]
+  },
+  "fonc-12-889223-g006_A.jpg": {
+    "image_ref": "fonc-12-889223-g006",
+    "panel": "A",
+    "label": "Figure 6",
+    "caption": "Spitzoid melanoma. There is a broad atypical compound spitzoid melanocytic proliferation with notable asymmetry (A) , cells in pagetoid array (B) , frequently single celled at the junction, alternating with irregular and confluent nests, with effacement of the epidermis (C) , asymmetric pigmentation and clusters of lymphocytes (D) . This lesion was classified as spitzoid melanoma and not Spitz melanoma based on the detection of a BRAF V600E mutation on NGS studies.",
+    "context": "Molecular pathology is often used to confirm suspicion based on morphologic assessment. Genetic alterations associated with Spitz melanoma include kinase fusions, PTEN mutations, homozygous loss of 9p21, and HRAS mutations ( 18 , 65 ). Because of the wide variance in genetic alterations in lesions morphologically categorized under SM, three subclasses of SM have been proposed: Spitz melanoma, spitzoid melanoma without identified MAPK activating mutations, and spitzoid melanoma non-spitz MAPK activating mutations ( 65 ). Spitz melanoma is defined as a morphologically diagnosed SM that also exhibits typical Spitz tumor-associated genetic alterations involving HRAS, ALK, NTRK1, BRAF, MAP3K8, and CDKN2A ( 65 ). When a non-Spitz mutation, such as a BRAF mutation, is identified, the lesion should be classified as SM; an example is illustrated in Figure 6 .",
+    "enriched_caption": "Panel A exhibits a broad atypical compound spitzoid melanocytic proliferation with notable asymmetry. Histopathologically, this lesion was classified as spitzoid melanoma and not Spitz melanoma based on the detection of a BRAF V600E mutation on NGS studies, a finding consistent with a non-Spitz mutation as described for such classifications.",
+    "used_verbatims": [
+      "broad atypical compound spitzoid melanocytic proliferation with notable asymmetry",
+      "classified as spitzoid melanoma and not Spitz melanoma based on the detection of a BRAF V600E mutation on NGS studies",
+      "non-Spitz mutation, such as a BRAF mutation"
+    ]
+  },
+  "PMC9209745_captions.json": {
+    "error": "No figure found referencing PMC9209745"
+  },
+  "fonc-12-889223-g006_B.jpg": {
+    "image_ref": "fonc-12-889223-g006",
+    "panel": "B",
+    "label": "Figure 6",
+    "caption": "Spitzoid melanoma. There is a broad atypical compound spitzoid melanocytic proliferation with notable asymmetry (A) , cells in pagetoid array (B) , frequently single celled at the junction, alternating with irregular and confluent nests, with effacement of the epidermis (C) , asymmetric pigmentation and clusters of lymphocytes (D) . This lesion was classified as spitzoid melanoma and not Spitz melanoma based on the detection of a BRAF V600E mutation on NGS studies.",
+    "context": "Molecular pathology is often used to confirm suspicion based on morphologic assessment. Genetic alterations associated with Spitz melanoma include kinase fusions, PTEN mutations, homozygous loss of 9p21, and HRAS mutations ( 18 , 65 ). Because of the wide variance in genetic alterations in lesions morphologically categorized under SM, three subclasses of SM have been proposed: Spitz melanoma, spitzoid melanoma without identified MAPK activating mutations, and spitzoid melanoma non-spitz MAPK activating mutations ( 65 ). Spitz melanoma is defined as a morphologically diagnosed SM that also exhibits typical Spitz tumor-associated genetic alterations involving HRAS, ALK, NTRK1, BRAF, MAP3K8, and CDKN2A ( 65 ). When a non-Spitz mutation, such as a BRAF mutation, is identified, the lesion should be classified as SM; an example is illustrated in Figure 6 .",
+    "enriched_caption": "Panel B illustrates melanocytic cells in a pagetoid array, a morphologic feature contributing to the overall assessment of this spitzoid lesion. This lesion was ultimately classified as Spitzoid melanoma, not Spitz melanoma, based on the detection of a BRAF V600E mutation via NGS studies.",
+    "used_verbatims": [
+      "cells in pagetoid array",
+      "Spitzoid melanoma",
+      "classified as spitzoid melanoma and not Spitz melanoma",
+      "BRAF V600E mutation on NGS studies"
+    ]
+  },
+  "fonc-12-889223-g007_A.jpg": {
+    "image_ref": "fonc-12-889223-g007",
+    "panel": "A",
+    "label": "Figure 7",
+    "caption": "Translocated Spitz nevi. (A, B) Example of ALK fused Spitz nevus with a polypoid silhouette (A) and plexiform intersecting fascicles of fusiform melanocytes (B) . (C, D) Example of ROS fused Spitz nevus with a diffuse proliferation of melanocytes (C) mostly in small nests (D) .",
+    "context": "",
+    "enriched_caption": "Subfigure A presents an ALK-fused Spitz nevus exhibiting a distinctive polypoid silhouette, highlighting its genomic context and overall architectural pattern.",
+    "used_verbatims": [
+      "ALK fused Spitz nevus",
+      "polypoid silhouette (A)"
+    ]
+  },
+  "fonc-12-889223-g007_C.jpg": {
+    "image_ref": "fonc-12-889223-g007",
+    "panel": "C",
+    "label": "Figure 7",
+    "caption": "Translocated Spitz nevi. (A, B) Example of ALK fused Spitz nevus with a polypoid silhouette (A) and plexiform intersecting fascicles of fusiform melanocytes (B) . (C, D) Example of ROS fused Spitz nevus with a diffuse proliferation of melanocytes (C) mostly in small nests (D) .",
+    "context": "",
+    "enriched_caption": "Histopathologic section depicting a ROS fused Spitz nevus, characterized by a diffuse proliferation of melanocytes.",
+    "used_verbatims": [
+      "ROS fused Spitz nevus",
+      "diffuse proliferation of melanocytes"
+    ]
+  },
+  "fonc-12-889223-g005_E.jpg": {
+    "image_ref": "fonc-12-889223-g005",
+    "panel": "E",
+    "label": "Figure 5",
+    "caption": "Atypical Spitz lesions. (A, B) “SPARK” compound nevus, showing a relatively broad atypical melanocytic proliferation (A) , with bridging of rete ridge and mild fibroplasia (B) . (C–E) Atypical Spitz tumor (AST), characterized by a relatively symmetrical melanocytic proliferation with little maturation with descent (C) , effacement of the epidermis (D) and relatively dense cellularity of both spindled and epithelioid melanocytes (E) .",
+    "context": "",
+    "enriched_caption": "This panel illustrates an Atypical Spitz tumor (AST), characterized by relatively dense cellularity composed of both spindled and epithelioid melanocytes.",
+    "used_verbatims": [
+      "Atypical Spitz tumor (AST)",
+      "relatively dense cellularity of both spindled and epithelioid melanocytes"
+    ]
+  },
+  "fonc-12-889223-g005_C.jpg": {
+    "image_ref": "fonc-12-889223-g005",
+    "panel": "C",
+    "label": "Figure 5",
+    "caption": "Atypical Spitz lesions. (A, B) “SPARK” compound nevus, showing a relatively broad atypical melanocytic proliferation (A) , with bridging of rete ridge and mild fibroplasia (B) . (C–E) Atypical Spitz tumor (AST), characterized by a relatively symmetrical melanocytic proliferation with little maturation with descent (C) , effacement of the epidermis (D) and relatively dense cellularity of both spindled and epithelioid melanocytes (E) .",
+    "context": "",
+    "enriched_caption": "Histopathologic findings in an Atypical Spitz tumor (AST) depicting a relatively symmetrical melanocytic proliferation that exhibits little maturation with descent.",
+    "used_verbatims": [
+      "Atypical Spitz tumor (AST)",
+      "relatively symmetrical melanocytic proliferation",
+      "little maturation with descent"
+    ]
+  },
+  "fonc-12-889223-g004_B.jpg": {
+    "image_ref": "fonc-12-889223-g004",
+    "panel": "B",
+    "label": "Figure 4",
+    "caption": "Representative histologic micrographs of Spitz nevi. (A) Low power overview of a compound Spitz nevus, which show symmetry and circumscription. The lesion is characterized by spindled and epithelioid cell morphology (2x). Inset: Higher power view of the same Spitz nevus with junctional nest “hanging” from the epidermis and prominent Kamino bodies (arrowhead) (20x). (B) Low power view of pigmented spindle cell nevus of Reed with the characteristic heavy pigmentation (10x). Inset: Higher power view of the same lesion demonstrating spindle cell morphology and heavy pigmentation (20x). (C) Intradermal desmoplastic Spitz nevus, showing effacement of rete ridge and an exclusively intradermal, amelanotic melanocytic proliferation. Inset: High power view showing predominantly epithelioid melanocytes distributed between thick collagen bundles.",
+    "context": "",
+    "enriched_caption": "This panel displays a low-power (10x) histological view of a pigmented spindle cell nevus of Reed, notable for its characteristic heavy pigmentation. A higher-power inset (20x) further illustrates the lesion's pronounced spindle cell morphology in conjunction with the heavy pigmentation.",
+    "used_verbatims": [
+      "Low power view of pigmented spindle cell nevus of Reed",
+      "with the characteristic heavy pigmentation (10x).",
+      "Inset: Higher power view of the same lesion demonstrating spindle cell morphology and heavy pigmentation (20x)."
+    ]
+  },
+  "fonc-12-889223-g004_A.jpg": {
+    "image_ref": "fonc-12-889223-g004",
+    "panel": "A",
+    "label": "Figure 4",
+    "caption": "Representative histologic micrographs of Spitz nevi. (A) Low power overview of a compound Spitz nevus, which show symmetry and circumscription. The lesion is characterized by spindled and epithelioid cell morphology (2x). Inset: Higher power view of the same Spitz nevus with junctional nest “hanging” from the epidermis and prominent Kamino bodies (arrowhead) (20x). (B) Low power view of pigmented spindle cell nevus of Reed with the characteristic heavy pigmentation (10x). Inset: Higher power view of the same lesion demonstrating spindle cell morphology and heavy pigmentation (20x). (C) Intradermal desmoplastic Spitz nevus, showing effacement of rete ridge and an exclusively intradermal, amelanotic melanocytic proliferation. Inset: High power view showing predominantly epithelioid melanocytes distributed between thick collagen bundles.",
+    "context": "",
+    "enriched_caption": "Subfigure A shows a compound Spitz nevus, demonstrating characteristic symmetry and circumscription at low power. Higher magnification reveals a proliferation of spindled and epithelioid melanocytes, with junctional nests 'hanging' from the epidermis and prominent Kamino bodies, all key histopathologic features of this benign melanocytic lesion.",
+    "used_verbatims": [
+      "Low power overview of a compound Spitz nevus, which show symmetry and circumscription.",
+      "The lesion is characterized by spindled and epithelioid cell morphology",
+      "Higher power view of the same Spitz nevus with junctional nest “hanging” from the epidermis and prominent Kamino bodies (arrowhead)"
+    ]
+  },
+  "fonc-12-889223-g007_D.jpg": {
+    "image_ref": "fonc-12-889223-g007",
+    "panel": "D",
+    "label": "Figure 7",
+    "caption": "Translocated Spitz nevi. (A, B) Example of ALK fused Spitz nevus with a polypoid silhouette (A) and plexiform intersecting fascicles of fusiform melanocytes (B) . (C, D) Example of ROS fused Spitz nevus with a diffuse proliferation of melanocytes (C) mostly in small nests (D) .",
+    "context": "",
+    "enriched_caption": "Histopathologic findings in a ROS-fused Spitz nevus, illustrating melanocytes predominantly organized in small nests, which is part of a diffuse melanocytic proliferation.",
+    "used_verbatims": [
+      "ROS fused Spitz nevus",
+      "diffuse proliferation of melanocytes",
+      "mostly in small nests"
+    ]
+  },
+  "fonc-12-889223-g007_B.jpg": {
+    "image_ref": "fonc-12-889223-g007",
+    "panel": "B",
+    "label": "Figure 7",
+    "caption": "Translocated Spitz nevi. (A, B) Example of ALK fused Spitz nevus with a polypoid silhouette (A) and plexiform intersecting fascicles of fusiform melanocytes (B) . (C, D) Example of ROS fused Spitz nevus with a diffuse proliferation of melanocytes (C) mostly in small nests (D) .",
+    "context": "",
+    "enriched_caption": "Histopathologic features of an ALK fused Spitz nevus, characterized by plexiform intersecting fascicles of fusiform melanocytes.",
+    "used_verbatims": [
+      "ALK fused Spitz nevus",
+      "plexiform intersecting fascicles of fusiform melanocytes"
+    ]
+  }
+}

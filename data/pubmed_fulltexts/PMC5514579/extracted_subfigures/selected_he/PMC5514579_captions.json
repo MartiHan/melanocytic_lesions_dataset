@@ -1,0 +1,42 @@
+{
+  "PMC5514579_captions.json": {
+    "error": "No figure found referencing PMC5514579"
+  },
+  "abd-92-03-0375-g02.jpg": {
+    "image_ref": "abd-92-03-0375-g02",
+    "panel": "Figure 2",
+    "label": "Figure 2",
+    "caption": "Non-diagnostic case. Junctional melanocytic proliferation with severe\ncytological atypia and spitzoid features in an 18-year-old boy\n(Hematoxylin & eosin x400)",
+    "context": "Ten cases were non-diagnostic because they did not meet the minimum histological\ncriteria of classically established entities. All of them were represented by a\nlentiginous junctional melanocytic proliferation with epithelioid morphology and\nincreased nuclear size in the acanthotic epidermis. Eight of these cases had 3\nmm or less. Nests were seen in 2 lesions. Suprabasal dissemination of\nmelanocytes (restricted to the central area of the lesion) was seen in 8 cases.\nFibroplasia of the papillary dermis was identified in 4. In 1 case, junctional\nmelanocytes exhibited an expanded eosinophilic cytoplasm (spitzoid morphology)\nwithout nest formation together with a few isolated intradermal cells ( Figure 2 ).\n\nFigure 2 Non-diagnostic case. Junctional melanocytic proliferation with severe\ncytological atypia and spitzoid features in an 18-year-old boy\n(Hematoxylin & eosin x400)",
+    "enriched_caption": "This non-diagnostic case, from an 18-year-old boy, presents as a lentiginous junctional melanocytic proliferation. Histologically, it exhibits severe cytological atypia, epithelioid morphology, and increased nuclear size in the acanthotic epidermis. Prominent spitzoid features are observed, characterized by melanocytes with expanded eosinophilic cytoplasm, notably without nest formation, alongside a few isolated intradermal cells. The case is classified as non-diagnostic because it does not meet the minimum histological criteria of classically established entities. (Hematoxylin & eosin x400)",
+    "used_verbatims": [
+      "Non-diagnostic case.",
+      "Junctional melanocytic proliferation with severe cytological atypia and spitzoid features",
+      "an 18-year-old boy",
+      "Hematoxylin & eosin x400",
+      "lentiginous junctional melanocytic proliferation with epithelioid morphology and increased nuclear size in the acanthotic epidermis",
+      "junctional melanocytes exhibited an expanded eosinophilic cytoplasm (spitzoid morphology) without nest formation together with a few isolated intradermal cells",
+      "did not meet the minimum histological criteria of classically established entities."
+    ]
+  },
+  "abd-92-03-0375-g01.jpg": {
+    "image_ref": "abd-92-03-0375-g01",
+    "panel": "A",
+    "label": "Figure 1",
+    "caption": "Malignant melanoma in situ . Junctional melanocytic\nproliferation with severe cytological atypia and focal pagetoid\ndissemination. Acanthosis, pigmentation of basal queratinocytes, and\ninflammatory infiltrate around ectatic vessels\nassociated(Hematoxylin & eosin ×100)",
+    "context": "Malignant melanoma was represented by a symmetrical junctional melanocytic\nproliferation with isolated cells and nests (in situ) of epithelioid and\nstellate cells with nuclear size increased at least 2 times ( Figure 1 ). Suprabasal melanocytes were\npresent in the central area of the lesion, epidermis showed mild acanthosis, and\nthere was focal lamellar fibroplasia in the papillary dermis.\n\nFigure 1 Malignant melanoma in situ . Junctional melanocytic\nproliferation with severe cytological atypia and focal pagetoid\ndissemination. Acanthosis, pigmentation of basal queratinocytes, and\ninflammatory infiltrate around ectatic vessels\nassociated(Hematoxylin & eosin ×100)",
+    "enriched_caption": "This image depicts a Malignant melanoma in situ, characterized by a symmetrical junctional melanocytic proliferation with isolated cells and nests of epithelioid and stellate cells, showing severe cytological atypia including nuclei with size increased at least 2 times. Focal pagetoid dissemination and suprabasal melanocytes are present in the central area of the lesion. The epidermis exhibits mild acanthosis and pigmentation of basal queratinocytes, while the papillary dermis shows focal lamellar fibroplasia and an inflammatory infiltrate around ectatic vessels. (Hematoxylin & eosin ×100)",
+    "used_verbatims": [
+      "Malignant melanoma in situ",
+      "Junctional melanocytic proliferation with severe cytological atypia and focal pagetoid dissemination.",
+      "pigmentation of basal queratinocytes",
+      "inflammatory infiltrate around ectatic vessels associated",
+      "symmetrical junctional melanocytic proliferation with isolated cells and nests (in situ) of epithelioid and stellate cells",
+      "nuclear size increased at least 2 times",
+      "Suprabasal melanocytes were present in the central area of the lesion",
+      "epidermis showed mild acanthosis",
+      "focal lamellar fibroplasia in the papillary dermis.",
+      "(Hematoxylin & eosin ×100)"
+    ]
+  }
+}

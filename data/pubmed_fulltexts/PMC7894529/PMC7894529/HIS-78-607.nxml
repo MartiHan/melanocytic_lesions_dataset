@@ -1,0 +1,1262 @@
+<!DOCTYPE article
+PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">Histopathology</journal-id><journal-id journal-id-type="iso-abbrev">Histopathology</journal-id><journal-id journal-id-type="doi">10.1111/(ISSN)1365-2559</journal-id><journal-id journal-id-type="publisher-id">HIS</journal-id><journal-title-group><journal-title>Histopathology</journal-title></journal-title-group><issn pub-type="ppub">0309-0167</issn><issn pub-type="epub">1365-2559</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">32970867</article-id><article-id pub-id-type="pmc">7894529</article-id><article-id pub-id-type="doi">10.1111/his.14259</article-id><article-id pub-id-type="publisher-id">HIS14259</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Articles</subject></subj-group></article-categories><title-group><article-title>Integrative histopathological and immunophenotypical characterisation of the inflammatory microenvironment in spitzoid melanocytic neoplasms</article-title><alt-title alt-title-type="right-running-head">Inflammatory microenvironment of spitz tumours</alt-title><alt-title alt-title-type="left-running-head"><italic>L M Hillen et al.</italic></alt-title></title-group><contrib-group><contrib id="his14259-cr-0001" contrib-type="author"><name><surname>Hillen</surname><given-names>Lisa M</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8808-4952</contrib-id><xref ref-type="aff" rid="his14259-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="his14259-cr-0002" contrib-type="author"><name><surname>Vandyck</surname><given-names>Hendrik L D</given-names></name><xref ref-type="aff" rid="his14259-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="his14259-cr-0003" contrib-type="author"><name><surname>Leunissen</surname><given-names>Daphne J G</given-names></name><xref ref-type="aff" rid="his14259-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="his14259-cr-0004" contrib-type="author"><name><surname>de Greef</surname><given-names>Bianca T A</given-names></name><xref ref-type="aff" rid="his14259-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="his14259-cr-0005" contrib-type="author"><name><surname>Bosisio</surname><given-names>Francesca M</given-names></name><xref ref-type="aff" rid="his14259-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="his14259-cr-0006" contrib-type="author"><name><surname>zur Hausen</surname><given-names>Axel</given-names></name><xref ref-type="aff" rid="his14259-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="his14259-cr-0007" contrib-type="author"><name><surname>van den Oord</surname><given-names>Joost</given-names></name><xref ref-type="aff" rid="his14259-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="his14259-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="his14259-cr-0008" contrib-type="author" corresp="yes"><name><surname>Winnepenninckx</surname><given-names>V&#x000e9;ronique</given-names></name><xref ref-type="aff" rid="his14259-aff-0001">
+<sup>1</sup>
+</xref><address><email>v.winnepenninckx@mumc.nl</email></address></contrib></contrib-group><aff id="his14259-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Pathology</named-content>
+<named-content content-type="organisation-division">GROW School for Oncology and Developmental Biology</named-content>
+<institution>Maastricht University Medical Center</institution>
+<city>Maastricht</city>
+<country country="NL">the Netherlands</country>
+</aff><aff id="his14259-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Clinical Epidemiology and Medical Technology Assessment</named-content>
+<institution>Maastricht University Medical Center</institution>
+<city>Maastricht</city>
+<country country="NL">the Netherlands</country>
+</aff><aff id="his14259-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Laboratory for Translational Cell and Tissue Research (TCTR)</named-content>
+<institution>University of Leuven</institution>
+<institution>KUL</institution>
+<city>Leuven</city>
+<country country="BE">Belgium</country>
+</aff><aff id="his14259-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Department of Pathology</named-content>
+<institution>University Hospitals</institution>
+<city>Leuven</city>
+<country country="BE">Belgium</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label>
+Address for correspondence: V Winnepenninckx MD, PhD, Maastricht University Medical Center (MUMC+), Afdeling Pathologie, PO Box 5800, 6202 AZ Maastricht, the Netherlands. e&#x02010;mail: <email>v.winnepenninckx@mumc.nl</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>19</day><month>11</month><year>2020</year></pub-date><pub-date pub-type="ppub"><month>3</month><year>2021</year></pub-date><volume>78</volume><issue>4</issue><issue-id pub-id-type="doi">10.1111/his.v78.4</issue-id><fpage>607</fpage><lpage>626</lpage><history><date date-type="received"><day>19</day><month>5</month><year>2020</year></date><date date-type="rev-recd"><day>15</day><month>9</month><year>2020</year></date><date date-type="accepted"><day>15</day><month>9</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright">Copyright &#x000a9; 2021 John Wiley & Sons Ltd<copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors. <italic>Histopathology</italic> published by John Wiley &#x00026; Sons Ltd</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:HIS-78-607.pdf"/><abstract id="his14259-abs-0001"><sec id="his14259-sec-0001"><title>Aims</title><p>The role of inflammation in conventional cutaneous melanoma has been extensively studied, whereas only little is known about the inflammatory microenvironment and immunogenic properties of spitzoid melanocytic neoplasms. The composition of infiltrating immune cells and the architectural distribution of the inflammation, in particular, are still obscure. This is the first study, to our knowledge, to systematically characterise the inflammatory patterns and the leucocyte subsets in spitzoid melanocytic lesions.</p></sec><sec id="his14259-sec-0002"><title>Methods and results</title><p>We examined 79 spitzoid neoplasms including banal Spitz naevi (SN, <italic>n</italic>&#x000a0;=&#x000a0;50), atypical Spitz tumours (AST, <italic>n</italic>&#x000a0;=&#x000a0;17) and malignant Spitz tumours (MST, <italic>n</italic>&#x000a0;=&#x000a0;12) using histopathological analysis and immunohistochemistry. Spitzoid melanocytic lesions showed a high frequency (67.1%, <italic>n</italic>&#x000a0;=&#x000a0;53 of 79) of inflammation. Four inflammatory patterns were identified according to architectural composition, distribution and intensity of inflammation. The majority of the inflammatory infiltrate corresponded to CD3<sup>+</sup>/CD8<sup>+</sup> T lymphocytes (56.1%), followed by CD3<sup>+</sup>/CD4<sup>+</sup> T cells (35.7%) and CD68<sup>+</sup> histiocytes (20.3%). CD3<sup>+</sup>/TIA&#x02010;1<sup>+</sup> cytotoxic T lymphocytes constituted 3.7% of inflammatory cells. Rarely, CD3<sup>+</sup>/ granzyme B<sup>+</sup> cytotoxic T lymphocytes (2.7%) and CD138<sup>+</sup> plasma cells (0.5%) were detected in the infiltrating immune cells. There was no significant difference in the inflammatory cellular composition among the spitzoid melanocytic subgroups (SN versus AST versus MST).</p></sec><sec id="his14259-sec-0003"><title>Conclusion</title><p>Our findings demonstrate that Spitz tumours are highly immunogenic lesions. Inflammation with the presence of lymphocytic aggregates predominated in SN, but was not distinctive for this melanocytic category. A strong and intense inflammation was suggestive of an underlying malignancy. The infiltrating cytotoxic T lymphocyte subsets in Spitz tumours deserve further investigation in larger study cohorts to elucidate prognostic and immuno&#x02010;oncological therapeutic relevance.</p></sec></abstract><kwd-group><kwd id="his14259-kwd-0001">spitzoid melanocytic neoplasm</kwd><kwd id="his14259-kwd-0002">Spitz tumour</kwd><kwd id="his14259-kwd-0003">Spitz naevus (SN)</kwd><kwd id="his14259-kwd-0004">atypical Spitz tumour (AST)</kwd><kwd id="his14259-kwd-0005">malignant Spitz tumour (MST)</kwd><kwd id="his14259-kwd-0006">T lymphocyte</kwd><kwd id="his14259-kwd-0007">inflammation</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Maastricht University Hospital Center, MUMC+, the Netherlands </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100004528</institution-id></institution-wrap></funding-source></award-group></funding-group><counts><fig-count count="4"/><table-count count="2"/><page-count count="20"/><word-count count="12847"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>March 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.7 mode:remove_FC converted:19.02.2021</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="his14259-cit-1001">
+<string-name>
+<surname>Hillen</surname>
+<given-names>L M</given-names>
+</string-name>, <string-name>
+<surname>Vandyck</surname>
+<given-names>H L D</given-names>
+</string-name>, <string-name>
+<surname>Leunissen</surname>
+<given-names>D J G</given-names>
+</string-name>, <string-name>
+<surname>de Greef</surname>
+<given-names>B T A</given-names>
+</string-name>, <string-name>
+<surname>Bosisio</surname>
+<given-names>F M</given-names>
+</string-name>, <string-name>
+<surname>zur Hausen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>van den Oord</surname>
+<given-names>J</given-names>
+</string-name> &#x00026; <string-name>
+<surname>Winnepenninckx</surname>
+<given-names>V</given-names>
+</string-name>. (<year>2021</year>) <source xml:lang="en">Histopathology</source>
+<volume>78</volume>, <fpage>607</fpage>&#x02013;<lpage>626</lpage>. <pub-id pub-id-type="doi">10.1111/his.14259</pub-id>
+<article-title>Integrative histopathological and immunophenotypical characterisation of the inflammatory microenvironment in spitzoid melanocytic neoplasms</article-title>
+<pub-id pub-id-type="pmid">32970867</pub-id></mixed-citation>
+</p></notes></front><body id="his14259-body-0001"><sec id="his14259-sec-0004"><title>Introduction</title><p>Spitzoid melanocytic neoplasms represent uncommon lesions accounting for only approximately 1&#x02013;2% of resected melanocytic proliferations,<xref rid="his14259-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref> with an estimated incidence from 1.4 to 1.6 per 100&#x000a0;000.<xref rid="his14259-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref> They are characterised by epithelioid and/or spindle&#x02010;shaped melanocytes localised in a stromal background of variable amounts of lymphocytes, blood vessels and sclerosis. Spitzoid melanocytic neoplasms are named in honour of Sophie Spitz, an American pathologist, who initially proposed the term &#x02018;melanoma of childhood&#x02019; for these lesions.<xref rid="his14259-bib-0003" ref-type="ref">
+<sup>3</sup>
+</xref>, <xref rid="his14259-bib-0004" ref-type="ref">
+<sup>4</sup>
+</xref> Although frequently occurring in children,<xref rid="his14259-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref>, <xref rid="his14259-bib-0003" ref-type="ref">
+<sup>3</sup>
+</xref>, <xref rid="his14259-bib-0005" ref-type="ref">
+<sup>5</sup>
+</xref> lesions can also develop later in life and the patient&#x02019;s age represents a risk factor for malignant progression.<xref rid="his14259-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref> According to the recently launched 4th edition of the World Health Organisation (WHO) 2018 classification of skin tumours, spitzoid neoplasms range from banal Spitz naevi (SN) to atypical Spitz tumour (AST) to finally highly proliferative and pleomorphic malignant Spitz tumour (MST), i.e. spitzoid melanoma.<xref rid="his14259-bib-0007" ref-type="ref">
+<sup>7</sup>
+</xref>
+</p><p>A significant subset of spitzoid lesions is accompanied by an inflammatory infiltrate, which is mainly composed of lymphocytes.<xref rid="his14259-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref>, <xref rid="his14259-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref>, <xref rid="his14259-bib-0005" ref-type="ref">
+<sup>5</sup>
+</xref> This inflammatory infiltrate can be attributed to the host response mechanism or immune surveillance, which is defined as the immunological response of the host against neoplastic cells.<xref rid="his14259-bib-0008" ref-type="ref">
+<sup>8</sup>
+</xref>, <xref rid="his14259-bib-0009" ref-type="ref">
+<sup>9</sup>
+</xref>, <xref rid="his14259-bib-0010" ref-type="ref">
+<sup>10</sup>
+</xref> A host immune response is observed on a regular basis in melanocytic neoplasms with infiltration of the lesion by tumour&#x02010;infiltrating leucocytes (TILs), i.e. lymphocytes, that may result in elimination of part or all of the melanocytic lesion.<xref rid="his14259-bib-0011" ref-type="ref">
+<sup>11</sup>
+</xref>, <xref rid="his14259-bib-0012" ref-type="ref">
+<sup>12</sup>
+</xref>, <xref rid="his14259-bib-0013" ref-type="ref">
+<sup>13</sup>
+</xref> In benign melanocytic lesions a strong inflammatory response with immunologically mediated rejection of the naevus cells and circumferential depigmentation of surrounding keratinocytes is known as the &#x02018;halo phenomenon&#x02019;, and eponymous for halo naevi (HN).<xref rid="his14259-bib-0007" ref-type="ref">
+<sup>7</sup>
+</xref> The phenomenon of the immunogenic host response is also known as regression, and may be categorised into three temporal stages: early, intermediate and late.<xref rid="his14259-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref> Early regression is characterised by the presence of TILs with an intimate association and contact with tumour cells, thereby disrupting them. Intermediate and late regression result in partial or complete loss of malignant melanocytes and are characterised by immature (intermediate) and mature (late) dermal fibrosis, often accompanied by dermal melanophages, and a flattened epidermis with loss of rete ridges.<xref rid="his14259-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref> The intensity of TILs in conventional cutaneous malignant melanoma (CMM) is categorised by different grading systems, the most popular being from Clark <italic>et al</italic>.<xref rid="his14259-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref> with (i) absent, (ii) brisk or (iii) non&#x02010;brisk inflammatory response, or the more recently proposed four&#x02010;tiered grading system (0&#x02013;3) from the Melanoma Institute of Australia (MIA).<xref rid="his14259-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref>, <xref rid="his14259-bib-0016" ref-type="ref">
+<sup>16</sup>
+</xref> For benign melanocytic lesions, no such scoring system exists.</p><p>While the host response, including the immunogenic environment (particularly T lymphocytes and macrophages), has been extensively studied in conventional primary cutaneous melanoma,<xref rid="his14259-bib-0010" ref-type="ref">
+<sup>10</sup>
+</xref>, <xref rid="his14259-bib-0012" ref-type="ref">
+<sup>12</sup>
+</xref>, <xref rid="his14259-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref>, <xref rid="his14259-bib-0017" ref-type="ref">
+<sup>17</sup>
+</xref>, <xref rid="his14259-bib-0018" ref-type="ref">
+<sup>18</sup>
+</xref>, <xref rid="his14259-bib-0019" ref-type="ref">
+<sup>19</sup>
+</xref>, <xref rid="his14259-bib-0020" ref-type="ref">
+<sup>20</sup>
+</xref>, <xref rid="his14259-bib-0021" ref-type="ref">
+<sup>21</sup>
+</xref> the host response with the immunogenic environment in spitzoid melanocytic neoplasms remains largely elusive. In particular, the character of infiltrating T lymphocytes is unknown. Using molecular profiling mRNA gene expression analysis of a series of spitzoid lesions, we recently identified differential expression of inflammation&#x02010;associated gene transcripts, and gene set enrichment analysis (GSEA) revealed up&#x02010;regulation of immunomodulatory pathways in SN compared to common naevocellular naevi (NCN), thereby suggesting a unique role of inflammation in spitzoid neoplasms.<xref rid="his14259-bib-0022" ref-type="ref">
+<sup>22</sup>
+</xref>, <xref rid="his14259-bib-0023" ref-type="ref">
+<sup>23</sup>
+</xref> Furthermore, the distribution of the inflammation has been suggested but not yet confirmed as a helpful diagnostic feature.<xref rid="his14259-bib-0024" ref-type="ref">
+<sup>24</sup>
+</xref>, <xref rid="his14259-bib-0025" ref-type="ref">
+<sup>25</sup>
+</xref>, <xref rid="his14259-bib-0026" ref-type="ref">
+<sup>26</sup>
+</xref>
+</p><p>However, the detailed composition and intensity of the inflammatory infiltrate in spitzoid melanocytic neoplasms, especially with regard to the various T lymphocyte subsets, and the possible significance of the infiltrate in disease progression is still obscure. We hypothesised that the inflammatory infiltrate in spitzoid melanocytic neoplasms is likely to represent an essential component of the tumour microenvironment. Subtyping and characterisation of tumour&#x02010;infiltrating immune cells might aid clearer understanding of the role of inflammation in the pathogenesis of these rare lesions. Interestingly, it is well known that, similar to MST, AST frequently metastasise to locoregional lymph nodes but, in contrast to MST, rarely if ever spread to distant organs.<xref rid="his14259-bib-0027" ref-type="ref">
+<sup>27</sup>
+</xref>, <xref rid="his14259-bib-0028" ref-type="ref">
+<sup>28</sup>
+</xref> The mechanism behind this paradoxical behaviour remains entirely unknown. It is challenging to distinguish the ambiguous AST category in comparison to the group of highly aggressive MST solely on the basis of molecular genetic differences in the tumour genome.<xref rid="his14259-bib-0023" ref-type="ref">
+<sup>23</sup>
+</xref>, <xref rid="his14259-bib-0029" ref-type="ref">
+<sup>29</sup>
+</xref>, <xref rid="his14259-bib-0030" ref-type="ref">
+<sup>30</sup>
+</xref> Thus, one may speculate that the environmental immunological neighbourhood hosting the spitzoid melanocytic neoplasms might ultimately define the lesion&#x02019;s biological behaviour with either arrest of metastatic potential in the locoregional lymph node or dissemination to distant sites.</p><p>This study aims to characterise the inflammatory microenvironment in spitzoid melanocytic neoplasms (<italic>n</italic>&#x000a0;=&#x000a0;79) with routine histopathology and immunohistochemistry (IHC). We also compared our findings to other distinct diagnostic melanocytic categories, including NCN (<italic>n</italic>&#x000a0;=&#x000a0;20), HN (<italic>n</italic>&#x000a0;=&#x000a0;25), blue naevi (BN, <italic>n</italic>&#x000a0;=&#x000a0;22) and CMM (<italic>n</italic>&#x000a0;=&#x000a0;20). Our findings demonstrate that spitzoid melanocytic lesions represent highly immunogenic neoplasms. We immunophenotyped the inflammatory infiltrate with special emphasis on cytotoxic T lymphocyte subsets and found that the inflammatory cellular composition among the different spitzoid tumour stages (SN versus AST versus MST) was homogeneous. We identified four different inflammatory patterns (IPs) in spitzoid melanocytic neoplasms with varying architectural composition and intensity of inflammation. Inflammation with the presence of lymphocytic aggregates (IP2) predominated in SN, but was not distinctive for this melanocytic category, whereas a strong and intense inflammation (IP3) in a spitzoid melanocytic neoplasm was suggestive for an underlying malignancy.</p></sec><sec sec-type="materials-and-methods" id="his14259-sec-0005"><title>Material and methods</title><sec id="his14259-sec-0006"><title>Patients and Tissue Specimens</title><p>Formalin&#x02010;fixed paraffin&#x02010;embedded (FFPE) excision specimens of patients harbouring SN, AST or MST were retrieved from the archives of the Department of Pathology at the University of Leuven, KUL Belgium and the Maastricht Pathology Tissue Collection (MPTC) from the Department of Pathology, Maastricht University Medical Center (MUMC<sup>+</sup>), the Netherlands. The patients kindly provided written informed consent at hospital admission to the processing of tissue and personal data. All samples had been excised for diagnostic and therapeutic reasons. The patients were not reported to be immunocompromised at the time of tissue excision. All use of tissue and patient data was in agreement with the Dutch Code of Conduct for Observational Research with Personal Data and Tissue and in accordance with the Ethical Principles for Medical Research Involving Human Subjects (World Medical Association Declaration of Helsinki). Diagnoses were defined previously by histology in routine diagnostics and were confirmed by two experienced dermatopathologists (V.W., L.M.H.). The course of selection of cases is demonstrated in Figure&#x000a0;<xref rid="his14259-fig-0001" ref-type="fig">1</xref>. A total of 79 spitzoid melanocytic neoplasms were included in the analysis. Of these, 50 were SN, 17 were AST and 12 were diagnosed as MST (Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>). A comprehensive overview of the clinical and histopathological criteria, which were applied to render the diagnosis of SN, AST or MST, are listed in Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S2</xref>.<xref rid="his14259-bib-0007" ref-type="ref">
+<sup>7</sup>
+</xref>, <xref rid="his14259-bib-0031" ref-type="ref">
+<sup>31</sup>
+</xref>, <xref rid="his14259-bib-0032" ref-type="ref">
+<sup>32</sup>
+</xref>, <xref rid="his14259-bib-0033" ref-type="ref">
+<sup>33</sup>
+</xref> In brief, SN were defined as benign melanocytic lesions composed of large epithelioid, oval or spindled melanocytes arranged in nests and/or fascicles without significant cytonuclear atypia.<xref rid="his14259-bib-0033" ref-type="ref">
+<sup>33</sup>
+</xref> AST showed intermediate histological features of SN and MST with an increase in at least one worrisome histological feature, i.e. ulceration, size &#x0003e;5&#x000a0;mm, infiltrative growth into subcutaneous tissue with pushing margins, increased cytonuclear atypia, increase in cell density with confluent growth,&#x000a0;more than two dermal mitoses, absence of junctional clefts, few or no Kamino bodies and more extensive pagetoid extension. MST was diagnosed on the basis of the following histological criteria: ulceration, asymmetrical architecture, infiltrative growth, severe and/or confluent cytonuclear atypia, dermal mitoses especially with deep dermal localisation, pushing borders, epidermal effacement and pagetoid extension. When rendering AST or MST as the diagnostic category, the case was additionally sent to an outside laboratory for external consultation. In order to compare the distribution of IPs, which were identified in the spitzoid melanocytic neoplasms, other distinct benign diagnostic melanocytic categories HN (<italic>n</italic>&#x000a0;=&#x000a0;25), BN (<italic>n</italic>&#x000a0;=&#x000a0;22), NCN (<italic>n</italic>&#x000a0;=&#x000a0;20) and CMM (<italic>n</italic>&#x000a0;=&#x000a0;20) were investigated. Clinical data, microscopic features, IP score, clinical and pathology follow&#x02010;up, state of local recurrence and other cutaneous pathology of these patients is provided in Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>. For classification and staging, the 2016 TNM classification (8th edition) from the Union for International Cancer Control (UICC) was used in this study. The diagnosis of HN, BN, NCN and CMM was made according to the established criteria from the WHO 2018.<xref rid="his14259-bib-0007" ref-type="ref">
+<sup>7</sup>
+</xref> A summary of the descriptive statistics for these cases is given in Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S4</xref>. The study was approved by the Maastricht Ethic Committee (MEC) of the University of Maastricht, the Netherlands and by the Institutional Review Board of the University Hospitals of Leuven, Belgium (project number S 59659).</p><fig fig-type="Figure" xml:lang="en" id="his14259-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Course of selection of investigated spitzoid melanocytic neoplasms and additional diagnostic melanocytic categories. The flow chart demonstrates the course of selection for the investigated spitzoid melanocytic neoplasms, including Spitz naevi (SN), atypical Spitz tumour (AST) and malignant Spitz tumour (MST) as well as additional diagnostic melanocytic categories including naevocellular naevi (NCN), conventional cutaneous malignant melanoma (CMM), blue naevi (BN) and halo naevi (HN). AST, atypical Spitz tumour; FFPE, formalin&#x02010;fixed paraffin&#x02010;embedded; IHC, immunohistochemistry; KUL, Katholieke universiteit Leuven; MELTUMP, melanocytic tumours of uncertain malignant potential; MPTC, Maastricht pathology tissue collection; MST, malignant Spitz tumour; MUMC<sup>+</sup>, Maastricht University Medical Center; n, number; SAMPUS, superficial atypical melanocytic proliferation of unknown significance; SN, Spitz naevus; STUMP, spitzoid tumour of unknown malignant potential.</p></caption><graphic id="nlm-graphic-1" xlink:href="HIS-78-607-g001"/></fig><table-wrap id="his14259-tbl-0001" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 1</label><caption><p>Summary of descriptive statistics for clinical data, histopathology characteristics and IPs including SN, AST, MST and other melanocytic diagnostic categories (HN, BN, CMM and NCN)</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Melanocytic diagnostic category</th><th align="left" valign="top" rowspan="1" colspan="1">SN</th><th align="left" valign="top" rowspan="1" colspan="1">AST</th><th align="left" valign="top" rowspan="1" colspan="1">MST</th><th align="left" valign="top" rowspan="1" colspan="1">HN</th><th align="left" valign="top" rowspan="1" colspan="1">BN</th><th align="left" valign="top" rowspan="1" colspan="1">NCN</th><th align="left" valign="top" rowspan="1" colspan="1">CMM</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Study number (<italic>n</italic>)</td><td align="left" rowspan="1" colspan="1">50</td><td align="left" rowspan="1" colspan="1">17</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">25</td><td align="left" rowspan="1" colspan="1">22</td><td align="left" rowspan="1" colspan="1">20</td><td align="left" rowspan="1" colspan="1">20</td></tr><tr><td align="left" colspan="8" rowspan="1">Age (years)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Mean</td><td align="left" rowspan="1" colspan="1">25.4</td><td align="left" rowspan="1" colspan="1">32.3</td><td align="left" rowspan="1" colspan="1">47.2</td><td align="left" rowspan="1" colspan="1">30.6</td><td align="left" rowspan="1" colspan="1">51.7</td><td align="left" rowspan="1" colspan="1">48.6</td><td align="left" rowspan="1" colspan="1">68.6</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">SEM</td><td align="left" rowspan="1" colspan="1">1.7</td><td align="left" rowspan="1" colspan="1">4.1</td><td align="left" rowspan="1" colspan="1">6.6</td><td align="left" rowspan="1" colspan="1">4.4</td><td align="left" rowspan="1" colspan="1">4.4</td><td align="left" rowspan="1" colspan="1">3.5</td><td align="left" rowspan="1" colspan="1">3.2</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Median</td><td align="left" rowspan="1" colspan="1">24.0</td><td align="left" rowspan="1" colspan="1">26.0</td><td align="left" rowspan="1" colspan="1">49.5</td><td align="left" rowspan="1" colspan="1">28.0</td><td align="left" rowspan="1" colspan="1">49.5</td><td align="left" rowspan="1" colspan="1">52.5</td><td align="left" rowspan="1" colspan="1">73.0</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">SD</td><td align="left" rowspan="1" colspan="1">12.0</td><td align="left" rowspan="1" colspan="1">16.8</td><td align="left" rowspan="1" colspan="1">22.7</td><td align="left" rowspan="1" colspan="1">18.4</td><td align="left" rowspan="1" colspan="1">20.5</td><td align="left" rowspan="1" colspan="1">15.5</td><td align="left" rowspan="1" colspan="1">14.3</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Minimum</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">19</td><td align="left" rowspan="1" colspan="1">21</td><td align="left" rowspan="1" colspan="1">32</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">25th centile</td><td align="left" rowspan="1" colspan="1">19.0</td><td align="left" rowspan="1" colspan="1">23.0</td><td align="left" rowspan="1" colspan="1">32.5</td><td align="left" rowspan="1" colspan="1">17.75</td><td align="left" rowspan="1" colspan="1">38.0</td><td align="left" rowspan="1" colspan="1">33.0</td><td align="left" rowspan="1" colspan="1">66.5</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">75th centile</td><td align="left" rowspan="1" colspan="1">31.3</td><td align="left" rowspan="1" colspan="1">37.0</td><td align="left" rowspan="1" colspan="1">59.0</td><td align="left" rowspan="1" colspan="1">36.0</td><td align="left" rowspan="1" colspan="1">68.75</td><td align="left" rowspan="1" colspan="1">58.25</td><td align="left" rowspan="1" colspan="1">79.0</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Maximum</td><td align="left" rowspan="1" colspan="1">55</td><td align="left" rowspan="1" colspan="1">71</td><td align="left" rowspan="1" colspan="1">86</td><td align="left" rowspan="1" colspan="1">82</td><td align="left" rowspan="1" colspan="1">84</td><td align="left" rowspan="1" colspan="1">72</td><td align="left" rowspan="1" colspan="1">88</td></tr><tr><td align="left" colspan="8" rowspan="1">Gender</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Female</td><td align="left" rowspan="1" colspan="1">34</td><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">11</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Male</td><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">9</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">NA</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">20</td></tr><tr><td align="left" colspan="8" rowspan="1">Anatomical site</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Upper extremities</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">4</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Lower extremities</td><td align="left" rowspan="1" colspan="1">19</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">4</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Corpus</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">18</td><td align="left" rowspan="1" colspan="1">7</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Head/neck</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">5</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">NA</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td></tr><tr><td align="left" colspan="8" rowspan="1">Histological features</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Junctional</td><td align="left" rowspan="1" colspan="1">7 (14%)</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">2 (10%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Dermal</td><td align="left" rowspan="1" colspan="1">5 (10%)</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">1 (4%)</td><td align="left" rowspan="1" colspan="1">22 (100%)</td><td align="left" rowspan="1" colspan="1">2 (10%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Compound</td><td align="left" rowspan="1" colspan="1">38 (76%)</td><td align="left" rowspan="1" colspan="1">17 (100%)</td><td align="left" rowspan="1" colspan="1">12 (100%)</td><td align="left" rowspan="1" colspan="1">25 (95%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">16 (80%)</td><td align="left" rowspan="1" colspan="1">20 (100%)</td></tr><tr><td align="left" colspan="8" rowspan="1">Lesion diameter (mm)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Mean</td><td align="left" rowspan="1" colspan="1">4.3</td><td align="left" rowspan="1" colspan="1">5.6</td><td align="left" rowspan="1" colspan="1">7.2</td><td align="left" rowspan="1" colspan="1">5.5</td><td align="left" rowspan="1" colspan="1">4.7</td><td align="left" rowspan="1" colspan="1">6.7</td><td align="left" rowspan="1" colspan="1">13.2</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">SEM</td><td align="left" rowspan="1" colspan="1">0.2</td><td align="left" rowspan="1" colspan="1">0.7</td><td align="left" rowspan="1" colspan="1">0.8</td><td align="left" rowspan="1" colspan="1">0.6</td><td align="left" rowspan="1" colspan="1">0.6</td><td align="left" rowspan="1" colspan="1">0.6</td><td align="left" rowspan="1" colspan="1">2.1</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Median</td><td align="left" rowspan="1" colspan="1">4.0</td><td align="left" rowspan="1" colspan="1">5.0</td><td align="left" rowspan="1" colspan="1">6.0</td><td align="left" rowspan="1" colspan="1">5.0</td><td align="left" rowspan="1" colspan="1">4.0</td><td align="left" rowspan="1" colspan="1">6.0</td><td align="left" rowspan="1" colspan="1">9.5</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">SD</td><td align="left" rowspan="1" colspan="1">1.7</td><td align="left" rowspan="1" colspan="1">2.7</td><td align="left" rowspan="1" colspan="1">2.9</td><td align="left" rowspan="1" colspan="1">2.4</td><td align="left" rowspan="1" colspan="1">2.9</td><td align="left" rowspan="1" colspan="1">2.7</td><td align="left" rowspan="1" colspan="1">9.3</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Minimum</td><td align="left" rowspan="1" colspan="1">1.8</td><td align="left" rowspan="1" colspan="1">2.5</td><td align="left" rowspan="1" colspan="1">5.0</td><td align="left" rowspan="1" colspan="1">2.0</td><td align="left" rowspan="1" colspan="1">1.0</td><td align="left" rowspan="1" colspan="1">2.0</td><td align="left" rowspan="1" colspan="1">3.0</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">25th centile</td><td align="left" rowspan="1" colspan="1">3.0</td><td align="left" rowspan="1" colspan="1">4.0</td><td align="left" rowspan="1" colspan="1">5.8</td><td align="left" rowspan="1" colspan="1">4.0</td><td align="left" rowspan="1" colspan="1">3.0</td><td align="left" rowspan="1" colspan="1">4.8</td><td align="left" rowspan="1" colspan="1">6.0</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">75th centile</td><td align="left" rowspan="1" colspan="1">5.0</td><td align="left" rowspan="1" colspan="1">7.0</td><td align="left" rowspan="1" colspan="1">7.3</td><td align="left" rowspan="1" colspan="1">7.0</td><td align="left" rowspan="1" colspan="1">5.5</td><td align="left" rowspan="1" colspan="1">8.3</td><td align="left" rowspan="1" colspan="1">18.5</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Maximum</td><td align="left" rowspan="1" colspan="1">9.0</td><td align="left" rowspan="1" colspan="1">13.0</td><td align="left" rowspan="1" colspan="1">15.0</td><td align="left" rowspan="1" colspan="1">11.0</td><td align="left" rowspan="1" colspan="1">15.0</td><td align="left" rowspan="1" colspan="1">12.0</td><td align="left" rowspan="1" colspan="1">32.0</td></tr><tr><td align="left" colspan="8" rowspan="1">IP score</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">IP0</td><td align="left" rowspan="1" colspan="1">4 (8%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">1 (8.3%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">18 (81.8%)</td><td align="left" rowspan="1" colspan="1">3 (15%)</td><td align="left" rowspan="1" colspan="1">1 (5%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">IP1</td><td align="left" rowspan="1" colspan="1">11 (22%)</td><td align="left" rowspan="1" colspan="1">5 (29.4%)</td><td align="left" rowspan="1" colspan="1">5 (41.7%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">4 (18.2%)</td><td align="left" rowspan="1" colspan="1">10 (50%)</td><td align="left" rowspan="1" colspan="1">7 (35%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">IP2</td><td align="left" rowspan="1" colspan="1">33 (66%)</td><td align="left" rowspan="1" colspan="1">7 (41.2%)</td><td align="left" rowspan="1" colspan="1">3 (25%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">6 (30%)</td><td align="left" rowspan="1" colspan="1">7 (35%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">IP3</td><td align="left" rowspan="1" colspan="1">2 (4%)</td><td align="left" rowspan="1" colspan="1">5 (29.4%)</td><td align="left" rowspan="1" colspan="1">3 (25%)</td><td align="left" rowspan="1" colspan="1">25 (100%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">1 (5%)</td><td align="left" rowspan="1" colspan="1">5 (25%)</td></tr><tr><td align="left" colspan="8" rowspan="1">Mean follow&#x02010;up (years)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Mean</td><td align="left" rowspan="1" colspan="1">4.6</td><td align="left" rowspan="1" colspan="1">3.8</td><td align="left" rowspan="1" colspan="1">5.2</td><td align="left" rowspan="1" colspan="1">6.5</td><td align="left" rowspan="1" colspan="1">1.2</td><td align="left" rowspan="1" colspan="1">1.3</td><td align="left" rowspan="1" colspan="1">1.7</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">SEM</td><td align="left" rowspan="1" colspan="1">0.3</td><td align="left" rowspan="1" colspan="1">0.6</td><td align="left" rowspan="1" colspan="1">1.2</td><td align="left" rowspan="1" colspan="1">0.9</td><td align="left" rowspan="1" colspan="1">0.1</td><td align="left" rowspan="1" colspan="1">0.1</td><td align="left" rowspan="1" colspan="1">0.1</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Median</td><td align="left" rowspan="1" colspan="1">4.0</td><td align="left" rowspan="1" colspan="1">3.0</td><td align="left" rowspan="1" colspan="1">4.0</td><td align="left" rowspan="1" colspan="1">7.0</td><td align="left" rowspan="1" colspan="1">1.0</td><td align="left" rowspan="1" colspan="1">1.0</td><td align="left" rowspan="1" colspan="1">2.0</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">SD</td><td align="left" rowspan="1" colspan="1">2.3</td><td align="left" rowspan="1" colspan="1">2.4</td><td align="left" rowspan="1" colspan="1">4.0</td><td align="left" rowspan="1" colspan="1">4.3</td><td align="left" rowspan="1" colspan="1">0.4</td><td align="left" rowspan="1" colspan="1">0.6</td><td align="left" rowspan="1" colspan="1">0.5</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Minimum</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">1</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">25th centile</td><td align="left" rowspan="1" colspan="1">3.0</td><td align="left" rowspan="1" colspan="1">3.0</td><td align="left" rowspan="1" colspan="1">1.8</td><td align="left" rowspan="1" colspan="1">2.0</td><td align="left" rowspan="1" colspan="1">1.0</td><td align="left" rowspan="1" colspan="1">1.0</td><td align="left" rowspan="1" colspan="1">1.0</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">75th centile</td><td align="left" rowspan="1" colspan="1">6.0</td><td align="left" rowspan="1" colspan="1">5.0</td><td align="left" rowspan="1" colspan="1">8.3</td><td align="left" rowspan="1" colspan="1">10.0</td><td align="left" rowspan="1" colspan="1">1.0</td><td align="left" rowspan="1" colspan="1">1.3</td><td align="left" rowspan="1" colspan="1">2.0</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Maximum</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">2</td></tr><tr><td align="left" colspan="8" rowspan="1">Local recurrence</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">1 (2%)</td><td align="left" rowspan="1" colspan="1">1 (5.9%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">4 (20%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">49 (98%)</td><td align="left" rowspan="1" colspan="1">16 (94.1%)</td><td align="left" rowspan="1" colspan="1">12 (100%)</td><td align="left" rowspan="1" colspan="1">18 (72%)</td><td align="left" rowspan="1" colspan="1">22 (100%)</td><td align="left" rowspan="1" colspan="1">20 (100%)</td><td align="left" rowspan="1" colspan="1">16 (80%)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">NA</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">7 (28%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td><td align="left" rowspan="1" colspan="1">0 (0%)</td></tr></tbody></table><table-wrap-foot id="his14259-ntgp-0001"><fn id="his14259-note-0001"><p>AST, Atypical Spitz tumour; BN, Blue naevus; HN, Halo naevus; CMM, Cutaneous malignant melanoma; mm, Millimetre; MST, Malignant Spitz tumour; <italic>n</italic>&#x000a0;=&#x000a0;Number; NA, Not available; NCN, Naevocellular naevus; SEM, Standard error of the mean; SD, Standard deviation; SN, Spitz naevus.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="his14259-sec-0007"><title>Immunohistochemistry</title><p>Serial sections of the specimens were used for haematoxylin and eosin (H&#x00026;E) staining and the most representative section for each case was selected for IHC investigation. IHC staining was conducted on formalin&#x02010;fixed paraffin&#x02010;embedded (FFPE) sections on a Dako Autostainer Link 48 using the EnVision FLEX Visualization Kit K8008 (Dako, Glostrup, Denmark), according to standard diagnostic routine protocols and the manufacturer&#x02019;s instructions. Antibodies against CD3, CD4, CD8, CD68, CD138, TIA&#x02010;1 and granzyme B were used for the group of spitzoid melanocytic neoplasms in this study (for details see Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S3</xref>). On a limited number of cases (SN 39, SN 49, AST 52) we also screened for B lymphocytes using nuclear staining against PAX5 [Dako; ready&#x02010;to&#x02010;use (RTU) dilution] and membranous staining against CD20 (Dako; RTU dilution) and CD79a (Dako; RTU dilution). For the melanocytic diagnostic categories HN, BN, NCN and CMM, immunohistochemistry with antibody against CD3 was performed.</p></sec><sec id="his14259-sec-0008"><title>Semiquantitative Analysis</title><p>The amount of TILs was quantified by three independent observers (V.W., H.L.D.V, L.M.H.) in at least four high&#x02010;power fields at &#x000d7;40 magnification on H&#x00026;E staining. Subsets of infiltrating leucocytes were quantified on the IHC stainings and given as the ratio of the total amount of inflammatory cells. Both the percentages of intra&#x02010; and perilesional leucocytes were quantified, each in four randomly chosen regions that were representative for the whole lesion. Intralesional leucocytes were defined as leucocytes that were nested inside the tumour tissue in contact with tumour cells, while perilesional leucocytes were located outside the border of the tumour and not in contact with melanocytes. The percentage of TIA&#x02010;1<sup>+</sup> and CD4<sup>+</sup> lymphocytes with respect to the total number of inflammatory cells was quantified in eight high&#x02010;power fields with a magnification factor of &#x000d7;40. As the number of CD138<sup>+</sup> plasma cells and granzyme B<sup>+</sup> lymphocytes was extremely low the whole lesion was screened, both intra&#x02010; and perilesionally, at &#x000d7;40 magnification. Only positive staining of cells with clear&#x02010;cut lymphocyte morphology was evaluated.</p></sec><sec id="his14259-sec-0009"><title>Scoring System of the Inflammatory Patterns (IPs)</title><p>To categorise the inflammation in the spitzoid melanocytic neoplasms in detail, a scoring system was established, thereby assessing the intensity of inflammation, the distribution of the inflammatory cells with respect to the spitzoid melanocytes and their architectural composition (Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2A</xref>). The IP was scored on the H&#x00026;E section in conjunction with the CD3 IHC staining. Four categories were defined, ranging from IP0 to IP3. In the IP0 category there were virtually no detectable intra&#x02010; or perilesional inflammatory cells on H&#x00026;E and in CD3 staining. In the IP1 category there was a sparse amount of intralesional CD3<sup>+</sup> lymphocytes with a scattering of single inflammatory cells without formation of aggregates. IP2 showed a sparse intralesional inflammation which was supplemented by secondary architectural structures consisting of nodular aggregates of perilesional CD3<sup>+</sup> lymphocytes. The inflammatory aggregates were predominantly situated at the base or the lateral margin of the spitzoid melanocytic lesion. The IP3 score was characterised by strong and diffuse intra&#x02010; and perilesional inflammation with formation of prominent clusters and sheets of inflammatory cells.</p><fig fig-type="Figure" xml:lang="en" id="his14259-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Inflammatory patterns (IPs) in spitzoid melanocytic neoplasms and comparison to different distinct melanocytic diagnostic categories. <bold>A</bold>, Segregation into four inflammatory patterns (IPs) in spitzoid melanocytic neoplasms with IP0 score (first row), IP1 score (second row), IP2 score (third row) and IP3 score (fourth row). Each row shows a spitzoid melanocytic lesion with haematoxylin &#x00026;amp; eosin (H&#x00026;amp;E) staining and a sketch (right images) highlighting the skin with epidermis and dermis (rose), inflammatory cells (blue) and the spitzoid melanocytic lesion (brown). The four IPs are classified according to: (IP0) without increase in number of detectable intra&#x02010; or perilesional inflammatory cells on H&#x00026;amp;E and in CD3 IHC staining; (IP1) with a sparse amount of intralesional CD3<sup>+</sup> lymphocytes and scattering of the inflammatory cells in an isolated manner without formation of aggregates; (IP2) with sparse intralesional inflammation which is supplemented by secondary architectural structures consisting of nodular aggregates of perilesional CD3<sup>+</sup> lymphocytes and localisation at the base or the lateral margin of the lesion; (IP3) is characterised by strong and diffuse intralesional as well as perilesional inflammation resembling the so&#x02010;called halo phenomenon. In IP3 there is diffuse formation of clusters and sheets of inflammatory cells. <bold>B</bold>, The clustered stacked column diagram shows the distribution of the four different IPs according to the investigated subcategories of spitzoid melanocytic neoplasms (<italic>n</italic>&#x000a0;=&#x000a0;79). The detected IPs for the Spitz naevus cohort (SN, <italic>n</italic>&#x000a0;=&#x000a0;50) are shown on the left, for atypical Spitz tumours (AST, <italic>n</italic>&#x000a0;=&#x000a0;17) in the middle and for malignant Spitz tumour cases (MST, <italic>n</italic>&#x000a0;=&#x000a0;12) on the right. <bold>C</bold>, The clustered stacked columns show the distribution of IPs for spitzoid melanocytic neoplasms (SN, AST and MST) in relation to IPs of other distinct benign melanocytic diagnostic categories (<italic>n</italic>&#x000a0;=&#x000a0;87) including halo naevi (HN, <italic>n</italic>&#x000a0;=&#x000a0;25), blue naevi (BN, <italic>n</italic>&#x000a0;=&#x000a0;22), common naevocellular naevi (NCN, <italic>n</italic>&#x000a0;=&#x000a0;20) and the malignant diagnostic category cutaneous malignant melanoma (CMM, <italic>n</italic>&#x000a0;=&#x000a0;20).</p></caption><graphic id="nlm-graphic-3" xlink:href="HIS-78-607-g002"/></fig></sec><sec id="his14259-sec-0010"><title>Statistical Analysis</title><p>Statistical analysis was performed with SPSS IBM statistics software (version 26; SPSS Inc., Chicago, IL, USA) and <sc>r</sc> (version 3.6.1, statistics package). Normal distribution of data was analysed with the Shapiro&#x02013;Wilk test. To detect significant differences between groups (<italic>n</italic>&#x000a0;&#x02265;&#x000a0;3), the Kruskal&#x02013;Wallis test was applied. For groups (<italic>n</italic>&#x000a0;=&#x000a0;2), the Mann&#x02013;Whitney <italic>U</italic>&#x02010;test was used. As a <italic>post&#x02010;hoc</italic> test Bonferroni correction was used, one&#x02010;way analysis of variance (<sc>anova</sc>) was used as a non&#x02010;parametric test to compare the means of numerical variables. Fisher&#x02019;s exact and &#x003c7;<sup>2</sup> tests were used for categorical variables. Using the Pearson&#x02019;s and Spearman&#x02019;s tests, the correlation between the different data groups was examined. Results were considered to be statistically significant for <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.05 (see also Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S4</xref>). To assess the interobserver variability, Cohen&#x02019;s kappa (&#x003ba;) coefficient was calculated.</p></sec></sec><sec sec-type="results" id="his14259-sec-0011"><title>Results</title><sec id="his14259-sec-0012"><title>Patient Cohort</title><p>For each patient, clinical features (including gender, age, anatomical site of the excised lesion, follow&#x02010;up) and histological findings (with junctional, compound or dermal architecture, symmetry of the lesion, dominating melanocytic cell type, presence of cytonuclear atypia, mitotic activity, epidermal changes, pigmentation and largest dimension in millimetres) were recorded (Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>). The SN group consisted of 34 female and 16 male patients, ranging in age between 1 and 55&#x000a0;years [mean&#x000a0;=&#x000a0;25.4&#x000a0;years, standard error of the mean (SEM)&#x000a0;&#x000b1;&#x000a0;1.7&#x000a0;years, median 24.0&#x000a0;years, Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref>]. The 25th and 75th centiles are given in Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> for each diagnostic category. The AST group consisted of 15 female patients and two male patients (range&#x000a0;=&#x000a0;13&#x02013;71&#x000a0;years, mean&#x000a0;=&#x000a0;32.3&#x000a0;years, SEM&#x000a0;&#x000b1;&#x000a0;4.1&#x000a0;years, median&#x000a0;=&#x000a0;26.0&#x000a0;years, Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref>). The MST group contained five female and seven male patients (range&#x000a0;=&#x000a0;10&#x02013;86&#x000a0;years, mean&#x000a0;=&#x000a0;47.2&#x000a0;years, SEM&#x000a0;&#x000b1;&#x000a0;6.6&#x000a0;years, median&#x000a0;=&#x000a0;49.5&#x000a0;years, Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref>). Patients from the SN group tended to be younger in relation to patients from the MST group. Patients with the diagnosis of AST were between the mean SN and MST age groups. However, the differences in age between the SN versus AST versus MST groups were not significant (Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S4</xref>). There was also no significant gender difference between SN versus AST versus MST. The lesions were localised on the extremities, head and neck area or on the corpus (20 upper extremity, 26 lower extremity, 19 corpus, 13 head and neck area, Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref>). For one patient with a SN (SN 41) the exact localisation was unknown (Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>). None of the anatomical sites correlated with a specific subgroup of spitzoid melanocytic neoplasms.</p><p>The majority of spitzoid melanocytic lesions (84.8%, <italic>n</italic>&#x000a0;=&#x000a0;67 of 79) presented with a compound histological architecture [SN 38 of 50 (76%), AST 17 of 17 (100%), MST 12 of 12 (100%), Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>]. Pure junctional (seven of 50, 14.0%) or dermal (five of 50, 10%) localisation was only present in the SN group. Lesion diameter in MST (mean&#x000a0;=&#x000a0;7.2&#x000a0;mm,&#x000a0;SEM&#x000a0;&#x000b1;&#x000a0;0.8&#x000a0;mm) was significantly (<italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.004) larger compared to SN (mean&#x000a0;=&#x000a0;4.3&#x000a0;mm,&#x000a0;SEM&#x000a0;&#x000b1;&#x000a0;0.2&#x000a0;mm, Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S4</xref>). There was also a trend of increase in lesion diameter from SN to AST (mean&#x000a0;=&#x000a0;5.6&#x000a0;mm,&#x000a0;SEM&#x000a0;&#x000b1;&#x000a0;0.7&#x000a0;mm) and from AST to MST, but this failed to reach a statistically significant difference (<italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.063 for SN versus AST and <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.107 for AST versus MST, Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S4</xref>). Mean follow&#x02010;up time of patients was 4.6&#x000a0;years (SEM&#x000a0;&#x000b1;&#x000a0;0.3&#x000a0;years, median&#x000a0;=&#x000a0;4.0&#x000a0;years) for the SN group, 3.8&#x000a0;years (SEM&#x000a0;&#x000b1;&#x000a0;0.6&#x000a0;years, median&#x000a0;=&#x000a0;3.0&#x000a0;years) for the AST group and 5.2&#x000a0;years (SEM&#x000a0;&#x000b1;&#x000a0;1.2&#x000a0;years, median&#x000a0;=&#x000a0;4.0&#x000a0;years) for the MST group, showing no significant difference between the three groups (Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S4</xref>). Local recurrence of the lesion occured in 2% (one of 50 patients) in the SN group, in 5.9% (one of 17 patients) in the AST group and was absent (0%, none of 12 patients) in the MST group.</p></sec><sec id="his14259-sec-0013"><title>Frequency of Inflammation and Inflammatory Patterns (IPs) in Spitzoid Melanocytic Neoplasms</title><p>Inflammation was particularly present in all spitzoid melanocytic neoplasms, with an IP2 or IP3 in 67.1% (53 of 79) of cases. When including the IP1 category, an inflammatory background was found in 93.7% (74 of 79) of spitzoid lesions (Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>, Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2A</xref>, second to fourth row).</p><p>In only 6.3% (five of 79) of spitzoid melanocytic neoplasms, an inflammatory infiltrate was absent corresponding to an IP0 score (Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2A</xref>, first row). Of the five IP0 samples, four cases belonged to the group of banal SN (8%, four of 50) and one case belonged to the MST group (8.3%, one of 12; Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>, and Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2B</xref>, left and right columns). There was an even distribution of IP0 among gender and the different age groups of patients with a spitzoid melanocytic neoplasm. Absence of inflammation on H&#x00026;E staining was also confirmed by negative IHC staining against CD3, CD4, CD8, CD68, CD138, TIA&#x02010;1 and granzyme B.</p><p>An IP1 score was observed in 26.6% (21 of 79) of patients with a spitzoid melanocytic neoplasm. This inflammatory pattern was present with a frequency of 22% (11 of 50) in SN, 29.4% (five of 17) in AST and 41.7% (five of 12) in MST (Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2A</xref>, second row). There was a higher percentage of female patients in cases with an IP1 score (female&#x000a0;=&#x000a0;76.2%, 16 of 21; male&#x000a0;=&#x000a0;23.8%, five of 21), whereas the age distribution was regular.</p><p>An IP2 score was observed in 54.4% (43 of 79) of spitzoid melanocytic neoplasms and was most frequent in the SN group (66%, 33 of 50 of SN samples; Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Supporting information, Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>, Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2A</xref>, third row, Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2B</xref>, left column). The IP2 score was present in 41.2% (seven of 17) of AST (Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Supporting information, Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>, and Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2B</xref>, centre column) and in 25% (three of 12) of MST (Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>, and Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2B</xref>, right column). Lesions with IP2 score showed a sparse diffuse intralesional inflammation in addition to nodular aggregates of perilesional inflammatory cells (Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2A</xref>, third row) that were predominantly localised at the base, as well as the lateral margins of the lesions. Similarly to the IP1 group, there were 62.8% (27 of 43) female and 37.2% (16 of 43) male patients in the IP2 group. The 20&#x02013;30&#x02010;year&#x02010;old group of patients was most frequently present (44.2%, 19 of 43) in the IP2 group; 16.3% (seven of 43) of patients in the IP2 group were younger than 20&#x000a0;years and 39.5% (17 of 43) were aged between 30 and 71&#x000a0;years.</p><p>Lesions with an IP3 score were characterised by strong and diffuse intralesional as well as perilesional inflammation, with prominent clusters and sheets of inflammatory cells (Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2A</xref>, fourth row). A strong diffuse inflammatory infiltrate with an IP3 score was detected in a minority of spitzoid melanocytic lesions 12.7% (10 of 79). All IP3 samples belonged to the AST group (29.4%, five of 17) and MST (25.0%, three of 12), with the exception of two cases, which belonged to the SN group (4%, two of 50; SN14 and SN43, Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>, and Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2B</xref>, all columns). The patient with the SN14 lesion was also known to harbour a dysplastic naevus in the clinical history (Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>). There were predominantly female patients in the IP3 group (80%, eight of 10) and only 20% (two of 10) male patients. The two male patients with IP3 belonged to the MST group. The age distribution was balanced.</p><p>There was no correlation of IP scores with the anatomical localisation. The interobserver variability of scoring the IPs was good (&#x003ba;&#x000a0;=&#x000a0;0.896 for the spitzoid group of neoplasms, <italic>n</italic>&#x000a0;=&#x000a0;79 and &#x003ba;&#x000a0;=&#x000a0;0.959 for all investigated melanocytic lesions, <italic>n</italic>&#x000a0;=&#x000a0;166).</p></sec><sec id="his14259-sec-0014"><title>Distribution of Inflammatory Patterns (IPs) in Spitzoid Melanocytic Neoplasms in Relation to Other Distinct Melanocytic Diagnostic Categories</title><p>The distribution of IPs in spitzoid melanocytic neoplasms was also investigated in relation to other distinct melanocytic diagnostic categories (<italic>n</italic>&#x000a0;=&#x000a0;87). The clustered stacked column diagram in Figure&#x000a0;<xref rid="his14259-fig-0002" ref-type="fig">2C</xref> shows the distribution of IPs for spitzoid melanocytic neoplasms (SN, AST and MST) in relation to IPs of other distinct benign melanocytic diagnostic categories (HN, <italic>n</italic>&#x000a0;=&#x000a0;25; BN, <italic>n</italic>&#x000a0;=&#x000a0;22; NCN, <italic>n</italic>&#x000a0;=&#x000a0;20; and CMM, <italic>n</italic>&#x000a0;=&#x000a0;20). Clinical, histological and follow&#x02010;up data are provided in Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref> and results from descriptive statistical analysis are listed in Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S4</xref>.</p><p>The IP0 score corresponding to an absence of an inflammatory response was largely present in the benign categories. IP0 was most frequent in BN (81.8%, 18 of 22), followed by NCN (15%, three of 20), but was rarely present in SN (8%, four of 50, Table&#x000a0;<xref rid="his14259-tbl-0001" ref-type="table">1</xref> and Table&#x000a0;<xref rid="his14259-sup-0001" ref-type="supplementary-material">S1</xref>). IP0 was absent in AST. In the malignant categories the IP0 pattern was present in a small number of MST (8.3%, one of 12) and CMM (5%, one of 20).</p><p>The IP1 pattern was observed most frequently in NCN (50%, 10 of 20), followed by MST (41.7%, five of 12), CMM (35%, seven of 20), AST (29.4%, five of 17), SN (22%, 11 of 50) and BN (18.2%, four of 22) and was absent in HN (0%, none of 25).</p><p>The IP2 category with small aggregates of inflammatory cells was present in the majority of SN (66%, 33 of 50). The IP2 pattern was observed in a markedly smaller number in NCN (30.0%, six of 20) and completely absent in HN (0%, none of 25) and BN (0% none of 22). In atypical and malignant spitzoid lesions the frequency of the IP2 pattern decreased from 41.2% (seven of 17) in AST to 25% (three of 12) in MST. The IP2 pattern was detected in 35% (seven of 20) of CMM. All spitzoid melanocytic diagnostic categories remained clearly beneath the number of IP2 detected in the SN group.</p><p>IP3 was present in all HN (100%, 25 of 25), whereas only 4% of SN (two of 50) and 5% (one of 20) of NCN showed an IP3 score. In BN, inflammation with an IP3 score was completely absent (0%, none of 25). AST (29.4%, five of 17) and the malignant categories MST (25%, three of 12) and CMM (25%, five 20) regularly showed a strong inflammatory response with an IP3 score.</p><p>Overall, the atypical category AST, and the malignant groups of MST and CMM showed a mixture of the IPs (IP1, IP2 and IP3) and infrequently absence of inflammation (IP0).</p></sec><sec id="his14259-sec-0015"><title>Distribution and Intensity of Infiltrating Inflammatory Cells</title><p>The majority of spitzoid melanocytic lesions (53.2%, 42 of 79) showed a diffuse distribution of the inflammatory infiltrate with superficial epidermal and basal dermal permeation (Figure&#x000a0;<xref rid="his14259-fig-0004" ref-type="fig">4A</xref>, top cake diagram on the left). Lymphocytes diffusely infiltrated between and around individual spitzoid melanocytes in the dermis, as well as melanocytic junctional nests (Figure&#x000a0;<xref rid="his14259-fig-0003" ref-type="fig">3</xref>A&#x02013;F). In 43% (34 of 79) of investigated samples the inflammatory infiltrate was distributed in the dermal base of the lesion with sparing of superficial areas, whereas in 3.8% (three of 79) of spitzoid melanocytic neoplasms the inflammatory infiltrate was exceptionally present in superficial areas (Figure&#x000a0;<xref rid="his14259-fig-0004" ref-type="fig">4A</xref>, top cake diagram on the left). The inflammation showed intralesional and perilesional localisation in 48.8% (37 of 79) of spitzoid lesions (Figure&#x000a0;<xref rid="his14259-fig-0004" ref-type="fig">4A</xref>, top cake diagram on the right). In 41.8% (33 of 79) the inflammation was exceptionally present perilesionally and in 11.4% (nine of 79) the inflammation was detected only intralesionally. The distribution of infiltrating inflammatory cells for the subgroups SN, AST and MST is illustrated in Figure&#x000a0;<xref rid="his14259-fig-0004" ref-type="fig">4A</xref> (cake diagrams second, third and fourth rows). MST comprised the highest number of either a perilesional (66.7%, eight of 12) and/or an isolated basal (33.3%, four of 12) localisation of inflammation (Figure&#x000a0;<xref rid="his14259-fig-0004" ref-type="fig">4A</xref>, cake diagrams fourth row). Approximately half of SN and of AST showed a combination of inflammation with basal and superficial localisation (SN&#x000a0;=&#x000a0;56%, 28 of 50, AST&#x000a0;=&#x000a0;58.8%, 10 of 17) and/or with peri&#x02010; and intralesional localisation (SN&#x000a0;=&#x000a0;52%, 26 of 50, AST&#x000a0;=&#x000a0;47%, eight of 17; Figure&#x000a0;<xref rid="his14259-fig-0004" ref-type="fig">4A</xref>, cake diagrams second and third rows).</p><fig fig-type="Figure" xml:lang="en" id="his14259-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Immunohistochemical phenotypes in spitzoid melanocytic neoplasms. <bold>A</bold>, The left image shows a compound Spitz naevus (SN) used in this study with a symmetrical architecture and sharp lateral demarcation as well as circumscription towards the dermal depth. There is some intralesional inflammation as well as perilesional inflammatory aggregates at the base of the lesion. The second image from the left depicts a magnification from the left image and illustrates the two pathognomonic spitzoid cell types with epithelioid and spindle&#x02010;shaped melanocytes containing enlarged sharply demarcated nuclei with prominent nucleoli (black asterisks). The black curvilinear line demarcates the &#x02018;grenz zone&#x02019; between intra&#x02010; and perilesional inflammation. The two consecutive images accentuate the intralesional (highlighted in red) and perilesional (highlighted in blue) inflammatory areas. <bold>B</bold>, Left image with CD3 immunohistochemistry (IHC, brown staining) for the SN from (<bold>A</bold>). The three right images are magnifications from the left image and illustrate individual inflammatory CD3<sup>+</sup> T cells in relation to the spitzoid epithelioid and spindle&#x02010;shaped melanocytes (blue&#x02010;stained nuclei). CD3<sup>+</sup> T lymphocytes showed frequent peri&#x02010; and intralesional presence (black asterisk, second image from the left). Intralesional inflammation is highlighted in red and perilesional areas are highlighted in blue in the two images from the right. The inflammatory pattern (IP) corresponds to an IP2 score (see also Figure&#x000a0;<xref rid="his14259-fig-0001" ref-type="fig">1A</xref>). <bold>C</bold>, The CD4 IHC staining depicts T helper lymphocytes and monocytes with a smudgy membranous accentuation (brown staining). CD4<sup>+</sup> immune cells were frequently present in perilesional areas (highlighted with blue in the adjacent right image), but less often in intralesional zones (highlighted with red in the adjacent right image). <bold>D</bold>, There was a high amount of solitary infiltrating or clustering CD8<sup>+</sup> T lymphocytes with circumscribed membranous staining (brown) with peri&#x02010; (highlighted with blue in the adjacent right image) and intralesional localisation (highlighted with red in the adjacent right image). <bold>E</bold>, Rarely cytotoxic granzyme B<sup>+</sup> T lymphocytes (encircled with black) were detected with granular cytoplasmic staining in perilesional (highlighted with blue in the adjacent right image) and intralesional (highlighted with red in the adjacent right image) localisation. <bold>F</bold>, TIA&#x02010;1 positive T lymphocytes with granular cytoplasmic staining (brown) were regularly present in the inflammatory infiltrate in perilesional areas (highlighted with blue in adjacent right image), but only rarely infiltrated within the individual spitzoid melanocytes (highlighted with red in adjacent right image). <bold>G</bold>, CD68<sup>+</sup> histiocytes with smudgy cytoplasmic and membranous staining (brown) were presents in intralesional (highlighted with red in adjacent right image) and perilesional (highlighted with blue in adjacent right image) areas. <bold>H</bold>, Rarely a CD138<sup>+</sup> plasma cell (encircled) with granular cytoplasmic staining and membranous accentuation (brown) was present in perilesional areas (highlighted with blue in adjacent right image) in the spitzoid melanocytic lesions. [Colour figure can be viewed at <ext-link ext-link-type="uri" xlink:href="https://onlinelibrary.wiley.com/">wileyonlinelibrary.com</ext-link>]</p></caption><graphic id="nlm-graphic-5" xlink:href="HIS-78-607-g003"/></fig><fig fig-type="Figure" xml:lang="en" id="his14259-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Distribution of inflammation in spitzoid melanocytic neoplasms and quantification of immunohistochemical phenotypes. <bold>A</bold>, The cake diagrams illustrate the architectural composition of the inflammatory infiltrate in spitzoid melanocytic neoplasms (<italic>n</italic>&#x000a0;=&#x000a0;79, top row). The left column of cake diagrams differentiates proportion of neoplasms with superficial, basal or superficial and basal localisation of the inflammatory infiltrate. The right column of cake diagrams shows the results for segregation into intra&#x02010;, peri&#x02010; or intralesional and perilesional localisation of inflammation. The cake diagrams in the second row correspond to the inflammatory distribution in the subgroup of Spitz naevi (SN, <italic>n</italic>&#x000a0;=&#x000a0;50). The third row shows the results for atypical Spitz tumour (AST, <italic>n</italic>&#x000a0;=&#x000a0;17) and the bottom row for malignant Spitz tumours (MST, <italic>n</italic>&#x000a0;=&#x000a0;12). <bold>B</bold>, The amount of infiltrating inflammatory leucocytes with their immunohistochemical phenotypes is shown in white bars for Spitz naevi (SN), in grey bars for atypical Spitz tumours (AST) and in black bars for malignant Spitz tumours (MST). Error bars show &#x000b1;&#x000a0;2 standard errors of the mean (SEM).</p></caption><graphic id="nlm-graphic-7" xlink:href="HIS-78-607-g004"/></fig></sec><sec id="his14259-sec-0016"><title>Immunohistochemical Phenotypes in the Inflammatory Infiltrate</title><p>The inflammatory cells were mainly composed of small lymphocytes admixed with histiocytic cells. The subsets of CD3<sup>+</sup> T lymphocytes were studied with IHC antibodies against CD4, CD8, TIA&#x02010;1 and granzyme B (Figures&#x000a0;<xref rid="his14259-fig-0003" ref-type="fig">3A&#x02013;H</xref> and <xref rid="his14259-fig-0004" ref-type="fig">4B</xref>). CD3<sup>+</sup> T lymphocytes (77.4%, Figure&#x000a0;<xref rid="his14259-fig-0004" ref-type="fig">4B</xref>) were found in aggregates, but also as individual infiltrating cells in close relation to the spitzoid epithelioid and spindle&#x02010;shaped melanocytes or in a perivascular localisation in the tumour stroma (Figure&#x000a0;<xref rid="his14259-fig-0003" ref-type="fig">3B</xref>). CD8<sup>+</sup> T lymphocytes represented the major subset of infiltrating inflammatory leucocytes in spitzoid melanocytic neoplasms (56.1%, Figures&#x000a0;<xref rid="his14259-fig-0003" ref-type="fig">3D</xref> and <xref rid="his14259-fig-0004" ref-type="fig">4B</xref>). CD4<sup>+</sup> inflammatory T helper lymphocytes were also frequently present (35.7%, Figure&#x000a0;<xref rid="his14259-fig-0004" ref-type="fig">4B</xref>) within the inflammatory areas (Figure&#x000a0;<xref rid="his14259-fig-0003" ref-type="fig">3C</xref>). The mean ratio of CD4<sup>+</sup>/CD8<sup>+</sup> lymphocytes was 0.72. In 3.7% of inflammatory cells there was granular cytoplasmic staining for TIA&#x02010;1 (Figures&#x000a0;<xref rid="his14259-fig-0003" ref-type="fig">3F</xref> and <xref rid="his14259-fig-0004" ref-type="fig">4B</xref>). TIA&#x02010;1<sup>+</sup> cytotoxic T lymphocytes were predominantly localised around spitzoid melanocytic cell nests, and only rarely infiltrated in between individual spitzoid melanocytes (Figure&#x000a0;<xref rid="his14259-fig-0003" ref-type="fig">3F</xref>). This contrasted with CD3<sup>+</sup>/CD8<sup>+</sup> T lymphocytes which were found scattered within spitzoid melanocytic cell nests (Figure&#x000a0;<xref rid="his14259-fig-0003" ref-type="fig">3B,D</xref>). A fifth (20.3%) of inflammatory cells corresponded to CD68<sup>+</sup> histiocytes in both peri&#x02010; and intratumoural areas (Figure&#x000a0;<xref rid="his14259-fig-0004" ref-type="fig">4B</xref>). As shown in Figure&#x000a0;<xref rid="his14259-fig-0003" ref-type="fig">3G</xref>, CD68<sup>+</sup> histiocytes were diffusely present in between the infiltrating T lymphocytes. A small subset of lymphocytes showed cytoplasmatic granular staining for the cytotoxic T cell marker granzyme B (2.7%, Figures&#x000a0;<xref rid="his14259-fig-0003" ref-type="fig">3E</xref> and <xref rid="his14259-fig-0004" ref-type="fig">4B</xref>). Similarly, the number of CD138<sup>+</sup> plasma cells was very low (0.5%) compared to the other leucocyte subsets (Figures&#x000a0;<xref rid="his14259-fig-0003" ref-type="fig">3H</xref> and <xref rid="his14259-fig-0004" ref-type="fig">4B</xref>).</p><p>A limited number of cases were also investigated for the presence of B lymphocytes with antibodies against PAX5, CD20 and CD79a, but showed virtually no immunoreactive cells (data not shown).</p><p>There was no significant difference in the composition of infiltrating leucocyte subsets between the spitzoid melanocytic subgroups (SN versus AST versus MST, Figure&#x000a0;<xref rid="his14259-fig-0004" ref-type="fig">4B</xref>).</p></sec></sec><sec sec-type="discussion" id="his14259-sec-0017"><title>Discussion</title><sec id="his14259-sec-0018"><title>Frequency of Inflammation and IPs in Spitzoid Melanocytic Neoplasms</title><p>Although inflammation is frequently observed in spitzoid melanocytic neoplasms,<xref rid="his14259-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref>, <xref rid="his14259-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref>, <xref rid="his14259-bib-0034" ref-type="ref">
+<sup>34</sup>
+</xref>, <xref rid="his14259-bib-0035" ref-type="ref">
+<sup>35</sup>
+</xref>, <xref rid="his14259-bib-0036" ref-type="ref">
+<sup>36</sup>
+</xref> a more detailed characterisation and analysis of the distribution, composition and immunophenotypical characteristics of the inflammatory cells has only marginally been considered in previous series. Thus, the aim of this study was to more clearly characterise the inflammatory microenvironment in spitzoid melanocytic neoplasms. The results of the current study are the first, to date, assessing the inflammatory infiltrate in AST and MST in detail, and are the first to broadly characterise the inflammatory infiltrate in SN, AST and MST with immunohistochemical phenotyping. Our findings underline that spitzoid melanocytic lesions represent highly immunogenic neoplasms with 67.1% (53 of 79) of cases corresponding to an IP2 or IP3 score. Our data confirm observations from other groups that reported an inflammatory infiltrate to be present in 61%,<xref rid="his14259-bib-0026" ref-type="ref">
+<sup>26</sup>
+</xref> 69%,<xref rid="his14259-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref> 51%,<xref rid="his14259-bib-0003" ref-type="ref">
+<sup>3</sup>
+</xref> 73%,<xref rid="his14259-bib-0005" ref-type="ref">
+<sup>5</sup>
+</xref> 70%<xref rid="his14259-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref> and 23%<xref rid="his14259-bib-0035" ref-type="ref">
+<sup>35</sup>
+</xref> and in 75%<xref rid="his14259-bib-0034" ref-type="ref">
+<sup>34</sup>
+</xref> of their studied cases (for overview see also Table&#x000a0;<xref rid="his14259-tbl-0002" ref-type="table">2</xref>). Berlingeri&#x02010;Ramos <italic>et al</italic>. observed in only a small proportion of SN (23%) an inflammatory infiltrate. The clear outlier nature of this study compared to other published series and our data has been conceded to reflect demographic differences in their studied Hispanic population.<xref rid="his14259-bib-0035" ref-type="ref">
+<sup>35</sup>
+</xref> However, a statistical fluke is also possible, especially because that study does not provide a rationale for why Spitz lesions would have different immunogenicity in their cohort (i.e. Hispanic individuals) than other populations. Interestingly, they report that 9% of cases showed a lichenoid pattern of inflammatory cells. We observed isolated superficial inflammation in 3.8% (three of 79) of cases in our study. Of note, these previous series only considered SN in their investigations, but not AST and/ or MST.</p><table-wrap id="his14259-tbl-0002" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 2</label><caption><p>Chronological summary of studies in the literature assessing the inflammatory infiltrate in spitzoid melanocytic neoplasms</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Frequency of infiltrate (%) and number of Specimens</th><th align="left" valign="top" rowspan="1" colspan="1">IHC</th><th align="left" valign="top" rowspan="1" colspan="1">Context of the study and comments</th><th align="left" valign="top" rowspan="1" colspan="1">Type of spitzoid melanocytic lesion (SN, AST, MST)</th><th align="left" valign="top" rowspan="1" colspan="1">Year</th><th align="left" valign="top" rowspan="1" colspan="1">Reference</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">69% (146/211 cases)</td><td align="left" rowspan="1" colspan="1">NA</td><td align="left" rowspan="1" colspan="1">No reported meaningful pattern of distribution of inflammatory infiltrate</td><td align="left" rowspan="1" colspan="1">211 SN; 0 AST or MST</td><td align="char" char="." rowspan="1" colspan="1">1977</td><td align="char" char="." rowspan="1" colspan="1">
+<xref ref-type="fn" rid="his14259-note-0004">
+<sup>2</sup>
+</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">100% (17/17 cases)<xref ref-type="fn" rid="his14259-note-0003">
+<sup>1</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">
+<p>CD8</p>
+<p>TIA&#x02010;1</p>
+<p>CD1a</p>
+<p>CD68</p>
+<p>Ki&#x02010;67</p>
+</td><td align="left" rowspan="1" colspan="1">Investigation of Spitz naevi with halo reaction. In combined tumours (9/17 cases) the symmetrical lymphocytic infiltrate was directed exclusively against the Spitz naevus component</td><td align="left" rowspan="1" colspan="1">
+<p>17 SN<xref ref-type="fn" rid="his14259-note-0003">
+<sup>1</sup>
+</xref>; 0 AST or MST</p>
+</td><td align="char" char="." rowspan="1" colspan="1">1997</td><td align="char" char="." rowspan="1" colspan="1">
+<xref rid="his14259-bib-0050" ref-type="ref">
+<sup>50</sup>
+</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">73% (181/247 cases)</td><td align="left" rowspan="1" colspan="1">NA</td><td align="left" rowspan="1" colspan="1">Inflammation was conspicuous in 17 cases (6.9%) with lichenoid distribution, and disruption of melanocytic nests</td><td align="left" rowspan="1" colspan="1">247 SN; 0 AST or MST</td><td align="char" char="." rowspan="1" colspan="1">2005</td><td align="char" char="." rowspan="1" colspan="1">
+<xref rid="his14259-bib-0005" ref-type="ref">
+<sup>5</sup>
+</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">70% (243/349 cases)</td><td align="left" rowspan="1" colspan="1">NA</td><td align="left" rowspan="1" colspan="1">Grading of inflammatory intensity in light (161/349), moderate (64/349) and heavy (18/349) infiltration and assessment of distribution of inflammatory infiltrate with perivascular (207/349), diffuse (19/349) and band&#x02010;like (17/349) pattern</td><td align="left" rowspan="1" colspan="1">349 SN; 0 AST or MST</td><td align="char" char="." rowspan="1" colspan="1">2009</td><td align="char" char="." rowspan="1" colspan="1">
+<xref ref-type="fn" rid="his14259-note-0003">
+<sup>1</sup>
+</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">23% (30/130 cases)</td><td align="left" rowspan="1" colspan="1">NA</td><td align="left" rowspan="1" colspan="1">Investigators concede that the low frequency of inflammation may reflect demographic differences in the studied population</td><td align="left" rowspan="1" colspan="1">130 SN; 0 AST or MST</td><td align="char" char="." rowspan="1" colspan="1">2010</td><td align="char" char="." rowspan="1" colspan="1">
+<xref rid="his14259-bib-0035" ref-type="ref">
+<sup>35</sup>
+</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">61% (42/69 cases)</td><td align="left" rowspan="1" colspan="1">NA<xref ref-type="fn" rid="his14259-note-0004">
+<sup>2</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">Assessment of histomorphological diagnostic criteria of AST (<italic>n</italic>&#x000a0;=&#x000a0;75) and their interobserver variability. For six cases data are unknown. Categorisation into patterns (1&#x02013;3) indicating no, focal or dense lymphohistiocytic inflammation. Results of the categorisation are not presented in detail in the study. However, the presence of lymphoid aggregates was not distinctive for clinical behaviour of AST, as it was present in 61% (36/59) of non&#x02010;recurrent cases and in 60% (6/10) of recurrent cases</td><td align="left" rowspan="1" colspan="1">0 SN; 75 AST, 0 MST</td><td align="char" char="." rowspan="1" colspan="1">2014</td><td align="char" char="." rowspan="1" colspan="1">
+<xref ref-type="fn" rid="his14259-note-0004">
+<sup>2</sup>
+</xref>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">75% (24/32 cases)</td><td align="left" rowspan="1" colspan="1">NA</td><td align="left" rowspan="1" colspan="1">The inflammatory infiltrate was distributed in the central part of the base of the lesion in six lesions (19%), in the periphery of the lesion in five lesions (15.5%) and diffuse in 13 lesions (40.5%)</td><td align="left" rowspan="1" colspan="1">32 SN; 0 AST or MST</td><td align="char" char="." rowspan="1" colspan="1">2015</td><td align="char" char="." rowspan="1" colspan="1">
+<xref rid="his14259-bib-0034" ref-type="ref">
+<sup>34</sup>
+</xref>
+</td></tr></tbody></table><table-wrap-foot id="his14259-ntgp-0002"><fn id="his14259-note-0002"><p>AST, Atypical Spitz tumour; IHC, Immunohistochemistry; HN, Halo naevus; MST, Malignant Spitz tumour; NA, Not available; SN, Spitz naevus.</p></fn><fn id="his14259-note-0003"><label><sup>1</sup></label><p>Harvell <italic>et al</italic>. investigated the subgroup of 17 HN of a cohort of 1286 spitzoid melanocytic neoplasms.<xref rid="his14259-bib-0050" ref-type="ref">
+<sup>50</sup>
+</xref>
+</p></fn><fn id="his14259-note-0004"><label><sup>2</sup></label><p>Gerami <italic>et al</italic>. performed fluorescence <italic>in&#x02010;situ</italic> hybridisation (FISH) analysis targeting the original melanoma probe set Chr. 6p25, 6q23, 11q13 and Cep6 and the newer modified probe set targeting Chr. 6p25, 9p21, 11q13 and 8q24 on all 75 AST investigated in this study.<xref rid="his14259-bib-0026" ref-type="ref">
+<sup>26</sup>
+</xref>
+</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>The significantly (<italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.004) smaller lesion diameter in SN (mean&#x000a0;=&#x000a0;4.3&#x000a0;mm) compared to MST (mean&#x000a0;=&#x000a0;7.2&#x000a0;mm) and the tendency to younger age of SN patients compared to MST patients is in line with data from the literature.<xref rid="his14259-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref>, <xref rid="his14259-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref>, <xref rid="his14259-bib-0005" ref-type="ref">
+<sup>5</sup>
+</xref>, <xref rid="his14259-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref>
+</p><p>There are only few reports in the literature which have described the inflammatory composition in spitzoid melanocytic lesions. Requena <italic>et al</italic>. scored the intensity of the inflammation as light, moderate or heavy and the architectural distribution of the infiltrate with a perivascular, diffuse or band&#x02010;like superficial localisation.<xref rid="his14259-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref> Others reported a lichenoid distribution with disruption of melanocytic nests in cases with conspicuous inflammation.<xref rid="his14259-bib-0005" ref-type="ref">
+<sup>5</sup>
+</xref> According to Barnhill and colleagues, the distribution of the inflammatory infiltrate can be a helpful diagnostic feature with a tendency of perivascular inflammation or a diffuse symmetrical distribution in benign spitzoid lesions, in contrast to a more patchy pattern in atypical spitzoid lesions.<xref rid="his14259-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref>, <xref rid="his14259-bib-0025" ref-type="ref">
+<sup>25</sup>
+</xref>
+</p><p>In our study, we observed differences in inflammatory composition, variation in intensity of inflammation, and heterogeneity in distribution of the inflammatory cells within the group of spitzoid melanocytic lesions. Thus, four different IPs were introduced, which represented an easily applicable synoptic scoring tool. Application of the IPs integrated parameters such as intensity of inflammation with architectural features including peri&#x02010; and intralesional distribution as well as superficial and deep localisation of the inflammatory infiltrate. The IP0 score corresponded to the absence of detectable intra&#x02010; or perilesional inflammatory cells on H&#x00026;E and in CD3 IHC staining, whereas the IP2 and IP3 indicated the presence of inflammation. The CD3 IHC staining was extremely useful to detect the TILs, especially in the IP1 category, because it was sometimes difficult to appropriately segregate small round&#x02010;shaped type B naevus cells in the NCN group from lymphocytes purely on the H&#x00026;E section. As stated above, in almost the whole group of spitzoid melanocytic lesions there was inflammation with an IP score &#x0003e;0. An IP0 score was only present in 6.3% (five of 79) of spitzoid melanocytic neoplasms. In contrast, the majority of BN were not inflamed with an IP0 of 81.8% (18 of 22).</p><p>The IP1 category was regularly seen in spitzoid melanocytic neoplasm (26.6%, 21 of 79). One may speculate that the IP1 category, defined as sparse infiltration of CD3<sup>+</sup> lymphocytes but without formation of aggregates, might represent a transition category smouldering between the beginning or end&#x02010;phase of an inflammatory process. IP1 was also detected in CMM (35%, seven 20) with the highest number of IP1 scores in NCN (50%, 10 of 20). Only a small number of BN (18.2%, four of 22) showed a discrete lymphocytic inflammation with an IP1 pattern.</p><p>The IP2 score corresponded to sparse diffuse intralesional inflammation supplemented by secondary architectural structures, which consisted of nodular inflammatory aggregates. Among the three categories of spitzoid melanocytic neoplasms the IP2 pattern was most frequent in SN (66%, 33 of 50), with a predominance in female patients (62.8%, 27 of 43), and an accumulation in the 20&#x02013;30&#x02010;year&#x02010;old patient group (44%, 19 of 43). However, although the IP2 pattern predominated in SN (66%, 33 of 50), with a decrease in AST (41.2%, seven of 17) and MST (25%, three of 12), this pattern was not specific with respect to the preeminence of the spitzoid melanocytic lesion. Furthermore, the IP2 score was not specific for spitzoid lesions, as it was also present in NCN (30%, six of 20) and CMM (35%, seven of 20). It might be that the IP2 category, with the formation of nodular lymphocytic aggregates, represents a more organised and temporally chronic phase of an inflammatory response.</p><p>In the IP3 category there was a strong and diffuse intra&#x02010; and perilesional inflammation, with clustering and formation of inflammatory sheets. All investigated HN corresponded to an IP3 pattern (100%, 25 of 25), which is a characteristic hallmark of these melanocytic lesions.<xref rid="his14259-bib-0007" ref-type="ref">
+<sup>7</sup>
+</xref> The IP3 pattern was significantly (<italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001) present more frequently in ambiguous and malignant lesions (AST, MST and CMM) compared to the benign melanocytic categories (SN, NCN and BN). The results were not significantly different (<italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.161) for benign and malignant lesions when including the HN category. Thus, for diagnostic practice it can be deduced that an intense inflammation with an IP3 score represents a caveat, and is suggestive of an underlying atypia or malignancy. However, the IP3 score was not a discriminatory feature between the ambiguous AST category (29.4%, five of 17) and the malignant MST category (25%, three of 12) in this study. This is in line with findings from Gerami and colleagues, which also described that the presence of lymphoid aggregates was not specific to the clinical behaviour of AST, as it was present in 61% (36 of 59) of non&#x02010;recurrent cases and in 60% (six of 10) of recurrent cases in their study.<xref rid="his14259-bib-0026" ref-type="ref">
+<sup>26</sup>
+</xref> A further exception of this observation represents the HN diagnostic melanocytic category. The phenomenon of more intense inflammation in higher&#x02010;grade spitzoid melanocytic lesions deserves further elucidation. Confirmation is necessary in a larger cohort in the future to evaluate its potential diagnostic relevance, as well as its possible prognostic and eventually immuno&#x02010;oncological therapeutic relevance.</p></sec><sec id="his14259-sec-0019"><title>IP Score in Spitzoid Melanocytic Neoplasms in Relation to Established TIL Grading Systems</title><p>A systematic analysis with the categorisation of TILs in melanoma has been performed in numerous studies and the presence of TILs has been associated with a favourable prognosis,<xref rid="his14259-bib-0017" ref-type="ref">
+<sup>17</sup>
+</xref>, <xref rid="his14259-bib-0019" ref-type="ref">
+<sup>19</sup>
+</xref>, <xref rid="his14259-bib-0037" ref-type="ref">
+<sup>37</sup>
+</xref>, <xref rid="his14259-bib-0038" ref-type="ref">
+<sup>38</sup>
+</xref>, <xref rid="his14259-bib-0039" ref-type="ref">
+<sup>39</sup>
+</xref>, <xref rid="his14259-bib-0040" ref-type="ref">
+<sup>40</sup>
+</xref>, <xref rid="his14259-bib-0041" ref-type="ref">
+<sup>41</sup>
+</xref> while other studies failed to demonstrate such an association.<xref rid="his14259-bib-0042" ref-type="ref">
+<sup>42</sup>
+</xref>, <xref rid="his14259-bib-0043" ref-type="ref">
+<sup>43</sup>
+</xref>, <xref rid="his14259-bib-0044" ref-type="ref">
+<sup>44</sup>
+</xref> Therefore, the diagnostic significance of TILs in melanoma remains controversial (for review see Fu <italic>et al</italic>.<xref rid="his14259-bib-0016" ref-type="ref">
+<sup>16</sup>
+</xref>). For benign melanocytic lesions, a systematic analysis regarding the host response with the presence of TILs is not performed on a regular basis and, to our knowledge, no such classification systems exist, such as those that have been proposed for melanoma. However, one may ask how far the four identified IPs (IP0&#x02010;3) that assess the role of inflammatory cells in the tumour microenvironment of spitzoid melanocytic neoplasms can be related to well&#x02010;established TIL scoring systems. Thus, under conscious disregard that the majority of investigated melanocytic lesions from this study were benign, it is nonetheless of value to set the findings from this study in relation to well&#x02010;established TIL scoring systems for melanoma<xref rid="his14259-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref>, <xref rid="his14259-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref> and other cancer types (for review see Hendry <italic>et al</italic>.<xref rid="his14259-bib-0045" ref-type="ref">
+<sup>45</sup>
+</xref>).</p><p>The most popular classification system to assess TILs in melanoma was proposed more than 30&#x000a0;years ago by Clark <italic>et al</italic>.<xref rid="his14259-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref> Three categories are used to divide the TIL infiltrate into &#x02018;absent&#x02019;, &#x02018;non&#x02010;brisk&#x02019; and &#x02018;brisk&#x02019; inflammation. &#x02018;Absent&#x02019; is defined as the absence of lymphocytes or, if present, TILs are not directly apposed to melanoma cells. A &#x02018;non&#x02010;brisk&#x02019; infiltrate is defined as a focal (either isolated, multifocal or segmental) TIL infiltrate. The &#x02018;brisk&#x02019; category defines the TILs either involved in the entire base of the tumour or with diffuse infiltration of the entire malignancy.<xref rid="his14259-bib-0010" ref-type="ref">
+<sup>10</sup>
+</xref>, <xref rid="his14259-bib-0046" ref-type="ref">
+<sup>46</sup>
+</xref> The IP0 pattern from this study, with the absence of an inflammatory host response with respect to the melanocytic lesions, fits well with the traditional lymphocyte infiltration &#x02018;absent&#x02019; pattern. The IP3 pattern, characterised by a strong and diffuse intra&#x02010; and perilesional inflammatory host response, corresponds to the classical inflammatory pattern of a &#x02018;brisk&#x02019; inflammatory host response. The &#x02018;non&#x02010;brisk&#x02019; category from the grading system from Clark <italic>et al</italic>.<xref rid="his14259-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref> was further subcategorised in the IP1 and IP2 group in our study. A more detailed separation of the &#x02018;non&#x02010;brisk&#x02019; pattern into two groups was found to be useful to characterise spitzoid melanocytic lesions, as the IP2 category with the formation of nodular lymphocytic aggregates was particularly prominent in these lesions, especially in SN. The formation of ectopic lymph node&#x02010;like structures (TL&#x02010;ELN) or tertiary lymphoid structures (TLS) has also been described in other solid tumours (for review see Coppola and Mule<xref rid="his14259-bib-0047" ref-type="ref">
+<sup>47</sup>
+</xref>) and in melanoma.<xref rid="his14259-bib-0020" ref-type="ref">
+<sup>20</sup>
+</xref>, <xref rid="his14259-bib-0021" ref-type="ref">
+<sup>21</sup>
+</xref>, <xref rid="his14259-bib-0048" ref-type="ref">
+<sup>48</sup>
+</xref>, <xref rid="his14259-bib-0049" ref-type="ref">
+<sup>49</sup>
+</xref> It has been suggested that these structures correspond to an ongoing adaptive immune response within the melanoma microenvironment.<xref rid="his14259-bib-0010" ref-type="ref">
+<sup>10</sup>
+</xref> However, one should be careful to deduce diagnostic decisions from the presence of these lymphoid nodular structures. These structures have been reported to be present in desmoplastic melanoma as well as desmoplastic sclerosing SN.<xref rid="his14259-bib-0049" ref-type="ref">
+<sup>49</sup>
+</xref> Our data are in line with this observation, as we have detected an IP2 pattern in the whole spectrum of spitzoid melanocytic lesions (SN, AST and MST), as well as in conventional NCN and CMM, but not in the melanocytic diagnostic category of HN and BN.</p><p>As others have found, the TIL infiltrate may be difficult to grade using the &#x02018;brisk&#x02019; and &#x02018;non&#x02010;brisk&#x02019; categories in some cases, and due to the presence of subgroups of patients with a dense &#x02018;non&#x02010;brisk&#x02019; TIL infiltrate with an excellent prognosis there has been an alternative, more recently proposed, grading scheme by the MIA for quantifying the presence of TILs.<xref rid="his14259-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref> The grading system proposed by the MIA consists of grades 0&#x02013;3 and is based on the density and the distribution of TILs in the dermis.<xref rid="his14259-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref>, <xref rid="his14259-bib-0046" ref-type="ref">
+<sup>46</sup>
+</xref> The density and the distribution are scored separately with three gradations (focal, multifocal or diffuse) and afterwards combined with one of the four degrees (0&#x02013;3) using a cross table. Grade 0 describes an absence of TILs, grade 1 consists of a mild or moderate focal or mild multifocal infiltrate; grade 2 describes a marked focal, either a moderate or marked multifocal or a mild diffuse TIL infiltrate; and grade 3 depicts a moderate or marked diffuse TIL infiltrate.<xref rid="his14259-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref> Thus, grade 0 corresponds to &#x02018;absent&#x02019; inflammation and/or the IP0 score. Grades 1 and 2, if the presence of TILs is focal marked or multifocal moderate or marked, correspond to &#x02018;non&#x02010;brisk&#x02019; inflammation. Grades 1&#x02013;3 can correspond to &#x02018;brisk&#x02019; inflammation, depending on the distribution and density of TILs, taking into account that the entire base of the tumour shows involvement. Grades 2&#x02013;3 can also correspond to &#x02018;brisk&#x02019; inflammation, depending on the density of TIL infiltrate and on condition that the vertical growth phase of the melanoma is diffusely permeated by TILs. Again, a comparison of the TIL scoring system from the MIA with the IP grading system from our study is difficult, as it corresponds mainly to melanomas with extended vertical growth. In our study the majority of lesion was benign, and in cases of malignancy there were 75% (nine of 12) of MST with T1 or T2 stage and only 25% (three of 12) cases with a T&#x02010;stage &#x0003e;2. Furthermore, nodular lymphocytic aggregates were not considered separately in the classification system from the MIA. Disregarding these aspects, the IP0 score corresponds to MIA grade 0 and the IP1 corresponds best to grade 1 if TILs are mildly and/or focally present. MIA grades 1, 2 and 3 might account for the IP2 pattern. The IP3 score is covered best by MIA grades 2 and 3.</p></sec><sec id="his14259-sec-0020"><title>Immunohistochemical Composition of the Inflammatory Infiltrate</title><p>In the present study an IHC panel with antibodies against CD3, CD4, CD8, granzyme B, TIA&#x02010;1, CD68 and CD138 was used. With this marker combination we characterised the composition of the infiltrating immune cells with an emphasis on cytotoxic T lymphocyte subsets whose role is almost unexplored in spitzoid melanocytic lesions. In fact, only one study has immunophenotyped the inflammatory cells in Spitz tumours, more than 20&#x000a0;years ago.<xref rid="his14259-bib-0049" ref-type="ref">
+<sup>49</sup>
+</xref> In this study Harvell <italic>et al</italic>. investigated a group consisting of 17 SN harbouring a halo reaction with IHC against CD8, TIA&#x02010;1, CD1a, CD68 and Ki&#x02010;67. Interestingly, in combined tumours consisting of a SN with either a banal common naevus or a congenital naevus (nine of 17 cases), the lymphocytic infiltrate was directed exclusively against the SN component. This is in line with our observations, where we detected the lymphocytic cells to be localised in close relation to individual spitzoid melanocytes or around nests of spitzoid cells. Of note, our series of cases did not contain combined or collision tumours.</p><p>In this study, the inflammatory cells were predominantly composed of CD3<sup>+</sup>/CD8<sup>+</sup> T lymphocytes (56.1%), followed by CD4<sup>+</sup> immune cells (35.7%) and CD68<sup>+</sup> histiocytes (20.3%). This is in line with the observations of Requena <italic>et al</italic>.,<xref rid="his14259-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref> who reported that the infiltrate in SN was mainly composed of lymphocytes with a smaller proportion of histiocytes. However, they did not consider the parameter &#x02018;composition of the infiltrate&#x02019; specifically, so that their observations are based on pure morphological grounds without immunophenotyping of the infiltrate.</p><p>TIA&#x02010;1 expression was observed in 3.7% of the infiltrating immune cells in the spitzoid melanocytic neoplasms. TIA&#x02010;1 is a 17&#x02010;kDa cytoplasmic granule&#x02010;associated protein also designated as granule membrane protein of 17&#x000a0;kDa (GMP&#x02010;17),<xref rid="his14259-bib-0051" ref-type="ref">
+<sup>51</sup>
+</xref> and is expressed in cells possessing cytolytic potential.<xref rid="his14259-bib-0052" ref-type="ref">
+<sup>52</sup>
+</xref>, <xref rid="his14259-bib-0053" ref-type="ref">
+<sup>53</sup>
+</xref> Harvell <italic>et al</italic>. reported higher percentages, with 40&#x02013;50% of the lymphocyte population that expressed TIA&#x02010;1. These data may be based on their selection of cases with the subgroup of Spitz tumours harbouring a halo reaction,<xref rid="his14259-bib-0050" ref-type="ref">
+<sup>50</sup>
+</xref> as halo naevi are well known to harbour predominantly TIA&#x02010;1<sup>+</sup> cytotoxic T cells.<xref rid="his14259-bib-0054" ref-type="ref">
+<sup>54</sup>
+</xref> The 2G9 monoclonal antibody, which was used in this study, has been reported to react with approximately 50&#x02013;60% of CD8<sup>+</sup> and fewer than 10% of CD4<sup>+</sup> normal peripheral blood lymphocytes.<xref rid="his14259-bib-0055" ref-type="ref">
+<sup>55</sup>
+</xref> TIA&#x02010;1 antibody has been reported to react with almost all monocytes and granulocytes.<xref rid="his14259-bib-0051" ref-type="ref">
+<sup>51</sup>
+</xref> In our study, the TIA&#x02010;1<sup>+</sup> cytotoxic T lymphocytes were predominantly present in the inflammatory infiltrate around the spitzoid melanocytic cell nests. The TIA&#x02010;1 protein is involved in Fas (CD95)&#x02010;mediated apoptosis.<xref rid="his14259-bib-0051" ref-type="ref">
+<sup>51</sup>
+</xref>, <xref rid="his14259-bib-0053" ref-type="ref">
+<sup>53</sup>
+</xref>, <xref rid="his14259-bib-0056" ref-type="ref">
+<sup>56</sup>
+</xref> Harvell <italic>et al</italic>. reported that, in many cases, melanocytes with pyknotic and karyorrhectic nuclei were surrounded by TIA&#x02010;1&#x02010;positive lymphocytes.<xref rid="his14259-bib-0050" ref-type="ref">
+<sup>50</sup>
+</xref> In our study, an evident increase of apoptotic melanocytic cells around the TIA&#x02010;1<sup>+</sup> lymphocytes was not obvious on histomorphological grounds. However, it might be worthwhile to screen the lesions with apoptosis&#x02010;related markers in future studies.</p><p>The intracellular serine protease granzyme B is also involved in apoptosis, and initiates DNA fragmentation in the target cell.<xref rid="his14259-bib-0057" ref-type="ref">
+<sup>57</sup>
+</xref>, <xref rid="his14259-bib-0058" ref-type="ref">
+<sup>58</sup>
+</xref>, <xref rid="his14259-bib-0059" ref-type="ref">
+<sup>59</sup>
+</xref> Both activated cytotoxic T lymphocytes and natural killer (NK) cells express granzyme B.<xref rid="his14259-bib-0060" ref-type="ref">
+<sup>60</sup>
+</xref>, <xref rid="his14259-bib-0061" ref-type="ref">
+<sup>61</sup>
+</xref>, <xref rid="his14259-bib-0062" ref-type="ref">
+<sup>62</sup>
+</xref> We observed cytoplasmic granular expression for granzyme B (clone GrB&#x02010;7) in up to 2.7% of all infiltrating lymphocytes in our cases. In conventional melanomas, granzyme B&#x02010;positive cytotoxic T lymphocytes constitute 1&#x02013;10% of the inflammatory infiltrate and are believed to be involved in tumour cell killing through apoptosis induction, which may ultimately result in melanoma regression.<xref rid="his14259-bib-0063" ref-type="ref">
+<sup>63</sup>
+</xref>, <xref rid="his14259-bib-0064" ref-type="ref">
+<sup>64</sup>
+</xref>, <xref rid="his14259-bib-0065" ref-type="ref">
+<sup>65</sup>
+</xref> To our knowledge, there are no data in the literature on expression of granzyme B in the microenvironment of spitzoid melanocytic lesions.</p><p>In our study, CD138<sup>+</sup> plasma cells were absent or rare (0.5%) in spitzoid lesions. This is in line with observations from Requena <italic>et al</italic>.,<xref rid="his14259-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref> who did not find plasma cells in their cases on histomorphological grounds. Weedon <italic>et al</italic>.<xref rid="his14259-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref> found plasma cells only in a small subset of spitzoid melanocytic neoplasms (six of 211), in whom five of these six cases were ulcerated. The relationship between ulceration and plasma cell infiltration has also been reported for conventional cutaneous melanoma.<xref rid="his14259-bib-0066" ref-type="ref">
+<sup>66</sup>
+</xref> However, our study cohort did not harbour ulcerated lesions.</p><p>Finally, there was no significant difference in the immunophenotypical composition of infiltrating leucocyte subsets between the different tumour stages of spitzoid melanocytic neoplasms (SN versus AST versus MST). This is in line with observations from Harvell <italic>et al</italic>., who also found a homogeneous distribution among all lesions in their study.<xref rid="his14259-bib-0050" ref-type="ref">
+<sup>50</sup>
+</xref>
+</p></sec><sec id="his14259-sec-0021"><title>Limitations of the Study</title><p>A limitation of the present study is that the data are insufficient to predict a possible prognostic implication, as they are not segregable by different end&#x02010;points with respect to local recurrence or N&#x02010; or M&#x02010;stage. The mean follow&#x02010;up time for the spitzoid lesions was 4.6&#x000a0;years for SN, 3.8&#x000a0;years for AST and 5.2&#x000a0;years for MST. The majority of cases were benign (SN, <italic>n</italic>&#x000a0;=&#x000a0;50 of 79). Local recurrence was only seen in two cases (SN38 and AST66). There was no manifestation of nodal disease in the examined AST (N stage&#x000a0;=&#x000a0;0 in 17 of 17 lesions). None of the MST cases showed local recurrence, nodal disease or distant metastasis (N0M0 stage in 12 of 12 cases).</p><p>Another limitation is that the sample size of AST (<italic>n</italic>&#x000a0;=&#x000a0;17) and MST (<italic>n</italic>&#x000a0;=&#x000a0;12) is below the sample size for SN (<italic>n</italic>&#x000a0;=&#x000a0;50). As spitzoid melanocytic neoplasms are uncommon lesions the ambiguous AST and the malignant MST category are extremely rare.<xref rid="his14259-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref>, <xref rid="his14259-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref> Thus, when considering small sample size this study actually represents a large number of AST and MST cases.</p></sec></sec><sec id="his14259-sec-0022"><title>Outlook and future research</title><p>We intend to perform multiplex IHC analysis with a large panel of antibodies (<italic>n</italic>&#x000a0;~&#x000a0;30) on a larger cohort of spitzoid melanocytic lesions. This technique enables multiple sequential IHC analyses on the same section.<xref rid="his14259-bib-0067" ref-type="ref">
+<sup>67</sup>
+</xref>, <xref rid="his14259-bib-0068" ref-type="ref">
+<sup>68</sup>
+</xref> We thereby aim to more accurately characterise the identified cytotoxic T lymphocyte subsets. This may yield a clearer understanding of the inflammatory reaction evoked by Spitz tumours.</p><p>As stated earlier, decisions regarding the benign or malignant behaviour of a spitzoid melanocytic neoplasm are at first made by weighing the histopathological architecture and cytological features of the underlying lesion. Nonetheless, the inflammatory environment also provides valuable information. Although our study is limited by the relatively small number of cases for AST and MST our findings raise many further research questions. Might the cytotoxic population of T lymphocytes be an indicator for host response against the spitzoid melanocytic lesion? Is the T lymphocytic immune response a good prognostic feature such as in conventional melanoma? Is there a relationship between the inflammatory microenvironment and metastatic potential in high&#x02010;grade lesions? Further study of patients with these rare melanocytic lesions is required in a larger group with long&#x02010;term follow&#x02010;up data to better understand these evolving issues.</p><p>Finally, due to the rarity of spitzoid melanocytic neoplasms, this research field certainly represents a niche category in neoplastic dermatopathology. However, the relevance of a research question and research work should not be based purely upon the quantitative number of patients affected by a disease. The research should, rather, be evaluated on the potential impact on understanding of the pathophysiology of the disease, thereby deepening our knowledge of disease in general.</p></sec><sec sec-type="conclusions" id="his14259-sec-0023"><title>Conclusions</title><p>This study provides new insights into the inflammatory microenvironment of spitzoid melanocytic neoplasms and characterises the infiltrating leucocyte immunophenotypes, with emphasis on cytotoxic T cell subsets. The different detected IPs in spitzoid melanocytic neoplasms vary in architectural composition and intensity of inflammation. We conclude that inflammation with formation of lymphocytic aggregates (IP2) predominates in SN, but is not distinctive for this lesion category. Strong and intense inflammation (IP3) was significantly more frequently present in atypical and malignant lesions. Thus, a diffuse and strong inflammation in a spitzoid melanocytic neoplasm is suggestive of underlying malignancy. The highly immunogenic properties of these lesions may be of prognostic and therapeutic relevance, and should be elucidated in larger study cohorts in the future with long&#x02010;term follow&#x02010;up data, thereby eventually optimising immuno&#x02010;oncological treatment decisions and improving patient management.</p></sec><sec id="his14259-sec-0025"><title>Author contributions</title><p>VW, JVO, AZH and LH designed the research question and established the study. AZH, VW, HV and LH provided patient tissue. LH, VW and HV performed the histopathology and immunohistochemistry expression analysis. VW, JVO, FB and LH designed and developed the outline and concept of the manuscript. BG, DL and LH performed the statistical analysis. LH edited the figures and tables. All authors wrote, discussed and commented the manuscript. All authors approved the final manuscript.</p></sec><sec sec-type="COI-statement" id="his14259-sec-0026"><title>Conflicts of interest</title><p>No potential conflicts of interest were disclosed by the authors.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="his14259-sup-0001"><caption><p>
+<bold>Table S1.</bold> Patient cohort with histopathology diagnosis, clinical data, microscopic features, score of inflammatory pattern (IP), clinical and pathology follow up, state of local recurrence and other cutaneous pathology in Spitz nevus (SN), atypical Spitz tumor (AST), malignant Spitz tumor (MST) as well as other melanocytic diagnostic categories comprising Halo nevus (HN), Blue nevus (BN), common nevocellular nevus (NCN) and conventional cutaneous malignant melanoma (CMM).</p><p>
+<bold>Table S2.</bold> Clinical and histopathological features of Spitzoid neoplasms.</p><p>
+<bold>Table S3.</bold> Overview of antibodies used for immunohistochemistry (IHC) staining.</p><p>
+<bold>Table S4.</bold> Statistical analysis of level of significance for the different diagnostic groups.</p></caption><media xlink:href="HIS-78-607-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="his14259-sec-0024"><title>Acknowledgements</title><p>This work was supported financially by the academic incentive fund from the Maastricht University Hospital Center, MUMC+, the Netherlands. We thank Wouter H Gerritsen, Kim Smits, Cecile Stallinga Coumans, and Marten van Hoof for assistance with H&#x00026;E sections, IHC staining and retrieval of the FFPE material. We thank Tonneke van de Beeten for critical revision of the manuscript. We also thank the reviewers and the editors for their expert input with extremely useful, constructive and critical comments, which substantially helped us to increase the power of the study and to revise the manuscript.</p></ack><sec sec-type="data-availability" id="his14259-sec-0028"><title>Data Availability Statement</title><p>The data that supports the findings of this study are available in the supplementary material of this article.</p></sec><ref-list content-type="cited-references" id="his14259-bibl-0001"><title>References</title><ref id="his14259-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="his14259-cit-0001">
+<string-name>
+<surname>Requena</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Requena</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Kutzner</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>S&#x000e1;nchez Yus</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Spitz nevus: a clinicopathological study of 349 cases</article-title>. <source xml:lang="en">Am. J. Dermatopathol.</source>
+<year>2009</year>; <volume>31</volume>; <fpage>107</fpage>&#x02013;<lpage>116</lpage>.<pub-id pub-id-type="pmid">19318795</pub-id></mixed-citation></ref><ref id="his14259-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="his14259-cit-0002">
+<string-name>
+<surname>Weedon</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Httle</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Spindle and epithelioid cell nevi in children and adults. A review of 211 cases of the Spitz nevus</article-title>. <source xml:lang="en">Cancer</source>
+<year>1977</year>; <volume>40</volume>; <fpage>217</fpage>&#x02013;<lpage>225</lpage>.<pub-id pub-id-type="pmid">880553</pub-id></mixed-citation></ref><ref id="his14259-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="his14259-cit-0003">
+<string-name>
+<surname>Spitz</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Melanomas of childhood</article-title>. <source xml:lang="en">Am. J. Pathol.</source>
+<year>1948</year>; <volume>24</volume>; <fpage>591</fpage>&#x02013;<lpage>609</lpage>.<pub-id pub-id-type="pmid">18859360</pub-id></mixed-citation></ref><ref id="his14259-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="his14259-cit-0004">
+<string-name>
+<surname>Spitz</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Piliang</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Mostow</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Sophie Spitz: a woman ahead of her time</article-title>. <source xml:lang="en">Int. J. Womens Dermatol.</source>
+<year>2019</year>; <volume>5</volume>; <fpage>190</fpage>&#x02013;<lpage>191</lpage>.<pub-id pub-id-type="pmid">31360758</pub-id></mixed-citation></ref><ref id="his14259-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="his14259-cit-0005">
+<string-name>
+<surname>Cesinaro</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name>
+<surname>Foroni</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Sighinolfi</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Migaldi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Trentini</surname>
+<given-names>GP</given-names>
+</string-name>. <article-title>Spitz nevus is relatively frequent in adults: a clinico&#x02010;pathologic study of 247 cases related to patient&#x02019;s age</article-title>. <source xml:lang="en">Am. J. Dermatopathol.</source>
+<year>2005</year>; <volume>27</volume>; <fpage>469</fpage>&#x02013;<lpage>475</lpage>.<pub-id pub-id-type="pmid">16314701</pub-id></mixed-citation></ref><ref id="his14259-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="his14259-cit-0006">
+<string-name>
+<surname>Spatz</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Calonje</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Handfield&#x02010;Jones</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Barnhill</surname>
+<given-names>RL</given-names>
+</string-name>. <article-title>Spitz tumors in children: a grading system for risk stratification</article-title>. <source xml:lang="en">Arch. Dermatol.</source>
+<year>1999</year>; <volume>135</volume>; <fpage>282</fpage>&#x02013;<lpage>285</lpage>.<pub-id pub-id-type="pmid">10086449</pub-id></mixed-citation></ref><ref id="his14259-bib-0007"><label>7</label><mixed-citation publication-type="book" id="his14259-cit-0007">
+<string-name>
+<surname>David</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Elder</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Scolyer</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name>
+<surname>Willemze</surname>
+<given-names>R</given-names>
+</string-name>. <source xml:lang="en">Classification of skin tumours</source>, vol. <volume>11</volume>
+<edition designator="4">4th</edition> ed. <publisher-loc>Lyon, France</publisher-loc>: <publisher-name>World Health Organisation Press</publisher-name>, <year>2018</year>; <fpage>470</fpage>.</mixed-citation></ref><ref id="his14259-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="his14259-cit-0008">
+<string-name>
+<surname>Blankenstein</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Coulie</surname>
+<given-names>PG</given-names>
+</string-name>, <string-name>
+<surname>Gilboa</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Jaffee</surname>
+<given-names>EM</given-names>
+</string-name>. <article-title>The determinants of tumour immunogenicity</article-title>. <source xml:lang="en">Nat. Rev. Cancer</source>
+<year>2012</year>; <volume>12</volume>; <fpage>307</fpage>&#x02013;<lpage>313</lpage>.<pub-id pub-id-type="pmid">22378190</pub-id></mixed-citation></ref><ref id="his14259-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="his14259-cit-0009">
+<string-name>
+<surname>Andersen</surname>
+<given-names>MH</given-names>
+</string-name>, <string-name>
+<surname>Schrama</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Straten</surname>
+<given-names>PT</given-names>
+</string-name>, <string-name>
+<surname>Becker</surname>
+<given-names>JC</given-names>
+</string-name>. <article-title>Cytotoxic T cells</article-title>. <source xml:lang="en">J. Invest. Dermatol.</source>
+<year>2006</year>; <volume>126</volume>; <fpage>32</fpage>&#x02013;<lpage>41</lpage>.<pub-id pub-id-type="pmid">16417215</pub-id></mixed-citation></ref><ref id="his14259-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="his14259-cit-0010">
+<string-name>
+<surname>Mihm</surname>
+<given-names>MC</given-names>
+<suffix>Jr</suffix>
+</string-name>, <string-name>
+<surname>Mule</surname>
+<given-names>JJ</given-names>
+</string-name>. <article-title>Reflections on the histopathology of tumor&#x02010;infiltrating lymphocytes in melanoma and the host immune response</article-title>. <source xml:lang="en">Cancer Immunol. Res.</source>
+<year>2015</year>; <volume>3</volume>; <fpage>827</fpage>&#x02013;<lpage>835</lpage>.<pub-id pub-id-type="pmid">26242760</pub-id></mixed-citation></ref><ref id="his14259-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="his14259-cit-0011">
+<string-name>
+<surname>Romero</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Cerottini</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Speiser</surname>
+<given-names>DE</given-names>
+</string-name>. <article-title>The human T cell response to melanoma antigens</article-title>. <source xml:lang="en">Adv. Immunol.</source>
+<year>2006</year>; <volume>92</volume>; <fpage>187</fpage>&#x02013;<lpage>224</lpage>.<pub-id pub-id-type="pmid">17145305</pub-id></mixed-citation></ref><ref id="his14259-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="his14259-cit-0012">
+<string-name>
+<surname>Bosisio</surname>
+<given-names>FM</given-names>
+</string-name>, <string-name>
+<surname>van den Oord</surname>
+<given-names>JJ</given-names>
+</string-name>. <article-title>Immunoplasticity in cutaneous melanoma: beyond pure morphology</article-title>. <source xml:lang="en">Virchows Arch.</source>
+<year>2017</year>; <volume>470</volume>; <fpage>357</fpage>&#x02013;<lpage>369</lpage>.<pub-id pub-id-type="pmid">28054151</pub-id></mixed-citation></ref><ref id="his14259-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="his14259-cit-0013">
+<string-name>
+<surname>Marzagalli</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ebelt</surname>
+<given-names>ND</given-names>
+</string-name>, <string-name>
+<surname>Manuel</surname>
+<given-names>ER</given-names>
+</string-name>. <article-title>Unraveling the crosstalk between melanoma and immune cells in the tumor microenvironment</article-title>. <source xml:lang="en">Semin. Cancer Biol.</source>
+<year>2019</year>; <volume>59</volume>; <fpage>236</fpage>&#x02013;<lpage>250</lpage>.<pub-id pub-id-type="pmid">31404607</pub-id></mixed-citation></ref><ref id="his14259-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="his14259-cit-0014">
+<string-name>
+<surname>Azimi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Scolyer</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name>
+<surname>Rumcheva</surname>
+<given-names>P</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Tumor&#x02010;infiltrating lymphocyte grade is an independent predictor of sentinel lymph node status and survival in patients with cutaneous melanoma</article-title>. <source xml:lang="en">J. Clin. Oncol.</source>
+<year>2012</year>; <volume>30</volume>; <fpage>2678</fpage>&#x02013;<lpage>2683</lpage>.<pub-id pub-id-type="pmid">22711850</pub-id></mixed-citation></ref><ref id="his14259-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="his14259-cit-0015">
+<string-name>
+<surname>Clark</surname>
+<given-names>WH</given-names>
+<suffix>Jr</suffix>
+</string-name>, <string-name>
+<surname>Elder</surname>
+<given-names>DE</given-names>
+</string-name>, <string-name>
+<surname>Guerry</surname>
+<given-names>D</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Model predicting survival in stage I melanoma based on tumor progression</article-title>. <source xml:lang="en">J. Natl Cancer Inst.</source>
+<year>1989</year>; <volume>81</volume>; <fpage>1893</fpage>&#x02013;<lpage>1904</lpage>.<pub-id pub-id-type="pmid">2593166</pub-id></mixed-citation></ref><ref id="his14259-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="his14259-cit-0016">
+<string-name>
+<surname>Fu</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Ge</surname>
+<given-names>C</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Prognostic value of tumor&#x02010;infiltrating lymphocytes in melanoma: a systematic review and meta&#x02010;analysis</article-title>. <source xml:lang="en">Oncoimmunology</source>
+<year>2019</year>; <volume>8</volume>; <fpage>1593806</fpage>.<pub-id pub-id-type="pmid">31143514</pub-id></mixed-citation></ref><ref id="his14259-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="his14259-cit-0017">
+<string-name>
+<surname>Clemente</surname>
+<given-names>CG</given-names>
+</string-name>, <string-name>
+<surname>Mihm</surname>
+<given-names>MC</given-names>
+<suffix>Jr</suffix>
+</string-name>, <string-name>
+<surname>Bufalino</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Zurrida</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Collini</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Cascinelli</surname>
+<given-names>N</given-names>
+</string-name>. <article-title>Prognostic value of tumor infiltrating lymphocytes in the vertical growth phase of primary cutaneous melanoma</article-title>. <source xml:lang="en">Cancer</source>
+<year>1996</year>; <volume>77</volume>; <fpage>1303</fpage>&#x02013;<lpage>1310</lpage>.<pub-id pub-id-type="pmid">8608507</pub-id></mixed-citation></ref><ref id="his14259-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="his14259-cit-0018">
+<string-name>
+<surname>Hussein</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name>
+<surname>Elsers</surname>
+<given-names>DAH</given-names>
+</string-name>, <string-name>
+<surname>Fadel</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name>
+<surname>Omar</surname>
+<given-names>A&#x02010;EM</given-names>
+</string-name>. <article-title>Immunohistological characterisation of tumour infiltrating lymphocytes in melanocytic skin lesions</article-title>. <source xml:lang="en">J. Clin. Pathol.</source>
+<year>2006</year>; <volume>59</volume>; <fpage>316</fpage>&#x02013;<lpage>324</lpage>.<pub-id pub-id-type="pmid">16505286</pub-id></mixed-citation></ref><ref id="his14259-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="his14259-cit-0019">
+<string-name>
+<surname>Hillen</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Baeten</surname>
+<given-names>CIM</given-names>
+</string-name>, <string-name>
+<surname>van de Winkel</surname>
+<given-names>A</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Leukocyte infiltration and tumor cell plasticity are parameters of aggressiveness in primary cutaneous melanoma</article-title>. <source xml:lang="en">Cancer Immunol. Immunother.</source>
+<year>2008</year>; <volume>57</volume>; <fpage>97</fpage>&#x02013;<lpage>106</lpage>.<pub-id pub-id-type="pmid">17602225</pub-id></mixed-citation></ref><ref id="his14259-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="his14259-cit-0020">
+<string-name>
+<surname>Cipponi</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Wieers</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>van Baren</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Coulie</surname>
+<given-names>PG</given-names>
+</string-name>. <article-title>Tumor&#x02010;infiltrating lymphocytes: apparently good for melanoma patients. But why?</article-title>
+<source xml:lang="en">Cancer Immunol. Immunother.</source>
+<year>2011</year>; <volume>60</volume>; <fpage>1153</fpage>&#x02013;<lpage>1160</lpage>.<pub-id pub-id-type="pmid">21553145</pub-id></mixed-citation></ref><ref id="his14259-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="his14259-cit-0021">
+<string-name>
+<surname>Ladanyi</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Prognostic and predictive significance of immune cells infiltrating cutaneous melanoma</article-title>. <source xml:lang="en">Pigment Cell Melanoma Res.</source>
+<year>2015</year>; <volume>28</volume>; <fpage>490</fpage>&#x02013;<lpage>500</lpage>.<pub-id pub-id-type="pmid">25818762</pub-id></mixed-citation></ref><ref id="his14259-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="his14259-cit-0022">
+<string-name>
+<surname>Hillen</surname>
+<given-names>LM</given-names>
+</string-name>, <string-name>
+<surname>Geybels</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Rennspiess</surname>
+<given-names>D</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Molecular profiling of Spitz nevi identified by digital RNA counting</article-title>. <source xml:lang="en">Melanoma Res.</source>
+<year>2018</year>; <volume>28</volume>; <fpage>510</fpage>&#x02013;<lpage>520</lpage>.<pub-id pub-id-type="pmid">30095598</pub-id></mixed-citation></ref><ref id="his14259-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="his14259-cit-0023">
+<string-name>
+<surname>Hillen</surname>
+<given-names>LM</given-names>
+</string-name>, <string-name>
+<surname>Geybels</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Spassova</surname>
+<given-names>I</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>A digital mRNA expression signature to classify challenging spitzoid melanocytic neoplasms</article-title>. <source xml:lang="en">FEBS Open Bio.</source>
+<year>2020</year>; <volume>10</volume>; <fpage>1326</fpage>&#x02013;<lpage>1341</lpage>.</mixed-citation></ref><ref id="his14259-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="his14259-cit-0024">
+<string-name>
+<surname>Cerroni</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Barnhill</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Elder</surname>
+<given-names>D</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Melanocytic tumors of uncertain malignant potential: results of a tutorial held at the XXIX Symposium of the International Society of Dermatopathology in Graz, October 2008</article-title>. <source xml:lang="en">Am. J. Surg. Pathol.</source>
+<year>2010</year>; <volume>34</volume>; <fpage>314</fpage>&#x02013;<lpage>326</lpage>.<pub-id pub-id-type="pmid">20118771</pub-id></mixed-citation></ref><ref id="his14259-bib-0025"><label>25</label><mixed-citation publication-type="book" id="his14259-cit-0025">
+<string-name>
+<surname>Barnhill</surname>
+<given-names>RL</given-names>
+</string-name>. <source xml:lang="en">Pathology of melanocytic nevi and melanoma</source>, <edition designator="3">3rd</edition> edn. <publisher-loc>Berlin, Heidelberg</publisher-loc>: <publisher-name>Springer&#x02010;Verlag</publisher-name>, <year>2016</year> [originally published by Butterworth&#x02010;Heinemann, 1995].</mixed-citation></ref><ref id="his14259-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="his14259-cit-0026">
+<string-name>
+<surname>Gerami</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Busam</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Cochran</surname>
+<given-names>A</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Histomorphologic assessment and interobserver diagnostic reproducibility of atypical spitzoid melanocytic neoplasms with long&#x02010;term follow&#x02010;up</article-title>. <source xml:lang="en">Am. J. Surg. Pathol.</source>
+<year>2014</year>; <volume>38</volume>; <fpage>934</fpage>&#x02013;<lpage>940</lpage>.<pub-id pub-id-type="pmid">24618612</pub-id></mixed-citation></ref><ref id="his14259-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="his14259-cit-0027">
+<string-name>
+<surname>Lallas</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Kyrgidis</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Ferrara</surname>
+<given-names>G</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Atypical Spitz tumours and sentinel lymph node biopsy: a systematic review</article-title>. <source xml:lang="en">Lancet Oncol.</source>
+<year>2014</year>; <volume>15</volume>; <fpage>e178</fpage>&#x02013;<lpage>183</lpage>.<pub-id pub-id-type="pmid">24694641</pub-id></mixed-citation></ref><ref id="his14259-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="his14259-cit-0028">
+<string-name>
+<surname>Hung</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Piris</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Lobo</surname>
+<given-names>A</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Sentinel lymph node metastasis is not predictive of poor outcome in patients with problematic spitzoid melanocytic tumors</article-title>. <source xml:lang="en">Hum. Pathol.</source>
+<year>2013</year>; <volume>44</volume>; <fpage>87</fpage>&#x02013;<lpage>94</lpage>.<pub-id pub-id-type="pmid">22939951</pub-id></mixed-citation></ref><ref id="his14259-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="his14259-cit-0029">
+<string-name>
+<surname>Wiesner</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Kutzner</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Cerroni</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Mihm</surname>
+<given-names>MC</given-names>
+<suffix>Jr</suffix>
+</string-name>, <string-name>
+<surname>Busam</surname>
+<given-names>KJ</given-names>
+</string-name>, <string-name>
+<surname>Murali</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Genomic aberrations in spitzoid melanocytic tumours and their implications for diagnosis, prognosis and therapy</article-title>. <source xml:lang="en">Pathology</source>
+<year>2016</year>; <volume>48</volume>; <fpage>113</fpage>&#x02013;<lpage>131</lpage>.<pub-id pub-id-type="pmid">27020384</pub-id></mixed-citation></ref><ref id="his14259-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="his14259-cit-0030">
+<string-name>
+<surname>Tetzlaff</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name>
+<surname>Reuben</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Billings</surname>
+<given-names>SD</given-names>
+</string-name>, <string-name>
+<surname>Prieto</surname>
+<given-names>VG</given-names>
+</string-name>, <string-name>
+<surname>Curry</surname>
+<given-names>JL</given-names>
+</string-name>. <article-title>Toward a molecular&#x02010;genetic classification of spitzoid neoplasms</article-title>. <source xml:lang="en">Clin. Lab. Med.</source>
+<year>2017</year>; <volume>37</volume>; <fpage>431</fpage>&#x02013;<lpage>448</lpage>.<pub-id pub-id-type="pmid">28802494</pub-id></mixed-citation></ref><ref id="his14259-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="his14259-cit-0031">
+<string-name>
+<surname>Barnhill</surname>
+<given-names>RL</given-names>
+</string-name>. <article-title>The spitzoid lesion: rethinking Spitz tumors, atypical variants, &#x02018;Spitzoid melanoma&#x02019;and risk assessment</article-title>. <source xml:lang="en">Mod. Pathol.</source>
+<year>2006</year>; <volume>19</volume>(<issue>Suppl. 2</issue>); <fpage>S21</fpage>&#x02013;<lpage>S33</lpage>.<pub-id pub-id-type="pmid">16446713</pub-id></mixed-citation></ref><ref id="his14259-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="his14259-cit-0032">
+<string-name>
+<surname>Barnhill</surname>
+<given-names>RL</given-names>
+</string-name>. <article-title>The spitzoid lesion: the importance of atypical variants and risk assessment</article-title>. <source xml:lang="en">Am. J. Dermatopathol.</source>
+<year>2006</year>; <volume>28</volume>; <fpage>75</fpage>&#x02013;<lpage>83</lpage>.<pub-id pub-id-type="pmid">16456332</pub-id></mixed-citation></ref><ref id="his14259-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="his14259-cit-0033">
+<string-name>
+<surname>Hillen</surname>
+<given-names>LM</given-names>
+</string-name>, <string-name>
+<surname>Van den Oord</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Geybels</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Becker</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Zur Hausen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Winnepenninckx</surname>
+<given-names>V</given-names>
+</string-name>. <article-title>Genomic landscape of spitzoid neoplasms impacting patient management</article-title>. <source xml:lang="en">Front. Med.</source>
+<year>2018</year>; <volume>5</volume>; <fpage>344</fpage>.</mixed-citation></ref><ref id="his14259-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="his14259-cit-0034">
+<string-name>
+<surname>Verardino</surname>
+<given-names>GC</given-names>
+</string-name>, <string-name>
+<surname>Rochae</surname>
+<given-names>MC</given-names>
+</string-name>. <article-title>Spitz nevi in the classic histopathological pattern &#x02013; lamb in wolf's clothing</article-title>. <source xml:lang="en">An. Bras. Dermatol.</source>
+<year>2015</year>; <volume>9</volume>; <fpage>91</fpage>&#x02013;<lpage>95</lpage>.</mixed-citation></ref><ref id="his14259-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="his14259-cit-0035">
+<string-name>
+<surname>Berlingeri&#x02010;Ramos</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name>
+<surname>Morales&#x02010;Burgos</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>S&#x000e1;nchez</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name>
+<surname>Nogales</surname>
+<given-names>EM</given-names>
+</string-name>. <article-title>Spitz nevus in a Hispanic population: a clinicopathological study of 130 cases</article-title>. <source xml:lang="en">Am. J. Dermatopathol.</source>
+<year>2010</year>; <volume>32</volume>; <fpage>267</fpage>&#x02013;<lpage>275</lpage>.<pub-id pub-id-type="pmid">20098300</pub-id></mixed-citation></ref><ref id="his14259-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="his14259-cit-0036">
+<string-name>
+<surname>Paniago&#x02010;Pereira</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Maize</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Ackerman</surname>
+<given-names>AB</given-names>
+</string-name>. <article-title>Nevus of large spindle and/or epithelioid cells (Spitz&#x02019;s nevus)</article-title>. <source xml:lang="en">Arch. Dermatol.</source>
+<year>1978l</year>; <volume>114</volume>; <fpage>1811</fpage>&#x02013;<lpage>1823</lpage>.<pub-id pub-id-type="pmid">367281</pub-id></mixed-citation></ref><ref id="his14259-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="his14259-cit-0037">
+<string-name>
+<surname>Tuthill</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Unger</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>
+<given-names>PY</given-names>
+</string-name>, <string-name>
+<surname>Flaherty</surname>
+<given-names>LE</given-names>
+</string-name>, <string-name>
+<surname>Sondak</surname>
+<given-names>VK</given-names>
+</string-name>. <article-title>Risk assessment in localized primary cutaneous melanoma: a Southwest Oncology Group study evaluating nine factors and a test of the Clark logistic regression prediction model</article-title>. <source xml:lang="en">Am. J. Clin. Pathol.</source>
+<year>2002</year>; <volume>118</volume>; <fpage>504</fpage>&#x02013;<lpage>511</lpage>.<pub-id pub-id-type="pmid">12375635</pub-id></mixed-citation></ref><ref id="his14259-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="his14259-cit-0038">
+<string-name>
+<surname>van Houdt</surname>
+<given-names>IS</given-names>
+</string-name>, <string-name>
+<surname>Sluijter</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name>
+<surname>Moesbergen</surname>
+<given-names>LM</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Favorable outcome in clinically stage II melanoma patients is associated with the presence of activated tumor infiltrating T&#x02010;lymphocytes and preserved MHC class I antigen expression</article-title>. <source xml:lang="en">Int. J. Cancer</source>
+<year>2008</year>; <volume>123</volume>; <fpage>609</fpage>&#x02013;<lpage>615</lpage>.<pub-id pub-id-type="pmid">18498132</pub-id></mixed-citation></ref><ref id="his14259-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="his14259-cit-0039">
+<string-name>
+<surname>Mihm</surname>
+<given-names>MC</given-names>
+<suffix>Jr</suffix>
+</string-name>, <string-name>
+<surname>Clemente</surname>
+<given-names>CG</given-names>
+</string-name>, <string-name>
+<surname>Cascinelli</surname>
+<given-names>N</given-names>
+</string-name>. <article-title>Tumor infiltrating lymphocytes in lymph node melanoma metastases: a histopathologic prognostic indicator and an expression of local immune response</article-title>. <source xml:lang="en">Lab. Invest.</source>
+<year>1996</year>; <volume>74</volume>; <fpage>43</fpage>&#x02013;<lpage>47</lpage>.<pub-id pub-id-type="pmid">8569196</pub-id></mixed-citation></ref><ref id="his14259-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="his14259-cit-0040">
+<string-name>
+<surname>Mandal&#x000e0;</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Imberti</surname>
+<given-names>GL</given-names>
+</string-name>, <string-name>
+<surname>Piazzalunga</surname>
+<given-names>D</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Clinical and histopathological risk factors to predict sentinel lymph node positivity, disease&#x02010;free and overall survival in clinical stages I&#x02010;II AJCC skin melanoma: outcome analysis from a single&#x02010;institution prospectively collected database</article-title>. <source xml:lang="en">Eur. J. Cancer</source>
+<year>2009</year>; <volume>45</volume>; <fpage>2537</fpage>&#x02013;<lpage>2545</lpage>.<pub-id pub-id-type="pmid">19553103</pub-id></mixed-citation></ref><ref id="his14259-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="his14259-cit-0041">
+<string-name>
+<surname>Burton</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name>
+<surname>Roach</surname>
+<given-names>BA</given-names>
+</string-name>, <string-name>
+<surname>Mays</surname>
+<given-names>MP</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Prognostic significance of tumor infiltrating lymphocytes in melanoma</article-title>. <source xml:lang="en">Am. Surg.</source>
+<year>2011</year>; <volume>77</volume>; <fpage>188</fpage>&#x02013;<lpage>192</lpage>.<pub-id pub-id-type="pmid">21337878</pub-id></mixed-citation></ref><ref id="his14259-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="his14259-cit-0042">
+<string-name>
+<surname>Gimotty</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name>
+<surname>Van Belle</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Elder</surname>
+<given-names>DE</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Biologic and prognostic significance of dermal Ki67 expression, mitoses, and tumorigenicity in thin invasive cutaneous melanoma</article-title>. <source xml:lang="en">J. Clin. Oncol.</source>
+<year>2005</year>; <volume>23</volume>; <fpage>8048</fpage>&#x02013;<lpage>8056</lpage>.<pub-id pub-id-type="pmid">16258103</pub-id></mixed-citation></ref><ref id="his14259-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="his14259-cit-0043">
+<string-name>
+<surname>Barnhill</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name>
+<surname>Fine</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Roush</surname>
+<given-names>GC</given-names>
+</string-name>, <string-name>
+<surname>Berwick</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Predicting five&#x02010;year outcome for patients with cutaneous melanoma in a population&#x02010;based study</article-title>. <source xml:lang="en">Cancer</source>
+<year>1996</year>; <volume>78</volume>; <fpage>427</fpage>&#x02013;<lpage>432</lpage>.<pub-id pub-id-type="pmid">8697387</pub-id></mixed-citation></ref><ref id="his14259-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="his14259-cit-0044">
+<string-name>
+<surname>Taylor</surname>
+<given-names>RC</given-names>
+</string-name>, <string-name>
+<surname>Patel</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Panageas</surname>
+<given-names>KS</given-names>
+</string-name>, <string-name>
+<surname>Busam</surname>
+<given-names>KJ</given-names>
+</string-name>, <string-name>
+<surname>Brady</surname>
+<given-names>MS</given-names>
+</string-name>. <article-title>Tumor&#x02010;infiltrating lymphocytes predict sentinel lymph node positivity in patients with cutaneous melanoma</article-title>. <source xml:lang="en">J. Clin. Oncol.</source>
+<year>2007</year>; <volume>25</volume>; <fpage>869</fpage>&#x02013;<lpage>875</lpage>.<pub-id pub-id-type="pmid">17327608</pub-id></mixed-citation></ref><ref id="his14259-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="his14259-cit-0045">
+<string-name>
+<surname>Hendry</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Salgado</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Gevaert</surname>
+<given-names>T</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Assessing tumor&#x02010;infiltrating lymphocytes in solid tumors: a practical review for pathologists and proposal for a standardized method from the International Immunooncology Biomarkers Working Group, Part 1. Assessing the host immune response, TILs in invasive breast carcinoma and ductal carcinoma <italic>in situ</italic>, metastatic tumor deposits and areas for further research</article-title>. <source xml:lang="en">Adv. Anat. Pathol.</source>
+<year>2017</year>; <volume>24</volume>; <fpage>235</fpage>&#x02013;<lpage>251</lpage>.<pub-id pub-id-type="pmid">28777142</pub-id></mixed-citation></ref><ref id="his14259-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="his14259-cit-0046">
+<string-name>
+<surname>Lee</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Zakka</surname>
+<given-names>LR</given-names>
+</string-name>, <string-name>
+<surname>Mihm</surname>
+<given-names>MC</given-names>
+<suffix>Jr</suffix>
+</string-name>, <string-name>
+<surname>Schatton</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Tumour&#x02010;infiltrating lymphocytes in melanoma prognosis and cancer immunotherapy</article-title>. <source xml:lang="en">Pathology</source>
+<year>2016</year>; <volume>48</volume>; <fpage>177</fpage>&#x02013;<lpage>187</lpage>.<pub-id pub-id-type="pmid">27020390</pub-id></mixed-citation></ref><ref id="his14259-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="his14259-cit-0047">
+<string-name>
+<surname>Coppola</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Mule</surname>
+<given-names>JJ</given-names>
+</string-name>. <article-title>Ectopic lymph nodes within human solid tumors</article-title>. <source xml:lang="en">J. Clin. Oncol.</source>
+<year>2008</year>; <volume>26</volume>; <fpage>4369</fpage>&#x02013;<lpage>4370</lpage>.<pub-id pub-id-type="pmid">18802146</pub-id></mixed-citation></ref><ref id="his14259-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="his14259-cit-0048">
+<string-name>
+<surname>van Baren</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Baurain</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name>
+<surname>Coulie</surname>
+<given-names>PG</given-names>
+</string-name>. <article-title>Lymphoid neogenesis in melanoma: what does it tell us?</article-title>
+<source xml:lang="en">Oncoimmunology</source>
+<year>2013</year>; <volume>2</volume>; <elocation-id>e22505</elocation-id>.<pub-id pub-id-type="pmid">23483539</pub-id></mixed-citation></ref><ref id="his14259-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="his14259-cit-0049">
+<string-name>
+<surname>Kiuru</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Patel</surname>
+<given-names>RM</given-names>
+</string-name>, <string-name>
+<surname>Busam</surname>
+<given-names>KJ</given-names>
+</string-name>. <article-title>Desmoplastic melanocytic nevi with lymphocytic aggregates</article-title>. <source xml:lang="en">J. Cutan. Pathol.</source>
+<year>2012</year>; <volume>39</volume>; <fpage>940</fpage>&#x02013;<lpage>944</lpage>.<pub-id pub-id-type="pmid">22845683</pub-id></mixed-citation></ref><ref id="his14259-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="his14259-cit-0050">
+<string-name>
+<surname>Harvell</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name>
+<surname>Meehan</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name>
+<surname>LeBoit</surname>
+<given-names>PE</given-names>
+</string-name>. <article-title>Spitz&#x02019;s nevi with halo reaction: a histopathologic study of 17 cases</article-title>. <source xml:lang="en">J. Cutan. Pathol.</source>
+<year>1997</year>; <volume>24</volume>; <fpage>611</fpage>&#x02013;<lpage>619</lpage>.<pub-id pub-id-type="pmid">9449488</pub-id></mixed-citation></ref><ref id="his14259-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="his14259-cit-0051">
+<string-name>
+<surname>Meehan</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>McCluskey</surname>
+<given-names>RT</given-names>
+</string-name>, <string-name>
+<surname>Pascual</surname>
+<given-names>M</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Cytotoxicity and apoptosis in human renal allografts: identification, distribution, and quantitation of cells with a cytotoxic granule protein GMP&#x02010;17 (TIA&#x02010;1) and cells with fragmented nuclear DNA</article-title>. <source xml:lang="en">Lab. Invest.</source>
+<year>1997</year>; <volume>76</volume>; <fpage>639</fpage>&#x02013;<lpage>649</lpage>.<pub-id pub-id-type="pmid">9166283</pub-id></mixed-citation></ref><ref id="his14259-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="his14259-cit-0052">
+<string-name>
+<surname>Anderson</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Nagler&#x02010;Anderson</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>O'Brien</surname>
+<given-names>C</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>A monoclonal antibody reactive with a 15&#x02010;kDa cytoplasmic granule&#x02010;associated protein defines a subpopulation of CD8<sup>+</sup> T lymphocytes</article-title>. <source xml:lang="en">J. Immunol.</source>
+<year>1990</year>; <volume>144</volume>; <fpage>574</fpage>&#x02013;<lpage>582</lpage>.<pub-id pub-id-type="pmid">2104899</pub-id></mixed-citation></ref><ref id="his14259-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="his14259-cit-0053">
+<string-name>
+<surname>Tian</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name>
+<surname>Streuli</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Saito</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Schlossman</surname>
+<given-names>SF</given-names>
+</string-name>, <string-name>
+<surname>Anderson</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>A polyadenylate binding protein localized to the granules of cytolytic lymphocytes induces DNA fragmentation in target cells</article-title>. <source xml:lang="en">Cell</source>
+<year>1991</year>; <volume>67</volume>; <fpage>629</fpage>&#x02013;<lpage>639</lpage>.<pub-id pub-id-type="pmid">1934064</pub-id></mixed-citation></ref><ref id="his14259-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="his14259-cit-0054">
+<string-name>
+<surname>Botella&#x02010;Estrada</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Kutzner</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Study of the immunophenotype of the inflammatory cells in melanomas with regression and halo nevi</article-title>. <source xml:lang="en">Am. J. Dermatopathol.</source>
+<year>2015</year>; <volume>37</volume>; <fpage>376</fpage>&#x02013;<lpage>380</lpage>.<pub-id pub-id-type="pmid">25222195</pub-id></mixed-citation></ref><ref id="his14259-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="his14259-cit-0055">
+<string-name>
+<surname>Francis</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Connelly</surname>
+<given-names>MC</given-names>
+</string-name>. <article-title>Rapid single&#x02010;step method for flow cytometric detection of surface and intracellular antigens using whole blood</article-title>. <source xml:lang="en">Cytometry</source>
+<year>1996</year>; <volume>25</volume>; <fpage>58</fpage>&#x02013;<lpage>70</lpage>.<pub-id pub-id-type="pmid">8875055</pub-id></mixed-citation></ref><ref id="his14259-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="his14259-cit-0056">
+<string-name>
+<surname>Tian</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name>
+<surname>Taupin</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Elledge</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Robertson</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Anderson</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>Fas&#x02010;activated serine/threonine kinase (FAST) phosphorylates TIA&#x02010;1 during Fas&#x02010;mediated apoptosis</article-title>. <source xml:lang="en">J. Exp. Med.</source>
+<year>1995</year>; <volume>182</volume>; <fpage>865</fpage>&#x02013;<lpage>874</lpage>.<pub-id pub-id-type="pmid">7544399</pub-id></mixed-citation></ref><ref id="his14259-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="his14259-cit-0057">
+<string-name>
+<surname>Bird</surname>
+<given-names>CH</given-names>
+</string-name>, <string-name>
+<surname>Sutton</surname>
+<given-names>VR</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>
+<given-names>J</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Selective regulation of apoptosis: the cytotoxic lymphocyte serpin proteinase inhibitor 9 protects against granzyme B&#x02010;mediated apoptosis without perturbing the Fas cell death pathway</article-title>. <source xml:lang="en">Mol. Cell. Biol.</source>
+<year>1998</year>; <volume>18</volume>; <fpage>6387</fpage>&#x02013;<lpage>6398</lpage>.<pub-id pub-id-type="pmid">9774654</pub-id></mixed-citation></ref><ref id="his14259-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="his14259-cit-0058">
+<string-name>
+<surname>Shresta</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Heusel</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name>
+<surname>Macivor</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Wesselschmidt</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name>
+<surname>Russell</surname>
+<given-names>JH</given-names>
+</string-name>, <string-name>
+<surname>Ley</surname>
+<given-names>TJ</given-names>
+</string-name>. <article-title>Granzyme B plays a critical role in cytotoxic lymphocyte&#x02010;induced apoptosis</article-title>. <source xml:lang="en">Immunol. Rev.</source>
+<year>1995</year>; <volume>146</volume>; <fpage>211</fpage>&#x02013;<lpage>221</lpage>.<pub-id pub-id-type="pmid">7493755</pub-id></mixed-citation></ref><ref id="his14259-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="his14259-cit-0059">
+<string-name>
+<surname>Hersey</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>XD</given-names>
+</string-name>. <article-title>How melanoma cells evade trail&#x02010;induced apoptosis</article-title>. <source xml:lang="en">Nat. Rev. Cancer</source>
+<year>2001</year>; <volume>1</volume>; <fpage>142</fpage>&#x02013;<lpage>150</lpage>.<pub-id pub-id-type="pmid">11905805</pub-id></mixed-citation></ref><ref id="his14259-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="his14259-cit-0060">
+<string-name>
+<surname>Cho</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>MK</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>
+<given-names>WI</given-names>
+</string-name>, <string-name>
+<surname>Yoon</surname>
+<given-names>JH</given-names>
+</string-name>. <article-title>Granzyme B immunoreactivity in T/natural killer cell lymphomas</article-title>. <source xml:lang="en">Yonsei Med. J.</source>
+<year>1997</year>; <volume>38</volume>; <fpage>285</fpage>&#x02013;<lpage>293</lpage>.<pub-id pub-id-type="pmid">9409191</pub-id></mixed-citation></ref><ref id="his14259-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="his14259-cit-0061">
+<string-name>
+<surname>Kummer</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Kamp</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name>
+<surname>Tadema</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name>
+<surname>Vos</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Meijer</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name>
+<surname>Hack</surname>
+<given-names>CE</given-names>
+</string-name>. <article-title>Localization and identification of granzymes A and B&#x02010;expressing cells in normal human lymphoid tissue and peripheral blood</article-title>. <source xml:lang="en">Clin. Exp. Immunol.</source>
+<year>1995</year>; <volume>100</volume>; <fpage>164</fpage>&#x02013;<lpage>172</lpage>.<pub-id pub-id-type="pmid">7697916</pub-id></mixed-citation></ref><ref id="his14259-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="his14259-cit-0062">
+<string-name>
+<surname>Hirst</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name>
+<surname>Buzza</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Bird</surname>
+<given-names>CH</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>The intracellular granzyme B inhibitor, proteinase inhibitor 9, is up&#x02010;regulated during accessory cell maturation and effector cell degranulation, and its overexpression enhances CTL potency</article-title>. <source xml:lang="en">J. Immunol.</source>
+<year>2003</year>; <volume>170</volume>; <fpage>805</fpage>&#x02013;<lpage>815</lpage>.<pub-id pub-id-type="pmid">12517944</pub-id></mixed-citation></ref><ref id="his14259-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="his14259-cit-0063">
+<string-name>
+<surname>Mourmouras</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Fimiani</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Rubegni</surname>
+<given-names>P</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Evaluation of tumour&#x02010;infiltrating CD4<sup>+</sup>CD25<sup>+</sup>FOXP3<sup>+</sup> regulatory T cells in human cutaneous benign and atypical naevi, melanomas and melanoma metastases</article-title>. <source xml:lang="en">Br. J. Dermatol.</source>
+<year>2007</year>; <volume>157</volume>; <fpage>531</fpage>&#x02013;<lpage>539</lpage>.<pub-id pub-id-type="pmid">17596146</pub-id></mixed-citation></ref><ref id="his14259-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="his14259-cit-0064">
+<string-name>
+<surname>van Houdt</surname>
+<given-names>IS</given-names>
+</string-name>, <string-name>
+<surname>Oudejans</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name>
+<surname>van den Eertwegh</surname>
+<given-names>AJ</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Expression of the apoptosis inhibitor protease inhibitor 9 predicts clinical outcome in vaccinated patients with stage III and IV melanoma</article-title>. <source xml:lang="en">Clin. Cancer Res.</source>
+<year>2005</year>; <volume>11</volume>; <fpage>6400</fpage>&#x02013;<lpage>6407</lpage>.<pub-id pub-id-type="pmid">16144945</pub-id></mixed-citation></ref><ref id="his14259-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="his14259-cit-0065">
+<string-name>
+<surname>Frederick</surname>
+<given-names>DT</given-names>
+</string-name>, <string-name>
+<surname>Piris</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Cogdill</surname>
+<given-names>AP</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>BRAF inhibition is associated with enhanced melanoma antigen expression and a more favorable tumor microenvironment in patients with metastatic melanoma</article-title>. <source xml:lang="en">Clin. Cancer Res.</source>
+<year>2013</year>; <volume>19</volume>; <fpage>1225</fpage>&#x02013;<lpage>1231</lpage>.<pub-id pub-id-type="pmid">23307859</pub-id></mixed-citation></ref><ref id="his14259-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="his14259-cit-0066">
+<string-name>
+<surname>Bosisio</surname>
+<given-names>FM</given-names>
+</string-name>, <string-name>
+<surname>Wilmott</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name>
+<surname>Volders</surname>
+<given-names>N</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Plasma cells in primary melanoma. Prognostic significance and possible role of IgA</article-title>. <source xml:lang="en">Mod. Pathol.</source>
+<year>2016</year>; <volume>29</volume>; <fpage>347</fpage>&#x02013;<lpage>358</lpage>.<pub-id pub-id-type="pmid">26867783</pub-id></mixed-citation></ref><ref id="his14259-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="his14259-cit-0067">
+<string-name>
+<surname>Bolognesi</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name>
+<surname>Manzoni</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Scalia</surname>
+<given-names>CR</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Multiplex staining by sequential immunostaining and antibody removal on routine tissue sections</article-title>. <source xml:lang="en">J. Histochem. Cytochem.</source>
+<year>2017</year>; <volume>65</volume>; <fpage>431</fpage>&#x02013;<lpage>444</lpage>.<pub-id pub-id-type="pmid">28692376</pub-id></mixed-citation></ref><ref id="his14259-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="his14259-cit-0068">
+<string-name>
+<surname>Halse</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Colebatch</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Petrone</surname>
+<given-names>P</given-names>
+</string-name>
+<italic>et al</italic>
+<article-title>Multiplex immunohistochemistry accurately defines the immune context of metastatic melanoma</article-title>. <source xml:lang="en">Sci. Rep.</source>
+<year>2018</year>; <volume>8</volume>; <fpage>11158</fpage>.<pub-id pub-id-type="pmid">30042403</pub-id></mixed-citation></ref></ref-list></back></article>
