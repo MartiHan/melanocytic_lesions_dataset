@@ -100,7 +100,7 @@
     const textDiv = document.getElementById("text");
     const toolbarButtons = document.querySelectorAll("#toolbar button");
 
-    // Activate button UI
+    // === Toolbar color switching ===
     toolbarButtons.forEach((btn) => {
       btn.addEventListener("click", () => {
         currentColor = btn.dataset.color;
@@ -110,30 +110,85 @@
     });
     document.getElementById("yellowBtn").classList.add("active");
 
-    // Apply or remove highlight
+    // === Highlight application logic ===
     function applyHighlight() {
       const sel = window.getSelection();
       if (!sel || sel.rangeCount === 0 || sel.toString().trim().length === 0) return;
       const range = sel.getRangeAt(0);
       if (!textDiv.contains(range.commonAncestorContainer)) return;
 
-      // Compute offsets
+      // Compute text offsets
       const preRange = document.createRange();
       preRange.selectNodeContents(textDiv);
       preRange.setEnd(range.startContainer, range.startOffset);
       const start = preRange.toString().length;
       const end = start + range.toString().length;
-      const plainText = textDiv.textContent;
 
       if (currentColor === "remove") {
-        highlights = highlights.filter((h) => end < h.start || start > h.end);
+        // Remove only overlapping segments
+        highlights = subtractRange(highlights, start, end);
       } else {
-        highlights.push({ start, end, color: currentColor });
+        // keep unaffected parts, split overlaps, and insert new color
+        highlights = applySmartHighlight(highlights, start, end, currentColor);
       }
 
       renderHighlights();
       postValue();
       sel.removeAllRanges();
+    }
+
+    /**
+     * Remove overlap but preserve unaffected parts
+     */
+    function subtractRange(highs, start, end) {
+      const newList = [];
+      for (const h of highs) {
+        if (h.end <= start || h.start >= end) {
+          // no overlap
+          newList.push(h);
+        } else {
+          // partial overlap — preserve left/right edges
+          if (h.start < start) newList.push({ start: h.start, end: start, color: h.color });
+          if (h.end > end) newList.push({ start: end, end: h.end, color: h.color });
+        }
+      }
+      return newList;
+    }
+
+    /**
+     * Insert a new highlight range, splitting and preserving existing ones
+     */
+    function applySmartHighlight(highs, start, end, color) {
+      let result = [];
+      for (const h of highs) {
+        if (h.end <= start || h.start >= end) {
+          // no overlap
+          result.push(h);
+        } else {
+          // overlap -> keep non-overlapping parts
+          if (h.start < start) result.push({ start: h.start, end: start, color: h.color });
+          if (h.end > end) result.push({ start: end, end: h.end, color: h.color });
+        }
+      }
+      // Add the new highlight
+      result.push({ start, end, color });
+      // Sort & merge adjacent segments of same color
+      result.sort((a, b) => a.start - b.start);
+      result = mergeAdjacent(result);
+      return result;
+    }
+
+    function mergeAdjacent(list) {
+      const merged = [];
+      for (const h of list) {
+        const last = merged[merged.length - 1];
+        if (last && last.end === h.start && last.color === h.color) {
+          last.end = h.end;
+        } else {
+          merged.push({ ...h });
+        }
+      }
+      return merged;
     }
 
     function renderHighlights() {
@@ -173,8 +228,10 @@
     window.addEventListener("message", (event) => {
       const msg = event.data;
       if (msg.type === "streamlit:render") {
+        // Load base text only once (so it doesn't re-nest)
         if (msg.args?.text && msg.args.text !== basePlainText) {
           basePlainText = msg.args.text;
+          textDiv.textContent = basePlainText; // ✅ ensure base reset before highlight
         }
         highlights = msg.args?.highlights || [];
         renderHighlights();

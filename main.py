@@ -228,14 +228,22 @@ for current_img in current_images:
 
     with cols[1]:
         st.markdown(f"**Panel:** {info.get('panel', '—')} | **Label:** {info.get('label', '—')}")
-        key = f"highlight_{current_img}"
-        prev_highlights = annotations.get("highlights", {}).get(current_img, [])
+        highlight_key = f"highlight_{os.path.basename(selected_json)}_{current_img}_{st.session_state.page_index}"
+
+        # --- Load persistent highlights from session ---
+        if highlight_key not in st.session_state:
+            st.session_state[highlight_key] = annotations.get("highlights", {}).get(current_img, [])
+
+        # --- Interactive highlighting ---
         new_highlights = highlight_text(
             text=info.get("enriched_caption", ""),
-            key=f"highlight_{current_img}",
-            highlights=prev_highlights,
+            key=highlight_key,
+            highlights=st.session_state[highlight_key],
         )
-        if new_highlights and new_highlights != prev_highlights:
+
+        # --- Update persistent state (in memory + annotations file model) ---
+        if new_highlights and new_highlights != st.session_state[highlight_key]:
+            st.session_state[highlight_key] = new_highlights
             annotations.setdefault("highlights", {})[current_img] = new_highlights
 
         st.markdown("##### Original Caption")
@@ -286,6 +294,17 @@ for page_num in range(total_pages):
 if clicked_page is not None and clicked_page != st.session_state.page_index:
     st.session_state.page_index = clicked_page
     st.rerun()
+
+# --- Sync all highlight states from session to annotations before export ---
+for key, value in st.session_state.items():
+    if key.startswith("highlight_") and isinstance(value, list):
+        # Parse out image name from key pattern
+        parts = key.split("_", 2)
+        if len(parts) >= 3:
+            for img in image_list:
+                if img in key:
+                    annotations.setdefault("highlights", {})[img] = value
+                    break
 
 # =========================================================
 # Save & Export + Navigation
