@@ -11,6 +11,15 @@ from streamlit_scroll_to_top import scroll_to_here
 # =========================================================
 # Streamlit setup
 # =========================================================
+st.markdown("""
+<style>
+    .block-container {
+        padding: 1rem 0.8rem 0.2rem 0.8rem;
+        max-width: 98%;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 st.set_page_config(page_title="Pathology Caption Review", layout="wide")
 st.title("Histopathology Figures Caption Enrichment Review Tool")
 
@@ -98,7 +107,7 @@ def highlight_verbatims(text, verbatims, color="#a7d8ff"):
     out, last = [], 0
     for s, e in merged:
         out.append(text[last:s])
-        out.append(f"<mark style='background-color:{color}; padding:2px 4px; border-radius:4px'>{text[s:e]}</mark>")
+        out.append(f"<mark style='background-color:{color}; padding:2px 4px; font-size: 15px; border-radius:4px'>{text[s:e]}</mark>")
         last = e
     out.append(text[last:])
     return "".join(out)
@@ -200,34 +209,8 @@ for current_img in current_images:
     with cols[0]:
         img_path = os.path.join(os.path.dirname(selected_json), current_img)
         if os.path.exists(img_path):
-            st.image(load_image(img_path), caption=current_img, use_container_width=True)
+            st.image(load_image(img_path), use_container_width=True)
 
-        st.markdown("#### Caption Enrichment Rating")
-
-        rating_key = f"rating_{current_img}"
-        if rating_key not in st.session_state:
-            st.session_state[rating_key] = annotations.get("ratings", {}).get(current_img, 0)
-
-        cols_rating = st.columns(6)
-        for n, c in enumerate(cols_rating[1:], start=1):
-            if c.button(str(n), key=f"{rating_key}_{n}_{current_img}", use_container_width=True):
-                st.session_state[rating_key] = n
-                annotations.setdefault("ratings", {})[current_img] = n
-
-        if cols_rating[0].button("🚫", key=f"{rating_key}_NR_{current_img}", use_container_width=True):
-            st.session_state[rating_key] = "NR"
-            annotations.setdefault("ratings", {})[current_img] = "NR"
-
-        selected_rating = st.session_state[rating_key]
-        annotations.setdefault("ratings", {})[current_img] = selected_rating
-
-        if selected_rating == "NR":
-            st.markdown("<p style='text-align:center;font-size:1.3em;'>🚫 <b>Figure is Not Relevant</b></p>", unsafe_allow_html=True)
-        elif isinstance(selected_rating, int) and selected_rating > 0:
-            st.markdown(f"<p style='text-align:center;font-size:1.3em;'><b>Score:</b> {selected_rating}/5</p>", unsafe_allow_html=True)
-
-    with cols[1]:
-        st.markdown(f"**Panel:** {info.get('panel', '—')} | **Label:** {info.get('label', '—')}")
         highlight_key = f"highlight_{os.path.basename(selected_json)}_{current_img}_{st.session_state.page_index}"
 
         # --- Load persistent highlights from session ---
@@ -246,6 +229,30 @@ for current_img in current_images:
             st.session_state[highlight_key] = new_highlights
             annotations.setdefault("highlights", {})[current_img] = new_highlights
 
+        rating_key = f"rating_{current_img}"
+        if rating_key not in st.session_state:
+            st.session_state[rating_key] = annotations.get("ratings", {}).get(current_img, 0)
+
+        cols_rating = st.columns(6)
+        if cols_rating[0].button("🚫", key=f"{rating_key}_NR_{current_img}", use_container_width=True):
+            st.session_state[rating_key] = "NR"
+            annotations.setdefault("ratings", {})[current_img] = "NR"
+
+        for n, c in enumerate(cols_rating[1:], start=1):
+            if c.button(str(n), key=f"{rating_key}_{n}_{current_img}", use_container_width=True):
+                st.session_state[rating_key] = n
+                annotations.setdefault("ratings", {})[current_img] = n
+
+        selected_rating = st.session_state[rating_key]
+        annotations.setdefault("ratings", {})[current_img] = selected_rating
+
+        if selected_rating == "NR":
+            st.markdown("<p style='text-align:center;font-size:1.3em;'>🚫 <b>Figure is Not Relevant</b></p>", unsafe_allow_html=True)
+        elif isinstance(selected_rating, int) and selected_rating > 0:
+            st.markdown(f"<p style='text-align:center;font-size:1.3em;'><b>Score:</b> {selected_rating}/5</p>", unsafe_allow_html=True)
+
+    with cols[1]:
+        st.markdown(f"**Panel:** {info.get('panel', '—')} | **Label:** {info.get('label', '—')}")
         st.markdown("##### Original Caption")
         st.markdown(highlight_verbatims(info.get("caption", ""), info.get("used_verbatims", [])), unsafe_allow_html=True)
         st.markdown("##### Context Paragraph(s)")

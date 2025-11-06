@@ -6,12 +6,12 @@
   <style>
     body {
       font-family: sans-serif;
-      padding: 12px;
+      padding: 0px;
       margin: 0;
     }
 
     #toolbar {
-      margin-bottom: 10px;
+      margin-top: 10px;
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
@@ -75,6 +75,7 @@
       white-space: pre-wrap;
       line-height: 1.5;
       user-select: text;
+      font-size: 15px;
     }
 
     mark.green { background: #d1e7dd; }
@@ -83,15 +84,14 @@
   </style>
 </head>
 <body>
-  <div id="toolbar">
-    <label>🖍 Highlighter:</label>
-    <button id="greenBtn" data-color="green">🟢 Enriching</button>
-    <button id="yellowBtn" data-color="yellow">🟡 Not relevant</button>
-    <button id="redBtn" data-color="red">🔴 Factually wrong</button>
-    <button id="removeBtn" data-color="remove">🧼 Eraser</button>
-  </div>
-
   <div id="text"></div>
+  <div></div>
+  <div id="toolbar">
+    <button id="greenBtn" data-color="green">🟢 Enriching</button>
+    <button id="yellowBtn" data-color="yellow">🟡 Irrelevant</button>
+    <button id="redBtn" data-color="red">🔴 Factually wrong</button>
+    <button id="removeBtn" data-color="remove">🧼 Erase</button>
+  </div>
 
   <script>
     let currentColor = "yellow";
