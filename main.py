@@ -121,7 +121,39 @@ if not json_files:
     st.error("No *_captions.json found under 'selected_he' folders.")
     st.stop()
 
-selected_json = st.selectbox("Select article JSON to review", json_files, key="json_selector")
+# Track manually exported JSONs
+if "exported_jsons" not in st.session_state:
+    st.session_state.exported_jsons = set()
+
+# --- Build readable dropdown labels using parsed titles ---
+titles = []
+metadata_cache = {}
+display_labels = []
+
+for jf in json_files:
+    pmc_folder = os.path.basename(os.path.dirname(os.path.dirname(os.path.dirname(jf))))
+    nxml_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(jf))), pmc_folder)
+    nxml_path = next((os.path.join(nxml_dir, f) for f in os.listdir(nxml_dir) if f.endswith(".nxml")), None)
+
+    if nxml_path:
+        meta = parse_paper_metadata(nxml_path)
+    else:
+        meta = {"title": "Untitled", "year": "N/A", "authors": [], "doi": "N/A", "journal": "N/A"}
+
+    metadata_cache[jf] = meta
+    base_label = f"{meta['title']} ({meta['year']})"
+
+    # --- Use emoji only if explicitly exported ---
+    icon = "💾" if jf in st.session_state.exported_jsons else "◽"
+    display_labels.append(f"{icon} {base_label}")
+
+# --- Map label to path ---
+label_to_path = {label: path for label, path in zip(display_labels, json_files)}
+
+selected_label = st.selectbox("Select article to review", display_labels, key="json_selector")
+selected_json = label_to_path[selected_label]
+
+metadata = metadata_cache[selected_json]
 data = load_json_data(selected_json)
 
 pmc_folder = os.path.basename(os.path.dirname(os.path.dirname(os.path.dirname(selected_json))))
@@ -146,7 +178,7 @@ if selected_json != st.session_state.active_json:
     if st.session_state.annotations:
         with open(prev_ann_path, "w", encoding="utf-8") as f:
             json.dump(st.session_state.annotations, f, indent=2, ensure_ascii=False)
-        st.toast(f"💾 Saved annotations for {os.path.basename(prev_ann_path)}", icon="✅")
+        #st.toast(f"💾 Saved annotations for {os.path.basename(prev_ann_path)}", icon="✅")
 
     if os.path.exists(ANNOT_PATH):
         with open(ANNOT_PATH, "r", encoding="utf-8") as f:
@@ -166,7 +198,7 @@ annotations = st.session_state.annotations
 doi_html = f"<a href='https://doi.org/{metadata['doi']}' target='_blank'>{metadata['doi']}</a>" if metadata['doi'] != "N/A" else "N/A"
 st.markdown(f"""
 <div style="background-color:#f0f2f6;padding:15px;border-radius:10px;margin-bottom:20px">
-  <h3 style="margin-bottom:5px;">{metadata['title']}</h3>
+  <h4 style="margin-bottom:5px;">{metadata['title']}</h4>
   <p><strong>Authors:</strong> {', '.join(metadata['authors']) if metadata['authors'] else 'Unknown'}</p>
   <p><strong>Journal:</strong> {metadata['journal']} ({metadata['year']})</p>
   <p><strong>DOI:</strong> {doi_html}</p>
@@ -316,15 +348,17 @@ for key, value in st.session_state.items():
 # =========================================================
 # Save & Export + Navigation
 # =========================================================
-st.markdown("---")
-annotations_json = json.dumps(annotations, indent=2, ensure_ascii=False)
-st.download_button(
+if st.download_button(
     label=f"💾 Export Review to {os.path.basename(ANNOT_PATH)}",
-    data=annotations_json,
+    data=json.dumps(annotations, indent=2, ensure_ascii=False),
     file_name=os.path.basename(ANNOT_PATH),
     mime="application/json",
     help="Click to export all annotations as JSON",
-)
+):
+    # Mark this paper as manually exported
+    st.session_state.exported_jsons.add(selected_json)
+    #st.toast("✅ Review exported successfully!")
+    st.rerun()
 
 nav_cols = st.columns([1, 6, 1])
 with nav_cols[0]:
