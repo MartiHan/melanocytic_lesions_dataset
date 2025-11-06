@@ -5,12 +5,15 @@
     "label": "Figure 14",
     "caption": "Giant congenital nevus. Reprinted from Harvey NT, Wood BA. A Practical Approach to the Diagnosis of Melanocytic Lesions. Arch Pathol Lab Med. 2019; 143(7): 789-810 [ 17 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) A giant congenital nevus. (B) The junctional component shows atypia, which could be construed as melanoma in situ in an adult patient. In a neonatal setting, these changes are invariably benign (hematoxylin-eosin, original magnification ×84).",
     "context": "Giant congenital melanocytic nevi are greater than 20 cm in their largest dimension, and small nevi are less than 1.5 cm in the largest dimension [ 47 ]. The risk of malignant transformation in giant congenital nevi is associated with an increased risk of melanoma development in small ones is controversial [ 47 ]. Figure 14 illustrates a picture of a giant congenital nevus (A) and its histological features (B) [ 17 ].",
-    "enriched_caption": "Panel B presents the histological features of a giant congenital nevus, specifically demonstrating a junctional component with atypia. While these atypical changes might be construed as melanoma in situ in an an adult patient, in a neonatal setting, such findings are invariably benign. This diagnostic distinction is crucial, considering giant congenital nevi are associated with an increased risk of malignant transformation. The image is stained with hematoxylin-eosin at original magnification ×84.",
+    "enriched_caption": "Histological features of a giant congenital nevus reveal atypia within the junctional component. While these changes could be construed as melanoma in situ in an adult patient, they are invariably benign in a neonatal setting. This diagnostic distinction is important given that giant congenital melanocytic nevi carry an associated risk of malignant transformation. The image is stained with hematoxylin-eosin, original magnification ×84.",
     "used_verbatims": [
-      "The junctional component shows atypia, which could be construed as melanoma in situ in an adult patient.",
+      "The junctional component shows atypia",
+      "could be construed as melanoma in situ in an adult patient",
       "In a neonatal setting, these changes are invariably benign",
-      "its histological features (B)",
-      "The risk of malignant transformation in giant congenital nevi is associated with an increased risk of melanoma development"
+      "hematoxylin-eosin, original magnification ×84",
+      "Giant congenital melanocytic nevi",
+      "histological features",
+      "The risk of malignant transformation in giant congenital nevi is associated"
     ]
   },
   "cureus-0014-00000026127-i07_D.jpg": {
@@ -19,15 +22,13 @@
     "label": "Figure 7",
     "caption": "Reed nevus. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Reed nevus. A small, thin, and circumscribed lesion ends in a nest abruptly at both peripheral borders. (B) Junctional nests show vertically oriented spindle cells with fine melanin pigment. The nests of these cells are hanging down from the acanthotic epidermis like “bunches of bananas.” A melanophage band can be seen underlying the lesion, giving the lesion a dark pigmentation clinically. (C) Nests of spindle cells are sometimes seen running horizontally parallel to the epidermis from rete to rete, giving a “bridging” appearance similar to dysplastic nevus. (D) The melanocytes have plump spindled nuclei that resemble spindled melanocytes of Spitz nevus; that is why it is considered a variant of Spitz nevus. The underlying papillary dermis has darkly pigmented melanophages.",
     "context": "Histologically, there are overlapping features between Reed nevus and Spitz nevus. They are mostly found at the junction of the papillary dermis and are small, circumscribed, and thin lesions. The junctional melanocytes are plump spindle cells with abundant cytoplasm and fine melanin pigment. The nests can be oriented vertically, resembling \"bunches of bananas,\" or run horizontally parallel to the epidermis, bridging the rete ridges like a dysplastic nevus [ 2 ]. The nests mostly end abruptly at both peripheral edges, except in growing pigmented spindle nevus, where single cells can be seen in the basal layer at the edges [ 18 ]. A central pagetoid spread of single melanocytes or nests of melanocytes can also be seen. Melanophages that are darkly pigmented can be seen in the papillary dermis. Cytological atypia can be seen but is not severe. The nuclei are hyperchromatic with occasional nucleoli, and mitotic figures are rare (<2/mm2). Differentiating this lesion from melanoma can be challenging because of its dark color, irregular margins, asymmetry, and cellular atypia [ 24 ]. Figure 7 depicts the histological features of Reed nevus [ 2 ].",
-    "enriched_caption": "Panel D illustrates Reed nevus melanocytes with plump spindled nuclei that resemble spindled melanocytes of Spitz nevus, which is why it is considered a variant of Spitz nevus. The underlying papillary dermis has darkly pigmented melanophages. Cytological atypia can be seen but is not severe; the nuclei are hyperchromatic with occasional nucleoli, and mitotic figures are rare. Differentiating this lesion from melanoma can be challenging because of its dark color, irregular margins, asymmetry, and cellular atypia.",
+    "enriched_caption": "Melanocytes exhibit plump spindled nuclei, resembling those of Spitz nevus, which contributes to Reed nevus being considered a variant. These junctional melanocytes possess abundant cytoplasm and fine melanin pigment. While cytological atypia can be seen, it is not severe; the nuclei are hyperchromatic with occasional nucleoli, and mitotic figures are rare (<2/mm2). The underlying papillary dermis contains darkly pigmented melanophages.",
     "used_verbatims": [
-      "plump spindled nuclei that resemble spindled melanocytes of Spitz nevus",
-      "considered a variant of Spitz nevus",
-      "The underlying papillary dermis has darkly pigmented melanophages",
-      "Cytological atypia can be seen but is not severe",
-      "The nuclei are hyperchromatic with occasional nucleoli",
-      "mitotic figures are rare",
-      "Differentiating this lesion from melanoma can be challenging because of its dark color, irregular margins, asymmetry, and cellular atypia"
+      "The melanocytes have plump spindled nuclei that resemble spindled melanocytes of Spitz nevus; that is why it is considered a variant of Spitz nevus.",
+      "The underlying papillary dermis has darkly pigmented melanophages.",
+      "The junctional melanocytes are plump spindle cells with abundant cytoplasm and fine melanin pigment.",
+      "Cytological atypia can be seen but is not severe.",
+      "The nuclei are hyperchromatic with occasional nucleoli, and mitotic figures are rare (<2/mm2)."
     ]
   },
   "cureus-0014-00000026127-i04_E.jpg": {
@@ -36,10 +37,11 @@
     "label": "Figure 4",
     "caption": "Slides showing histological features of melanoma. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Pagetoid spread is indicated by single melanocytes going above the basal layer of the epidermis into the upper spinous and even granular layer. (B) Confluent growth is indicated by single melanocytes crowding out the basal keratinocytes. (C) Acral lentiginous melanoma. The epidermis can be seen detaching from the dermis, giving the illusion of a blister. It is called an “unzipping” artifact, which indicates confluent growth. (D) Lentigo maligna type of melanoma. The melanocytes involve the hair follicle, trickling down along the basal layer into the follicle either as nests or single cells. (E) Phenomenon of “epidermal consumption.” Nests occupy the epidermis entirely, and there is only a thin strip of keratinocytes left in the epidermis above the melanocytes. (F) Abnormal maturation is present as large nests of melanocytes can be seen from top to bottom of the lesion. (G) Cytological atypia is present as cells are hyperchromatic and pleomorphic with prominent nucleoli. (H) Invasive melanoma. Sheets of pleomorphic cells with clumped chromatin and a prominent atypical mitotic figure in the dermis can be seen.",
     "context": "Figure 4 demonstrates the histological features of melanoma as seen in hematoxylin and eosin-stained slides [ 2 ].",
-    "enriched_caption": "This hematoxylin and eosin-stained slide illustrates the phenomenon of “epidermal consumption,” a histological feature of melanoma, where melanocytic nests entirely occupy the epidermis, leaving only a thin strip of keratinocytes above them.",
+    "enriched_caption": "The “epidermal consumption” phenomenon, a histological feature of melanoma on hematoxylin and eosin-stained slides, shows melanocyte nests entirely occupying the epidermis, with only a thin strip of keratinocytes remaining above the melanocytes.",
     "used_verbatims": [
       "Phenomenon of “epidermal consumption.”",
-      "Nests occupy the epidermis entirely, and there is only a thin strip of keratinocytes left in the epidermis above the melanocytes.",
+      "Nests occupy the epidermis entirely",
+      "there is only a thin strip of keratinocytes left in the epidermis above the melanocytes.",
       "histological features of melanoma",
       "hematoxylin and eosin-stained slides"
     ]
@@ -50,10 +52,13 @@
     "label": "Figure 11",
     "caption": "Combined nevus. Reprinted from Harvey NT, Wood BA. A Practical Approach to the Diagnosis of Melanocytic Lesions. Arch Pathol Lab Med. 2019; 143(7): 789-810 [ 17 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) The lesion displays asymmetry, raising concern for melanoma developing within a nevus. (B) On high power, the deep penetrating nevus cells are in the upper panel, and the conventional nevus cells can be seen in the lower panel. Slides are stained with hematoxylin-eosin and can be seen at original magnifications ×20 (A) and ×400 (B).",
     "context": "There should be a concern about melanoma if there are findings like solar elastosis, pagetoid spread, pulverocyte-type cells, and melanoma in situ-like features in the epidermis. The lesion of a combined nevus may seem asymmetrical, but the symmetry becomes evident when considering each component individually [ 18 ]. A point to remember is that, in adult patients, it is very rare for a melanoma to develop in the dermal component of a nevus without an overlying melanoma in situ [ 39 ]. Figure 11 is an image of a combined nevus seen at low and high magnifications [ 17 ].",
-    "enriched_caption": "At low magnification (×20), the combined nevus lesion initially displays apparent asymmetry, which can raise concern for melanoma developing within the nevus. However, a key diagnostic point for combined nevi is that their symmetry becomes evident when considering each component individually.",
+    "enriched_caption": "Combined nevus, stained with hematoxylin-eosin at ×20 magnification. The lesion displays apparent asymmetry, raising concern for melanoma developing within a nevus. However, in a combined nevus, while the lesion may seem asymmetrical, its underlying symmetry becomes evident when considering each component individually, which is a key diagnostic feature distinguishing it from melanoma.",
     "used_verbatims": [
-      "The lesion displays asymmetry, raising concern for melanoma developing within a nevus.",
-      "The lesion of a combined nevus may seem asymmetrical, but the symmetry becomes evident when considering each component individually"
+      "The lesion displays asymmetry",
+      "raising concern for melanoma developing within a nevus",
+      "The lesion of a combined nevus may seem asymmetrical, but the symmetry becomes evident when considering each component individually",
+      "slides are stained with hematoxylin-eosin",
+      "original magnifications ×20 (A)"
     ]
   },
   "cureus-0014-00000026127-i10_3.jpg": {
@@ -62,7 +67,7 @@
     "label": "Figure 10",
     "caption": "Deep penetrating nevus. Reprinted from Luzar B, Calonje E. Deep penetrating nevus: a review. Arch Pathol Lab Med. 2011; 135(3): 321-326 [ 37 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (1) In this figure, the nevus shows a symmetrical wedge-shaped dermal proliferation. The lesion has a plexiform appearance due to several extensions going deep into the reticular dermis along the adnexa and neurovascular bundles (hematoxylin-eosin, original magnification ×40). (2) A junctional component is seen in most deep penetrating nevi, which shows nests and minimal lentiginous proliferation of melanocytes, just like in an ordinary nevus. There is a discontinuity between the junctional and the dermal component of the lesion in the papillary dermis (hematoxylin-eosin, original magnification ×200). (3) Discohesion of melanocytes is seen in the deeper aspects (hematoxylin-eosin, original magnification ×200). (4) Melanocytes grow along the skin adnexa and neurovascular bundles (hematoxylin-eosin, original magnification ×100).",
     "context": "Mild cytological atypia and pleomorphic nuclei can be seen along with rare mitosis in the deeper aspects. These features and a lack of maturation around the adnexa can become a pitfall and lead to the misdiagnosis of melanoma [ 37 , 38 ]. Figure 10 depicts histological features of a deep penetrating nevus [ 37 ].",
-    "enriched_caption": "In the deeper aspects of a deep penetrating nevus, discohesion of melanocytes is observed (hematoxylin-eosin, original magnification ×200). These regions may also exhibit mild cytological atypia, pleomorphic nuclei, and rare mitosis, which, along with a lack of maturation, can be a diagnostic pitfall leading to misdiagnosis of melanoma.",
+    "enriched_caption": "In the deeper aspects, melanocytes exhibit discohesion, alongside mild cytological atypia, pleomorphic nuclei, and rare mitosis. These histopathologic features, particularly when coupled with a lack of maturation around the adnexa, represent a diagnostic pitfall and can lead to the misdiagnosis of melanoma in deep penetrating nevus (hematoxylin-eosin, original magnification ×200).",
     "used_verbatims": [
       "Discohesion of melanocytes is seen in the deeper aspects",
       "Mild cytological atypia and pleomorphic nuclei can be seen along with rare mitosis in the deeper aspects.",
@@ -75,11 +80,12 @@
     "label": "Figure 8",
     "caption": "Dysplastic nevus. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) A thin, broad lesion similar to its flat clinical appearance. The dermal component, if present, is in the papillary dermis and not in the deep dermis. (B) “Shouldering.” The green arrow points to the dermal component and the black to the junctional component. The junctional component extends to the periphery beyond the dermal component. (C) “Bridging.” The nests of melanocytes in the tips of rete ridges bridge across and are connected. Lamellar fibroplasia is seen underlying the nests and is wrapping around them. (D) Black arrows are pointing towards nests of melanocytes which are bridging across multiple adjacent retia and can be confused with confluent growth. The key here is that the inter-rete space above the papillary dermal tips (indicated by blue arrows) is uninvolved. (E) Lamellar fibroplasia. Bands of pink collagen wrap around the rete and nests of melanocytes that bridge between them. Lymphocytes can be seen scattered in the dermis. (F) Melanocytes are displaying cytological atypia. The nuclei of melanocytes are two to three times larger than the nuclei of spinous layer keratinocytes. The melanocytes have abundant grayish cytoplasm with fine dusty melanin pigment, giving it an appearance of “dirty dishwater.”",
     "context": "The distinction with melanoma is challenging based on all the above histological features, especially when the \"dysplastic\" features are developed sufficiently. Large size, architectural disorder, cellular atypia, and fusion of nests are all in common with melanoma [ 18 ]. Significant pagetoid single cells scattered at the border, diffuse cellular atypia, and dermal mitosis are all features indicating melanoma [ 17 ]. Figure 8 shows various features of the dysplastic nevus [ 2 ].",
-    "enriched_caption": "Histopathologic examination shows nests of melanocytes bridging across multiple adjacent rete ridges. This architectural pattern can be confused with confluent growth, a feature that, like 'fusion of nests', is common in melanoma. However, a key diagnostic feature distinguishing this dysplastic nevus from melanoma is that the inter-rete space above the papillary dermal tips remains uninvolved.",
+    "enriched_caption": "Nests of melanocytes are bridging across multiple adjacent retia. This architectural pattern can be confused with confluent growth, a feature that dysplastic nevi share in common with melanoma, making their distinction challenging. A key histopathologic observation, distinguishing it from confluent growth often seen in melanoma, is that the inter-rete space above the papillary dermal tips is uninvolved.",
     "used_verbatims": [
       "nests of melanocytes which are bridging across multiple adjacent retia",
       "can be confused with confluent growth",
-      "the inter-rete space above the papillary dermal tips ... is uninvolved",
+      "the inter-rete space above the papillary dermal tips is uninvolved",
+      "The distinction with melanoma is challenging",
       "fusion of nests are all in common with melanoma"
     ]
   },
@@ -89,12 +95,14 @@
     "label": "Figure 9",
     "caption": "Cellular blue nevus. Reprinted from Zembowicz A, Phadke PA. Blue nevi and variants: an update. Arch Pathol Lab Med. 2011; 135(3): 327-336 [ 35 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) & (B) CBN comprises small cellular nodules of epithelioid cells. (C) & (D) Dumbbell-shaped appearance of large CBN. At high power, it shows uniform oval cells with inconspicuous nucleoli and clear cytoplasm. (E) & (F) An area of cystic degeneration can be seen, which should not be confused with tumor necrosis. (G) & (H) Areas of hemorrhage and hemosiderin deposition in large atypical CBN. Hot spots of cellular atypia and increased mitotic activity can also be seen. These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×20 (A, C, and E), ×400 (B, D, and H), ×200 (F), and ×100 (G).",
     "context": "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present), atypical CBN shows cytological atypia but not to the malignant extent [ 35 ]. Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity (>3/mm 2 ) [ 35 ]. Figure 9 illustrates the features of CBN [ 35 ].",
-    "enriched_caption": "Panel D illustrates a large Cellular Blue Nevus (CBN) at high power (H&E, ×400 magnification), displaying a dumbbell-shaped appearance. Histopathologically, it is characterized by uniform oval cells with inconspicuous nucleoli and clear cytoplasm. This benign entity typically lacks overt atypia and high mitotic activity (usually <1/mm²), which helps distinguish it from melanoma that exhibits marked atypia and significantly higher mitotic activity (>3/mm²) when arising in the background of blue nevus or CBN.",
+    "enriched_caption": "Dumbbell-shaped large cellular blue nevus (CBN) at high power (×400 magnification), stained with hematoxylin-eosin, revealing uniform oval cells with inconspicuous nucleoli and clear cytoplasm. This histopathologic presentation is consistent with CBN's characteristic lack of overt atypia and high mitotic activity (typically <1/mm²), serving to distinguish it from atypical CBN, which shows cytological atypia without malignant extent, and from melanoma, identified by marked atypia and mitotic activity (>3/mm²).",
     "used_verbatims": [
-      "Dumbbell-shaped appearance of large CBN.",
-      "At high power, it shows uniform oval cells with inconspicuous nucleoli and clear cytoplasm.",
-      "These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×400",
-      "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present)",
+      "Dumbbell-shaped appearance of large CBN",
+      "At high power, it shows uniform oval cells with inconspicuous nucleoli and clear cytoplasm",
+      "stained with hematoxylin-eosin",
+      "original magnifications ×400",
+      "CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present)",
+      "atypical CBN shows cytological atypia but not to the malignant extent",
       "Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity (>3/mm 2 )"
     ]
   },
@@ -104,10 +112,11 @@
     "label": "Figure 2",
     "caption": "Slides showing histological features of nevi. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Nests of epithelioid melanocytes in a junctional nevus, arranged at the tips of rete ridges. (B) Melanocytes at the basal layer (black arrows) are spaced out, and there are intervening keratinocytes. Mitosis in a basal keratinocyte can be seen (green arrow). (C) Small clusters, cords, or single cells of dermal melanocytes can be seen trickling down the reticular dermis. (D) Shows normal maturation. Large nests in the superficial dermis transition to smaller ones, and finally, single cells are dispersed from one another in the deep dermis. (E) Type A melanocytes are large epithelioid cells at the top, and type B are small round blue cells at the bottom in the dermis. (F) Type A cells have oval to round nuclei with abundant pale pink cytoplasm, forming nests at the junction. (G) Type B melanocytes at low power, resembling lymphocytes. They can mimic an inflamed nevus. (H) At high power, type B melanocytes (green arrows) can be differentiated from lymphocytes (yellow arrows). Lymphocytes are smaller in size than type B melanocytes with darker chromatin.",
     "context": "Figure 2 demonstrates the histological features of nevi as seen in hematoxylin and eosin-stained slides [ 2 ].",
-    "enriched_caption": "Histological features on H&E-stained slides in this panel demonstrate Type A melanocytes, characterized by oval to round nuclei and abundant pale pink cytoplasm. These cells are observed forming nests at the dermal-epidermal junction.",
+    "enriched_caption": "Type A cells, a histological feature of nevi observed in hematoxylin and eosin-stained slides, exhibit oval to round nuclei with abundant pale pink cytoplasm, forming nests at the junction.",
     "used_verbatims": [
       "Type A cells have oval to round nuclei with abundant pale pink cytoplasm, forming nests at the junction.",
-      "histological features of nevi as seen in hematoxylin and eosin-stained slides"
+      "histological features of nevi",
+      "seen in hematoxylin and eosin-stained slides"
     ]
   },
   "cureus-0014-00000026127-i07_B.jpg": {
@@ -116,7 +125,7 @@
     "label": "Figure 7",
     "caption": "Reed nevus. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Reed nevus. A small, thin, and circumscribed lesion ends in a nest abruptly at both peripheral borders. (B) Junctional nests show vertically oriented spindle cells with fine melanin pigment. The nests of these cells are hanging down from the acanthotic epidermis like “bunches of bananas.” A melanophage band can be seen underlying the lesion, giving the lesion a dark pigmentation clinically. (C) Nests of spindle cells are sometimes seen running horizontally parallel to the epidermis from rete to rete, giving a “bridging” appearance similar to dysplastic nevus. (D) The melanocytes have plump spindled nuclei that resemble spindled melanocytes of Spitz nevus; that is why it is considered a variant of Spitz nevus. The underlying papillary dermis has darkly pigmented melanophages.",
     "context": "Histologically, there are overlapping features between Reed nevus and Spitz nevus. They are mostly found at the junction of the papillary dermis and are small, circumscribed, and thin lesions. The junctional melanocytes are plump spindle cells with abundant cytoplasm and fine melanin pigment. The nests can be oriented vertically, resembling \"bunches of bananas,\" or run horizontally parallel to the epidermis, bridging the rete ridges like a dysplastic nevus [ 2 ]. The nests mostly end abruptly at both peripheral edges, except in growing pigmented spindle nevus, where single cells can be seen in the basal layer at the edges [ 18 ]. A central pagetoid spread of single melanocytes or nests of melanocytes can also be seen. Melanophages that are darkly pigmented can be seen in the papillary dermis. Cytological atypia can be seen but is not severe. The nuclei are hyperchromatic with occasional nucleoli, and mitotic figures are rare (<2/mm2). Differentiating this lesion from melanoma can be challenging because of its dark color, irregular margins, asymmetry, and cellular atypia [ 24 ]. Figure 7 depicts the histological features of Reed nevus [ 2 ].",
-    "enriched_caption": "Panel B illustrates a Reed nevus, characterized by junctional nests of vertically oriented plump spindle cells, which contain fine melanin pigment and exhibit abundant cytoplasm. These nests are shown hanging down from the acanthotic epidermis, resembling “bunches of bananas.” A prominent band of darkly pigmented melanophages is visible in the underlying papillary dermis, contributing to the lesion's clinically dark pigmentation. Differentiating this lesion from melanoma can be challenging due to its dark color, irregular margins, asymmetry, and cellular atypia.",
+    "enriched_caption": "Junctional nests are composed of plump spindle cells with abundant cytoplasm and fine melanin pigment. These nests are vertically oriented, hanging down from the acanthotic epidermis like “bunches of bananas.” A band of darkly pigmented melanophages underlies the lesion in the papillary dermis, contributing to its dark clinical pigmentation, which can make differentiation from melanoma challenging.",
     "used_verbatims": [
       "Junctional nests show vertically oriented spindle cells with fine melanin pigment.",
       "The nests of these cells are hanging down from the acanthotic epidermis like “bunches of bananas.”",
@@ -126,20 +135,32 @@
       "Differentiating this lesion from melanoma can be challenging because of its dark color, irregular margins, asymmetry, and cellular atypia"
     ]
   },
+  "cureus-0014-00000026127-i04_G.jpg": {
+    "image_ref": "cureus-0014-00000026127-i04",
+    "panel": "G",
+    "label": "Figure 4",
+    "caption": "Slides showing histological features of melanoma. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Pagetoid spread is indicated by single melanocytes going above the basal layer of the epidermis into the upper spinous and even granular layer. (B) Confluent growth is indicated by single melanocytes crowding out the basal keratinocytes. (C) Acral lentiginous melanoma. The epidermis can be seen detaching from the dermis, giving the illusion of a blister. It is called an “unzipping” artifact, which indicates confluent growth. (D) Lentigo maligna type of melanoma. The melanocytes involve the hair follicle, trickling down along the basal layer into the follicle either as nests or single cells. (E) Phenomenon of “epidermal consumption.” Nests occupy the epidermis entirely, and there is only a thin strip of keratinocytes left in the epidermis above the melanocytes. (F) Abnormal maturation is present as large nests of melanocytes can be seen from top to bottom of the lesion. (G) Cytological atypia is present as cells are hyperchromatic and pleomorphic with prominent nucleoli. (H) Invasive melanoma. Sheets of pleomorphic cells with clumped chromatin and a prominent atypical mitotic figure in the dermis can be seen.",
+    "context": "Figure 4 demonstrates the histological features of melanoma as seen in hematoxylin and eosin-stained slides [ 2 ].",
+    "enriched_caption": "Cytological atypia, a key histopathological feature of melanoma observed on hematoxylin and eosin-stained slides, is characterized by hyperchromatic and pleomorphic cells with prominent nucleoli, indicative of malignant behavior.",
+    "used_verbatims": [
+      "Cytological atypia is present as cells are hyperchromatic and pleomorphic with prominent nucleoli.",
+      "histological features of melanoma as seen in hematoxylin and eosin-stained slides"
+    ]
+  },
   "cureus-0014-00000026127-i12_2.jpg": {
     "image_ref": "cureus-0014-00000026127-i12",
     "panel": "2",
     "label": "Figure 12",
     "caption": "Recurrent nevus. Reprinted from Fox JC, Reed JA, Shea CR. The recurrent nevus phenomenon: a history of challenge, controversy, and discovery. Arch Pathol Lab Med. 2011; 135(7): 842-846 [ 41 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (1) Trizonal pattern. The first one is atypically proliferating melanocytes and increased melanin at the dermo-epidermal junction; the second is fibrous tissue in the superficial and mid-dermis; the third is the congenital nevus at the base of the lesion (hematoxylin-eosin, original magnification ×100). (2) An architecturally disordered proliferation of melanocytes represented by confluent nests and single cells can be seen at the dermo-epidermal junction (hematoxylin-eosin, original magnification ×200).",
     "context": "Histologically, there can be junctional or compound melanocytic hyperplasia with effacement of the retiform epidermis; and junctional or compound melanocytic hyperplasia with retention of the retiform epidermis. All of these changes are associated with a dermal scar [ 42 ]. The melanocytes are arranged in nests or as single cells. A confluent growth pattern, pagetoid spread, and adnexal spread of melanocytes, with dermal inflammatory response and melanocytic atypia, can be seen. These histological features are also found in the intermediate and late stages of melanoma regression. In these cases, correlation with clinical findings and information about prior biopsy findings becomes very important [ 42 ]. Figure 12 depicts the features of recurrent nevus [ 41 ].",
-    "enriched_caption": "This panel, depicting a recurrent nevus, shows an architecturally disordered proliferation of melanocytes at the dermo-epidermal junction, characterized by confluent nests and single cells. Such patterns reflect junctional or compound melanocytic hyperplasia and may include melanocytic atypia. These histological features, particularly a confluent growth pattern, are also found in intermediate and late stages of melanoma regression, highlighting the importance of correlating findings with clinical context and prior biopsy information for accurate diagnosis (hematoxylin-eosin, original magnification ×200).",
+    "enriched_caption": "Histopathologic interpretation (hematoxylin-eosin, original magnification ×200) reveals an architecturally disordered proliferation of melanocytes, representing junctional or compound melanocytic hyperplasia. This proliferation is characterized by confluent nests and single cells at the dermo-epidermal junction, exhibiting a confluent growth pattern and melanocytic atypia. Diagnostically, these histological features can also be found in the intermediate and late stages of melanoma regression, emphasizing that correlation with clinical findings and information about prior biopsy findings is very important for an accurate diagnosis.",
     "used_verbatims": [
       "An architecturally disordered proliferation of melanocytes represented by confluent nests and single cells can be seen at the dermo-epidermal junction",
+      "hematoxylin-eosin, original magnification ×200",
       "junctional or compound melanocytic hyperplasia",
       "A confluent growth pattern",
       "melanocytic atypia",
-      "These histological features are also found in the intermediate and late stages of melanoma regression",
-      "correlation with clinical findings and information about prior biopsy findings becomes very important"
+      "These histological features are also found in the intermediate and late stages of melanoma regression. In these cases, correlation with clinical findings and information about prior biopsy findings becomes very important"
     ]
   },
   "cureus-0014-00000026127-i02_D.jpg": {
@@ -148,11 +169,11 @@
     "label": "Figure 2",
     "caption": "Slides showing histological features of nevi. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Nests of epithelioid melanocytes in a junctional nevus, arranged at the tips of rete ridges. (B) Melanocytes at the basal layer (black arrows) are spaced out, and there are intervening keratinocytes. Mitosis in a basal keratinocyte can be seen (green arrow). (C) Small clusters, cords, or single cells of dermal melanocytes can be seen trickling down the reticular dermis. (D) Shows normal maturation. Large nests in the superficial dermis transition to smaller ones, and finally, single cells are dispersed from one another in the deep dermis. (E) Type A melanocytes are large epithelioid cells at the top, and type B are small round blue cells at the bottom in the dermis. (F) Type A cells have oval to round nuclei with abundant pale pink cytoplasm, forming nests at the junction. (G) Type B melanocytes at low power, resembling lymphocytes. They can mimic an inflamed nevus. (H) At high power, type B melanocytes (green arrows) can be differentiated from lymphocytes (yellow arrows). Lymphocytes are smaller in size than type B melanocytes with darker chromatin.",
     "context": "Figure 2 demonstrates the histological features of nevi as seen in hematoxylin and eosin-stained slides [ 2 ].",
-    "enriched_caption": "Normal maturation, a key histological feature of benign nevi observed on hematoxylin and eosin-stained slides, is characterized by a gradual architectural transition from large melanocytic nests in the superficial dermis to progressively smaller nests, ultimately culminating in dispersed single cells within the deep dermis.",
+    "enriched_caption": "Normal maturation of nevi on hematoxylin and eosin-stained slides, characterized by large nests in the superficial dermis transitioning to smaller ones, and finally, single cells dispersed from one another in the deep dermis.",
     "used_verbatims": [
-      "Shows normal maturation.",
+      "Normal maturation.",
       "Large nests in the superficial dermis transition to smaller ones, and finally, single cells are dispersed from one another in the deep dermis.",
-      "histological features of nevi as seen in hematoxylin and eosin-stained slides"
+      "hematoxylin and eosin-stained slides"
     ]
   },
   "cureus-0014-00000026127-i06_A.jpg": {
@@ -161,11 +182,10 @@
     "label": "Figure 6",
     "caption": "Atypical Spitz tumor. Reprinted from Harms KL, Lowe L, Fullen DR, Harms PW. Atypical Spitz Tumors: A Diagnostic Challenge. Arch Pathol Lab Med. 2015; 139(10): 1263-1270 [ 21 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) This figure shows a large polypoid tumor with ulceration. (B) Spindled spitzoid cells are arranged in cellular fascicles with minimal pleomorphism and occasional mitotic figures (yellow arrowheads). (C) Yellow arrowheads show subcapsular deposits of spitzoid cells in a sentinel lymph node for an atypical Spitz tumor. These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×5 (A), ×400 (B), and ×200 (C).",
     "context": "Figure 6 shows an atypical Spitz tumor at low and high magnifications [ 21 ].",
-    "enriched_caption": "An atypical Spitz tumor is presented at low magnification, characterized by its large polypoid architecture and notable ulceration.",
+    "enriched_caption": "A large polypoid atypical Spitz tumor with ulceration.",
     "used_verbatims": [
-      "Atypical Spitz tumor",
-      "large polypoid tumor with ulceration",
-      "low and high magnifications"
+      "a large polypoid tumor with ulceration",
+      "an atypical Spitz tumor"
     ]
   },
   "cureus-0014-00000026127-i06_C.jpg": {
@@ -174,11 +194,12 @@
     "label": "Figure 6",
     "caption": "Atypical Spitz tumor. Reprinted from Harms KL, Lowe L, Fullen DR, Harms PW. Atypical Spitz Tumors: A Diagnostic Challenge. Arch Pathol Lab Med. 2015; 139(10): 1263-1270 [ 21 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) This figure shows a large polypoid tumor with ulceration. (B) Spindled spitzoid cells are arranged in cellular fascicles with minimal pleomorphism and occasional mitotic figures (yellow arrowheads). (C) Yellow arrowheads show subcapsular deposits of spitzoid cells in a sentinel lymph node for an atypical Spitz tumor. These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×5 (A), ×400 (B), and ×200 (C).",
     "context": "Figure 6 shows an atypical Spitz tumor at low and high magnifications [ 21 ].",
-    "enriched_caption": "Histopathologic image (hematoxylin-eosin stain, ×200 magnification) depicting subcapsular deposits of spitzoid cells within a sentinel lymph node, a key finding observed in atypical Spitz tumors.",
+    "enriched_caption": "Hematoxylin-eosin stain at ×200 magnification reveals subcapsular deposits of spitzoid cells (yellow arrowheads) within a sentinel lymph node, consistent with involvement from an atypical Spitz tumor.",
     "used_verbatims": [
-      "subcapsular deposits of spitzoid cells",
-      "sentinel lymph node",
-      "atypical Spitz tumor"
+      "subcapsular deposits of spitzoid cells in a sentinel lymph node",
+      "atypical Spitz tumor",
+      "stained with hematoxylin-eosin",
+      "original magnifications ×200"
     ]
   },
   "cureus-0014-00000026127-i12_1.jpg": {
@@ -187,22 +208,41 @@
     "label": "Figure 12",
     "caption": "Recurrent nevus. Reprinted from Fox JC, Reed JA, Shea CR. The recurrent nevus phenomenon: a history of challenge, controversy, and discovery. Arch Pathol Lab Med. 2011; 135(7): 842-846 [ 41 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (1) Trizonal pattern. The first one is atypically proliferating melanocytes and increased melanin at the dermo-epidermal junction; the second is fibrous tissue in the superficial and mid-dermis; the third is the congenital nevus at the base of the lesion (hematoxylin-eosin, original magnification ×100). (2) An architecturally disordered proliferation of melanocytes represented by confluent nests and single cells can be seen at the dermo-epidermal junction (hematoxylin-eosin, original magnification ×200).",
     "context": "Histologically, there can be junctional or compound melanocytic hyperplasia with effacement of the retiform epidermis; and junctional or compound melanocytic hyperplasia with retention of the retiform epidermis. All of these changes are associated with a dermal scar [ 42 ]. The melanocytes are arranged in nests or as single cells. A confluent growth pattern, pagetoid spread, and adnexal spread of melanocytes, with dermal inflammatory response and melanocytic atypia, can be seen. These histological features are also found in the intermediate and late stages of melanoma regression. In these cases, correlation with clinical findings and information about prior biopsy findings becomes very important [ 42 ]. Figure 12 depicts the features of recurrent nevus [ 41 ].",
-    "enriched_caption": "Panel 1 illustrates the characteristic trizonal pattern of a recurrent nevus. This pattern consists of atypically proliferating melanocytes with increased melanin at the dermo-epidermal junction, fibrous tissue in the superficial and mid-dermis representing a dermal scar, and a congenital nevus located at the base of the lesion. These histopathologic features, including melanocytic hyperplasia and atypia, are typical for recurrent nevi, but their overlap with changes seen in the intermediate and late stages of melanoma regression necessitates careful correlation with clinical findings and prior biopsy history for accurate diagnosis (hematoxylin-eosin, original magnification ×100).",
+    "enriched_caption": "Trizonal pattern of a recurrent nevus (hematoxylin-eosin, original magnification ×100). The first zone features atypically proliferating melanocytes, showing junctional or compound melanocytic hyperplasia and melanocytic atypia, with increased melanin at the dermo-epidermal junction. The second zone is characterized by fibrous tissue in the superficial and mid-dermis, representing a dermal scar. The third zone reveals a congenital nevus at the base of the lesion. This characteristic trizonal pattern with melanocytic atypia and a dermal scar can also be observed in the intermediate and late stages of melanoma regression, making correlation with clinical findings and information about prior biopsy findings very important for diagnosis.",
     "used_verbatims": [
-      "Trizonal pattern.",
-      "atypically proliferating melanocytes",
-      "increased melanin",
-      "dermo-epidermal junction",
-      "fibrous tissue",
-      "superficial and mid-dermis",
-      "congenital nevus at the base of the lesion",
-      "dermal scar",
-      "melanocytic hyperplasia",
+      "junctional or compound melanocytic hyperplasia",
       "melanocytic atypia",
-      "intermediate and late stages of melanoma regression",
-      "correlation with clinical findings and information about prior biopsy findings",
-      "hematoxylin-eosin",
-      "original magnification ×100"
+      "dermal scar",
+      "These histological features are also found in the intermediate and late stages of melanoma regression.",
+      "correlation with clinical findings and information about prior biopsy findings becomes very important"
+    ]
+  },
+  "cureus-0014-00000026127-i09_H.jpg": {
+    "image_ref": "cureus-0014-00000026127-i09",
+    "panel": "H",
+    "label": "Figure 9",
+    "caption": "Cellular blue nevus. Reprinted from Zembowicz A, Phadke PA. Blue nevi and variants: an update. Arch Pathol Lab Med. 2011; 135(3): 327-336 [ 35 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) & (B) CBN comprises small cellular nodules of epithelioid cells. (C) & (D) Dumbbell-shaped appearance of large CBN. At high power, it shows uniform oval cells with inconspicuous nucleoli and clear cytoplasm. (E) & (F) An area of cystic degeneration can be seen, which should not be confused with tumor necrosis. (G) & (H) Areas of hemorrhage and hemosiderin deposition in large atypical CBN. Hot spots of cellular atypia and increased mitotic activity can also be seen. These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×20 (A, C, and E), ×400 (B, D, and H), ×200 (F), and ×100 (G).",
+    "context": "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present), atypical CBN shows cytological atypia but not to the malignant extent [ 35 ]. Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity (>3/mm 2 ) [ 35 ]. Figure 9 illustrates the features of CBN [ 35 ].",
+    "enriched_caption": "A high magnification (×400) hematoxylin-eosin stained image of a large atypical cellular blue nevus (CBN) revealing areas of hemorrhage and hemosiderin deposition. This panel highlights hot spots of cellular atypia and increased mitotic activity, features that characterize atypical CBN. Although atypical CBN displays cytological atypia, it does not reach the malignant extent, distinguishing it from melanoma, which is recognized by marked atypia and mitotic activity typically exceeding 3/mm², whereas benign CBN usually shows less than 1/mm².",
+    "used_verbatims": [
+      "Areas of hemorrhage and hemosiderin deposition in large atypical CBN.",
+      "Hot spots of cellular atypia and increased mitotic activity can also be seen.",
+      "atypical CBN shows cytological atypia but not to the malignant extent",
+      "Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity (>3/mm 2 )",
+      "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present)"
+    ]
+  },
+  "cureus-0014-00000026127-i02_H.jpg": {
+    "image_ref": "cureus-0014-00000026127-i02",
+    "panel": "H",
+    "label": "Figure 2",
+    "caption": "Slides showing histological features of nevi. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Nests of epithelioid melanocytes in a junctional nevus, arranged at the tips of rete ridges. (B) Melanocytes at the basal layer (black arrows) are spaced out, and there are intervening keratinocytes. Mitosis in a basal keratinocyte can be seen (green arrow). (C) Small clusters, cords, or single cells of dermal melanocytes can be seen trickling down the reticular dermis. (D) Shows normal maturation. Large nests in the superficial dermis transition to smaller ones, and finally, single cells are dispersed from one another in the deep dermis. (E) Type A melanocytes are large epithelioid cells at the top, and type B are small round blue cells at the bottom in the dermis. (F) Type A cells have oval to round nuclei with abundant pale pink cytoplasm, forming nests at the junction. (G) Type B melanocytes at low power, resembling lymphocytes. They can mimic an inflamed nevus. (H) At high power, type B melanocytes (green arrows) can be differentiated from lymphocytes (yellow arrows). Lymphocytes are smaller in size than type B melanocytes with darker chromatin.",
+    "context": "Figure 2 demonstrates the histological features of nevi as seen in hematoxylin and eosin-stained slides [ 2 ].",
+    "enriched_caption": "High-power histopathologic interpretation on hematoxylin and eosin-stained slides distinguishes type B melanocytes from lymphocytes. Lymphocytes are characterized by their smaller size and darker chromatin compared to type B melanocytes.",
+    "used_verbatims": [
+      "At high power, type B melanocytes (green arrows) can be differentiated from lymphocytes (yellow arrows).",
+      "Lymphocytes are smaller in size than type B melanocytes with darker chromatin.",
+      "hematoxylin and eosin-stained slides"
     ]
   },
   "cureus-0014-00000026127-i13_2.jpg": {
@@ -211,10 +251,8 @@
     "label": "Figure 13",
     "caption": "Acral junctional nevus and acral lentiginous melanoma. Reprinted from Bravo Puccio F, Chian C. Acral junctional nevus versus acral lentiginous melanoma in situ: a differential diagnosis that should be based on clinicopathologic correlation. Arch Pathol Lab Med. 2011; 135(7): 847-852 [ 44 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (1) Medium power field of acral junctional nevus. Most cells are in solitary units, but they form groups at the base of the rete ridges (hematoxylin-eosin, original magnification ×100). (2) Acral lentiginous melanoma. Single melanocytes proliferate along the dermo-epidermal junction (hematoxylin-eosin, original magnification ×100).",
     "context": "These nevi can be compound or junctional [ 24 ]. There can be melanocytic nests or a lentiginous growth pattern with single melanocytes seen at the dermo-epidermal junction [ 2 , 24 ]. Cytologically, melanocytes appear to be round with prominent dendrites. They have larger nuclei than non-acral nevi and central punctate nucleoli. Pagetoid spread can be seen through the whole thickness of the epidermis [ 2 , 43 ]. Acral lentiginous melanoma can closely mimic acral nevus, especially near its periphery [ 2 ]. To avoid this pitfall, always consider the size of the lesion. If it is a large lesion and a partial biopsy was done, additional biopsies may be needed to rule out melanoma [ 2 , 44 ]. Figure 13 shows the acral junctional nevus (A) and acral lentiginous melanoma (B) [ 44 ].",
-    "enriched_caption": "Panel 2 illustrates an acral lentiginous melanoma, histologically characterized by single melanocytes proliferating along the dermo-epidermal junction (hematoxylin-eosin, original magnification ×100). This malignant lesion can closely mimic acral nevus, particularly near its periphery, presenting a diagnostic challenge. Clinically, if a large lesion is encountered or only a partial biopsy has been performed, additional biopsies may be needed to definitively rule out melanoma.",
+    "enriched_caption": "Acral lentiginous melanoma, characterized by single melanocytes proliferating along the dermo-epidermal junction (hematoxylin-eosin, original magnification ×100), can closely mimic acral nevus, especially near its periphery. To avoid this diagnostic pitfall, it is crucial to consider the size of the lesion; if it is a large lesion and a partial biopsy was done, additional biopsies may be needed to rule out melanoma.",
     "used_verbatims": [
-      "Acral lentiginous melanoma",
-      "Single melanocytes proliferate along the dermo-epidermal junction",
       "Acral lentiginous melanoma can closely mimic acral nevus, especially near its periphery",
       "If it is a large lesion and a partial biopsy was done, additional biopsies may be needed to rule out melanoma"
     ]
@@ -225,11 +263,11 @@
     "label": "Figure 4",
     "caption": "Slides showing histological features of melanoma. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Pagetoid spread is indicated by single melanocytes going above the basal layer of the epidermis into the upper spinous and even granular layer. (B) Confluent growth is indicated by single melanocytes crowding out the basal keratinocytes. (C) Acral lentiginous melanoma. The epidermis can be seen detaching from the dermis, giving the illusion of a blister. It is called an “unzipping” artifact, which indicates confluent growth. (D) Lentigo maligna type of melanoma. The melanocytes involve the hair follicle, trickling down along the basal layer into the follicle either as nests or single cells. (E) Phenomenon of “epidermal consumption.” Nests occupy the epidermis entirely, and there is only a thin strip of keratinocytes left in the epidermis above the melanocytes. (F) Abnormal maturation is present as large nests of melanocytes can be seen from top to bottom of the lesion. (G) Cytological atypia is present as cells are hyperchromatic and pleomorphic with prominent nucleoli. (H) Invasive melanoma. Sheets of pleomorphic cells with clumped chromatin and a prominent atypical mitotic figure in the dermis can be seen.",
     "context": "Figure 4 demonstrates the histological features of melanoma as seen in hematoxylin and eosin-stained slides [ 2 ].",
-    "enriched_caption": "Panel D illustrates Lentigo maligna type of melanoma, a histological feature of melanoma observed in hematoxylin and eosin-stained slides. Characteristic histopathologic findings include melanocytes involving the hair follicle, trickling down along the basal layer into the follicle either as nests or single cells.",
+    "enriched_caption": "Lentigo maligna type of melanoma, with melanocytes involving the hair follicle, trickling down along the basal layer into the follicle either as nests or single cells, as seen in hematoxylin and eosin-stained slides.",
     "used_verbatims": [
-      "Lentigo maligna type of melanoma.",
-      "The melanocytes involve the hair follicle, trickling down along the basal layer into the follicle either as nests or single cells.",
-      "histological features of melanoma as seen in hematoxylin and eosin-stained slides"
+      "Lentigo maligna type of melanoma",
+      "The melanocytes involve the hair follicle, trickling down along the basal layer into the follicle either as nests or single cells",
+      "hematoxylin and eosin-stained slides"
     ]
   },
   "cureus-0014-00000026127-i10_2.jpg": {
@@ -238,11 +276,10 @@
     "label": "Figure 10",
     "caption": "Deep penetrating nevus. Reprinted from Luzar B, Calonje E. Deep penetrating nevus: a review. Arch Pathol Lab Med. 2011; 135(3): 321-326 [ 37 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (1) In this figure, the nevus shows a symmetrical wedge-shaped dermal proliferation. The lesion has a plexiform appearance due to several extensions going deep into the reticular dermis along the adnexa and neurovascular bundles (hematoxylin-eosin, original magnification ×40). (2) A junctional component is seen in most deep penetrating nevi, which shows nests and minimal lentiginous proliferation of melanocytes, just like in an ordinary nevus. There is a discontinuity between the junctional and the dermal component of the lesion in the papillary dermis (hematoxylin-eosin, original magnification ×200). (3) Discohesion of melanocytes is seen in the deeper aspects (hematoxylin-eosin, original magnification ×200). (4) Melanocytes grow along the skin adnexa and neurovascular bundles (hematoxylin-eosin, original magnification ×100).",
     "context": "Mild cytological atypia and pleomorphic nuclei can be seen along with rare mitosis in the deeper aspects. These features and a lack of maturation around the adnexa can become a pitfall and lead to the misdiagnosis of melanoma [ 37 , 38 ]. Figure 10 depicts histological features of a deep penetrating nevus [ 37 ].",
-    "enriched_caption": "Panel 2 illustrates the junctional component of a deep penetrating nevus, which typically presents with nests and minimal lentiginous proliferation of melanocytes, resembling an ordinary nevus. A characteristic histopathologic feature is the discontinuity between this junctional and the dermal component within the papillary dermis (hematoxylin-eosin, original magnification ×200). While this junctional component appears benign, the overall deep penetrating nevus can pose significant diagnostic challenges; specifically, the presence of mild cytological atypia, pleomorphic nuclei, and rare mitosis in deeper aspects, along with a lack of maturation around adnexa, can become a pitfall leading to misdiagnosis as melanoma.",
+    "enriched_caption": "A junctional component is present in most deep penetrating nevi, characterized by nests and minimal lentiginous proliferation of melanocytes, similar to an ordinary nevus. A discontinuity between the junctional and dermal components of the lesion is observed in the papillary dermis. Histopathologic features include mild cytological atypia, pleomorphic nuclei, and rare mitosis in the deeper aspects, alongside a lack of maturation around the adnexa. These characteristics can be a diagnostic pitfall, potentially leading to a misdiagnosis of melanoma (hematoxylin-eosin, original magnification ×200).",
     "used_verbatims": [
       "A junctional component is seen in most deep penetrating nevi, which shows nests and minimal lentiginous proliferation of melanocytes, just like in an ordinary nevus.",
       "There is a discontinuity between the junctional and the dermal component of the lesion in the papillary dermis",
-      "hematoxylin-eosin, original magnification ×200",
       "Mild cytological atypia and pleomorphic nuclei can be seen along with rare mitosis in the deeper aspects.",
       "These features and a lack of maturation around the adnexa can become a pitfall and lead to the misdiagnosis of melanoma"
     ]
@@ -253,11 +290,12 @@
     "label": "Figure 8",
     "caption": "Dysplastic nevus. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) A thin, broad lesion similar to its flat clinical appearance. The dermal component, if present, is in the papillary dermis and not in the deep dermis. (B) “Shouldering.” The green arrow points to the dermal component and the black to the junctional component. The junctional component extends to the periphery beyond the dermal component. (C) “Bridging.” The nests of melanocytes in the tips of rete ridges bridge across and are connected. Lamellar fibroplasia is seen underlying the nests and is wrapping around them. (D) Black arrows are pointing towards nests of melanocytes which are bridging across multiple adjacent retia and can be confused with confluent growth. The key here is that the inter-rete space above the papillary dermal tips (indicated by blue arrows) is uninvolved. (E) Lamellar fibroplasia. Bands of pink collagen wrap around the rete and nests of melanocytes that bridge between them. Lymphocytes can be seen scattered in the dermis. (F) Melanocytes are displaying cytological atypia. The nuclei of melanocytes are two to three times larger than the nuclei of spinous layer keratinocytes. The melanocytes have abundant grayish cytoplasm with fine dusty melanin pigment, giving it an appearance of “dirty dishwater.”",
     "context": "The distinction with melanoma is challenging based on all the above histological features, especially when the \"dysplastic\" features are developed sufficiently. Large size, architectural disorder, cellular atypia, and fusion of nests are all in common with melanoma [ 18 ]. Significant pagetoid single cells scattered at the border, diffuse cellular atypia, and dermal mitosis are all features indicating melanoma [ 17 ]. Figure 8 shows various features of the dysplastic nevus [ 2 ].",
-    "enriched_caption": "This panel illustrates 'bridging,' a characteristic feature of dysplastic nevus, where nests of melanocytes located in the tips of the rete ridges are connected. Additionally, lamellar fibroplasia is evident, underlying and wrapping around these melanocytic nests.",
+    "enriched_caption": "The architectural pattern shows nests of melanocytes in the tips of rete ridges bridging across and connected, with lamellar fibroplasia seen underlying and wrapping around them. This 'bridging' or 'fusion of nests' is an architectural disorder that is in common with melanoma, making the distinction with melanoma challenging, especially when dysplastic features are sufficiently developed.",
     "used_verbatims": [
-      "Bridging",
       "The nests of melanocytes in the tips of rete ridges bridge across and are connected.",
-      "Lamellar fibroplasia is seen underlying the nests and is wrapping around them."
+      "Lamellar fibroplasia is seen underlying the nests and is wrapping around them.",
+      "architectural disorder, and fusion of nests are all in common with melanoma",
+      "The distinction with melanoma is challenging based on all the above histological features, especially when the \"dysplastic\" features are developed sufficiently."
     ]
   },
   "cureus-0014-00000026127-i08_F.jpg": {
@@ -266,13 +304,12 @@
     "label": "Figure 8",
     "caption": "Dysplastic nevus. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) A thin, broad lesion similar to its flat clinical appearance. The dermal component, if present, is in the papillary dermis and not in the deep dermis. (B) “Shouldering.” The green arrow points to the dermal component and the black to the junctional component. The junctional component extends to the periphery beyond the dermal component. (C) “Bridging.” The nests of melanocytes in the tips of rete ridges bridge across and are connected. Lamellar fibroplasia is seen underlying the nests and is wrapping around them. (D) Black arrows are pointing towards nests of melanocytes which are bridging across multiple adjacent retia and can be confused with confluent growth. The key here is that the inter-rete space above the papillary dermal tips (indicated by blue arrows) is uninvolved. (E) Lamellar fibroplasia. Bands of pink collagen wrap around the rete and nests of melanocytes that bridge between them. Lymphocytes can be seen scattered in the dermis. (F) Melanocytes are displaying cytological atypia. The nuclei of melanocytes are two to three times larger than the nuclei of spinous layer keratinocytes. The melanocytes have abundant grayish cytoplasm with fine dusty melanin pigment, giving it an appearance of “dirty dishwater.”",
     "context": "The distinction with melanoma is challenging based on all the above histological features, especially when the \"dysplastic\" features are developed sufficiently. Large size, architectural disorder, cellular atypia, and fusion of nests are all in common with melanoma [ 18 ]. Significant pagetoid single cells scattered at the border, diffuse cellular atypia, and dermal mitosis are all features indicating melanoma [ 17 ]. Figure 8 shows various features of the dysplastic nevus [ 2 ].",
-    "enriched_caption": "Melanocytes in this panel exhibit cytological atypia, characterized by nuclei that are two to three times larger than those of spinous layer keratinocytes. They possess abundant grayish cytoplasm with fine dusty melanin pigment, which imparts a 'dirty dishwater' appearance. This 'cellular atypia' is a feature \"in common with melanoma,\" making \"the distinction with melanoma challenging,\" particularly when \"dysplastic\" features are sufficiently developed.",
+    "enriched_caption": "Melanocytes displaying cytological atypia, a feature common with melanoma, making distinction challenging when dysplastic features are sufficiently developed. The nuclei of these melanocytes are two to three times larger than the nuclei of spinous layer keratinocytes. They exhibit abundant grayish cytoplasm with fine dusty melanin pigment, giving it a characteristic “dirty dishwater” appearance.",
     "used_verbatims": [
       "Melanocytes are displaying cytological atypia.",
       "The nuclei of melanocytes are two to three times larger than the nuclei of spinous layer keratinocytes.",
       "The melanocytes have abundant grayish cytoplasm with fine dusty melanin pigment, giving it an appearance of “dirty dishwater.”",
-      "cellular atypia",
-      "in common with melanoma",
+      "cellular atypia, and fusion of nests are all in common with melanoma",
       "The distinction with melanoma is challenging based on all the above histological features, especially when the \"dysplastic\" features are developed sufficiently."
     ]
   },
@@ -282,16 +319,13 @@
     "label": "Figure 8",
     "caption": "Dysplastic nevus. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) A thin, broad lesion similar to its flat clinical appearance. The dermal component, if present, is in the papillary dermis and not in the deep dermis. (B) “Shouldering.” The green arrow points to the dermal component and the black to the junctional component. The junctional component extends to the periphery beyond the dermal component. (C) “Bridging.” The nests of melanocytes in the tips of rete ridges bridge across and are connected. Lamellar fibroplasia is seen underlying the nests and is wrapping around them. (D) Black arrows are pointing towards nests of melanocytes which are bridging across multiple adjacent retia and can be confused with confluent growth. The key here is that the inter-rete space above the papillary dermal tips (indicated by blue arrows) is uninvolved. (E) Lamellar fibroplasia. Bands of pink collagen wrap around the rete and nests of melanocytes that bridge between them. Lymphocytes can be seen scattered in the dermis. (F) Melanocytes are displaying cytological atypia. The nuclei of melanocytes are two to three times larger than the nuclei of spinous layer keratinocytes. The melanocytes have abundant grayish cytoplasm with fine dusty melanin pigment, giving it an appearance of “dirty dishwater.”",
     "context": "The distinction with melanoma is challenging based on all the above histological features, especially when the \"dysplastic\" features are developed sufficiently. Large size, architectural disorder, cellular atypia, and fusion of nests are all in common with melanoma [ 18 ]. Significant pagetoid single cells scattered at the border, diffuse cellular atypia, and dermal mitosis are all features indicating melanoma [ 17 ]. Figure 8 shows various features of the dysplastic nevus [ 2 ].",
-    "enriched_caption": "Panel A depicts a dysplastic nevus as a thin, broad lesion, correlating with a flat clinical presentation. Histopathologically, any dermal component of this lesion is exclusively located within the papillary dermis, avoiding the deep dermis. As a feature of dysplastic nevus, this pattern contributes to an entity for which distinction from melanoma can be challenging, given that architectural disorder and large size are features common to both.",
+    "enriched_caption": "A thin, broad lesion, characteristic of a dysplastic nevus and consistent with its flat clinical appearance, exhibits any dermal component restricted to the papillary dermis, not extending into the deep dermis. This architectural presentation is among the histological features making its distinction from melanoma challenging.",
     "used_verbatims": [
+      "Dysplastic nevus.",
       "A thin, broad lesion similar to its flat clinical appearance.",
       "The dermal component, if present, is in the papillary dermis and not in the deep dermis.",
-      "The distinction with melanoma is challenging based on all the above histological features, especially when the \"dysplastic\" features are developed sufficiently.",
-      "Large size, architectural disorder, cellular atypia, and fusion of nests are all in common with melanoma"
+      "The distinction with melanoma is challenging based on all the above histological features, especially when the \"dysplastic\" features are developed sufficiently."
     ]
-  },
-  "PMC9299949_captions.json": {
-    "error": "No figure found referencing PMC9299949"
   },
   "cureus-0014-00000026127-i05_B.jpg": {
     "image_ref": "cureus-0014-00000026127-i05",
@@ -299,16 +333,15 @@
     "label": "Figure 5",
     "caption": "Spitz nevus. Reprinted from Harms KL, Lowe L, Fullen DR, Harms PW. Atypical Spitz Tumors: A Diagnostic Challenge. Arch Pathol Lab Med. 2015; 139(10): 1263-1270 [ 21 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) This is the scanning magnification of a Spitz nevus. The lesion is symmetrical and predominantly nested with clefting artifacts around the nests. The epidermis is acanthotic (hematoxylin-eosin, original magnifications ×15). (B) This higher magnification shows large epithelioid melanocytes with prominent nucleoli. Kamino bodies are indicated with yellow arrowheads. Black arrows in the dermis point towards the nevomelanocytes that have retained their spitzoid morphology but have become smaller with their descent into the dermis (hematoxylin-eosin, original magnifications ×100).",
     "context": "Atypical Spitz tumors (AST) fall into the borderline category of this spectrum. They have spitzoid morphology but also other disturbing features like large size (≥10 mm), ulceration, significant depth, abnormal maturation, poor circumscription, cellular atypia, and an increased number of mitosis in the deeper parts of the lesion [ 2 , 17 , 21 ]. The biological potential of these tumors is very uncertain. In borderline cases, the sentinel lymph node can be positive, but the deposit is small, subcapsular, and resembles the lesion in its phenotype. However, if malignant features are present, like dense sheets of pleomorphic cells, it indicates a malignant potential [ 21 ]. It has now been found that different histological varieties of Spitz tumors are associated with specific genomic aberrations, and they can help differentiate benign from malignant neoplasms [ 23 ]. Figure 5 shows features of the Spitz nevus [ 21 ].",
-    "enriched_caption": "This higher magnification of a Spitz nevus, a benign melanocytic lesion, reveals large epithelioid melanocytes with prominent nucleoli. Characteristic Kamino bodies are evident (yellow arrowheads), and nevomelanocytes in the dermis (black arrows) exhibit spitzoid morphology while gradually decreasing in size with descent, indicating benign maturation. These histopathologic findings, observed with hematoxylin-eosin staining (original magnification ×100), help differentiate benign Spitz nevi from atypical Spitz tumors or malignant melanomas, which may present with features like abnormal maturation or cellular atypia. Such distinctions can be further aided by identifying specific genomic aberrations associated with different histological varieties of Spitz tumors.",
+    "enriched_caption": "Higher magnification shows large epithelioid melanocytes with prominent nucleoli and Kamino bodies (yellow arrowheads), characteristic of a Spitz nevus. Black arrows in the dermis point towards nevomelanocytes that have retained their spitzoid morphology but have become smaller with their descent, demonstrating normal maturation. This contrasts with features of atypical Spitz tumors (AST) which can exhibit abnormal maturation, cellular atypia, or an increased number of mitosis in the deeper parts of the lesion, important for differentiating benign from potentially malignant spitzoid neoplasms. Different histological varieties of Spitz tumors are associated with specific genomic aberrations, which can further help differentiate benign from malignant neoplasms.",
     "used_verbatims": [
       "large epithelioid melanocytes with prominent nucleoli",
       "Kamino bodies are indicated with yellow arrowheads",
-      "nevomelanocytes that have retained their spitzoid morphology but have become smaller with their descent into the dermis",
-      "Spitz nevus",
+      "Black arrows in the dermis point towards the nevomelanocytes that have retained their spitzoid morphology but have become smaller with their descent into the dermis",
       "abnormal maturation",
       "cellular atypia",
-      "associated with specific genomic aberrations",
-      "differentiate benign from malignant neoplasms"
+      "increased number of mitosis in the deeper parts of the lesion",
+      "Different histological varieties of Spitz tumors are associated with specific genomic aberrations, and they can help differentiate benign from malignant neoplasms"
     ]
   },
   "cureus-0014-00000026127-i04_C.jpg": {
@@ -317,12 +350,12 @@
     "label": "Figure 4",
     "caption": "Slides showing histological features of melanoma. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Pagetoid spread is indicated by single melanocytes going above the basal layer of the epidermis into the upper spinous and even granular layer. (B) Confluent growth is indicated by single melanocytes crowding out the basal keratinocytes. (C) Acral lentiginous melanoma. The epidermis can be seen detaching from the dermis, giving the illusion of a blister. It is called an “unzipping” artifact, which indicates confluent growth. (D) Lentigo maligna type of melanoma. The melanocytes involve the hair follicle, trickling down along the basal layer into the follicle either as nests or single cells. (E) Phenomenon of “epidermal consumption.” Nests occupy the epidermis entirely, and there is only a thin strip of keratinocytes left in the epidermis above the melanocytes. (F) Abnormal maturation is present as large nests of melanocytes can be seen from top to bottom of the lesion. (G) Cytological atypia is present as cells are hyperchromatic and pleomorphic with prominent nucleoli. (H) Invasive melanoma. Sheets of pleomorphic cells with clumped chromatin and a prominent atypical mitotic figure in the dermis can be seen.",
     "context": "Figure 4 demonstrates the histological features of melanoma as seen in hematoxylin and eosin-stained slides [ 2 ].",
-    "enriched_caption": "Histological features of Acral lentiginous melanoma on hematoxylin and eosin-stained slides. The image displays the epidermis detaching from the dermis, creating the illusion of a blister. This 'unzipping' artifact is indicative of confluent growth.",
+    "enriched_caption": "Acral lentiginous melanoma, visualized in hematoxylin and eosin-stained slides, presents with the epidermis detaching from the dermis, creating the illusion of a blister. This finding is termed an “unzipping” artifact and serves as an indicator of confluent growth.",
     "used_verbatims": [
-      "Acral lentiginous melanoma.",
+      "Acral lentiginous melanoma",
       "The epidermis can be seen detaching from the dermis, giving the illusion of a blister.",
       "It is called an “unzipping” artifact, which indicates confluent growth.",
-      "histological features of melanoma as seen in hematoxylin and eosin-stained slides"
+      "hematoxylin and eosin-stained slides"
     ]
   },
   "cureus-0014-00000026127-i02_B.jpg": {
@@ -331,11 +364,26 @@
     "label": "Figure 2",
     "caption": "Slides showing histological features of nevi. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Nests of epithelioid melanocytes in a junctional nevus, arranged at the tips of rete ridges. (B) Melanocytes at the basal layer (black arrows) are spaced out, and there are intervening keratinocytes. Mitosis in a basal keratinocyte can be seen (green arrow). (C) Small clusters, cords, or single cells of dermal melanocytes can be seen trickling down the reticular dermis. (D) Shows normal maturation. Large nests in the superficial dermis transition to smaller ones, and finally, single cells are dispersed from one another in the deep dermis. (E) Type A melanocytes are large epithelioid cells at the top, and type B are small round blue cells at the bottom in the dermis. (F) Type A cells have oval to round nuclei with abundant pale pink cytoplasm, forming nests at the junction. (G) Type B melanocytes at low power, resembling lymphocytes. They can mimic an inflamed nevus. (H) At high power, type B melanocytes (green arrows) can be differentiated from lymphocytes (yellow arrows). Lymphocytes are smaller in size than type B melanocytes with darker chromatin.",
     "context": "Figure 2 demonstrates the histological features of nevi as seen in hematoxylin and eosin-stained slides [ 2 ].",
-    "enriched_caption": "On a hematoxylin and eosin-stained slide demonstrating histological features of nevi, melanocytes at the basal layer are observed to be spaced out with intervening keratinocytes. A mitosis is also visible within a basal keratinocyte.",
+    "enriched_caption": "On hematoxylin and eosin-stained slides, melanocytes at the basal layer are observed to be spaced out, with intervening keratinocytes present. A mitosis in a basal keratinocyte is also visible.",
     "used_verbatims": [
-      "Melanocytes at the basal layer (black arrows) are spaced out, and there are intervening keratinocytes.",
-      "Mitosis in a basal keratinocyte can be seen (green arrow).",
-      "histological features of nevi as seen in hematoxylin and eosin-stained slides"
+      "Melanocytes at the basal layer",
+      "are spaced out",
+      "intervening keratinocytes",
+      "Mitosis in a basal keratinocyte",
+      "hematoxylin and eosin-stained slides"
+    ]
+  },
+  "cureus-0014-00000026127-i02_E.jpg": {
+    "image_ref": "cureus-0014-00000026127-i02",
+    "panel": "E",
+    "label": "Figure 2",
+    "caption": "Slides showing histological features of nevi. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Nests of epithelioid melanocytes in a junctional nevus, arranged at the tips of rete ridges. (B) Melanocytes at the basal layer (black arrows) are spaced out, and there are intervening keratinocytes. Mitosis in a basal keratinocyte can be seen (green arrow). (C) Small clusters, cords, or single cells of dermal melanocytes can be seen trickling down the reticular dermis. (D) Shows normal maturation. Large nests in the superficial dermis transition to smaller ones, and finally, single cells are dispersed from one another in the deep dermis. (E) Type A melanocytes are large epithelioid cells at the top, and type B are small round blue cells at the bottom in the dermis. (F) Type A cells have oval to round nuclei with abundant pale pink cytoplasm, forming nests at the junction. (G) Type B melanocytes at low power, resembling lymphocytes. They can mimic an inflamed nevus. (H) At high power, type B melanocytes (green arrows) can be differentiated from lymphocytes (yellow arrows). Lymphocytes are smaller in size than type B melanocytes with darker chromatin.",
+    "context": "Figure 2 demonstrates the histological features of nevi as seen in hematoxylin and eosin-stained slides [ 2 ].",
+    "enriched_caption": "On hematoxylin and eosin-stained slides, Type A melanocytes appear as large epithelioid cells at the top, while Type B melanocytes are small round blue cells located at the bottom in the dermis.",
+    "used_verbatims": [
+      "Type A melanocytes are large epithelioid cells at the top",
+      "type B are small round blue cells at the bottom in the dermis",
+      "hematoxylin and eosin-stained slides"
     ]
   },
   "cureus-0014-00000026127-i08_B.jpg": {
@@ -344,11 +392,13 @@
     "label": "Figure 8",
     "caption": "Dysplastic nevus. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) A thin, broad lesion similar to its flat clinical appearance. The dermal component, if present, is in the papillary dermis and not in the deep dermis. (B) “Shouldering.” The green arrow points to the dermal component and the black to the junctional component. The junctional component extends to the periphery beyond the dermal component. (C) “Bridging.” The nests of melanocytes in the tips of rete ridges bridge across and are connected. Lamellar fibroplasia is seen underlying the nests and is wrapping around them. (D) Black arrows are pointing towards nests of melanocytes which are bridging across multiple adjacent retia and can be confused with confluent growth. The key here is that the inter-rete space above the papillary dermal tips (indicated by blue arrows) is uninvolved. (E) Lamellar fibroplasia. Bands of pink collagen wrap around the rete and nests of melanocytes that bridge between them. Lymphocytes can be seen scattered in the dermis. (F) Melanocytes are displaying cytological atypia. The nuclei of melanocytes are two to three times larger than the nuclei of spinous layer keratinocytes. The melanocytes have abundant grayish cytoplasm with fine dusty melanin pigment, giving it an appearance of “dirty dishwater.”",
     "context": "The distinction with melanoma is challenging based on all the above histological features, especially when the \"dysplastic\" features are developed sufficiently. Large size, architectural disorder, cellular atypia, and fusion of nests are all in common with melanoma [ 18 ]. Significant pagetoid single cells scattered at the border, diffuse cellular atypia, and dermal mitosis are all features indicating melanoma [ 17 ]. Figure 8 shows various features of the dysplastic nevus [ 2 ].",
-    "enriched_caption": "Panel B illustrates the architectural pattern of \"shouldering\" in a dysplastic nevus, characterized by the junctional melanocytic component extending laterally to the periphery beyond the dermal component. This architectural disorder, a prominent \"dysplastic\" feature, contributes to the diagnostic challenge in distinguishing dysplastic nevi from melanoma, particularly when such features are sufficiently developed.",
+    "enriched_caption": "“Shouldering,” an architectural pattern characteristic of dysplastic nevus, showing the junctional component extending to the periphery beyond the dermal component (green arrow points to the dermal component and the black to the junctional component). This feature is among those that make the distinction of dysplastic nevus from melanoma challenging.",
     "used_verbatims": [
-      "“Shouldering.” The green arrow points to the dermal component and the black to the junctional component. The junctional component extends to the periphery beyond the dermal component.",
-      "architectural disorder",
-      "The distinction with melanoma is challenging based on all the above histological features, especially when the \"dysplastic\" features are developed sufficiently."
+      "“Shouldering.”",
+      "The green arrow points to the dermal component and the black to the junctional component.",
+      "The junctional component extends to the periphery beyond the dermal component.",
+      "The distinction with melanoma is challenging",
+      "features of the dysplastic nevus"
     ]
   },
   "cureus-0014-00000026127-i09_G.jpg": {
@@ -357,14 +407,14 @@
     "label": "Figure 9",
     "caption": "Cellular blue nevus. Reprinted from Zembowicz A, Phadke PA. Blue nevi and variants: an update. Arch Pathol Lab Med. 2011; 135(3): 327-336 [ 35 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) & (B) CBN comprises small cellular nodules of epithelioid cells. (C) & (D) Dumbbell-shaped appearance of large CBN. At high power, it shows uniform oval cells with inconspicuous nucleoli and clear cytoplasm. (E) & (F) An area of cystic degeneration can be seen, which should not be confused with tumor necrosis. (G) & (H) Areas of hemorrhage and hemosiderin deposition in large atypical CBN. Hot spots of cellular atypia and increased mitotic activity can also be seen. These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×20 (A, C, and E), ×400 (B, D, and H), ×200 (F), and ×100 (G).",
     "context": "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present), atypical CBN shows cytological atypia but not to the malignant extent [ 35 ]. Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity (>3/mm 2 ) [ 35 ]. Figure 9 illustrates the features of CBN [ 35 ].",
-    "enriched_caption": "Panel G illustrates a large atypical cellular blue nevus (CBN) exhibiting areas of hemorrhage and hemosiderin deposition. Within these atypical lesions, \"hot spots of cellular atypia and increased mitotic activity can also be seen.\" Although \"atypical CBN shows cytological atypia but not to the malignant extent,\" these findings help differentiate it from typical CBN, which \"lacks overt atypia and high mitotic activity (usually <1/mm 2 is present),\" and from melanoma, recognized by \"marked atypia and mitotic activity (>3/mm 2 ).\" Stained with hematoxylin-eosin.",
+    "enriched_caption": "Hemorrhage and hemosiderin deposition are present in a large atypical cellular blue nevus (CBN). This atypical CBN exhibits hot spots of cellular atypia and increased mitotic activity. While atypical CBN shows cytological atypia, it is characterized as not reaching a malignant extent, thereby distinguishing it from melanoma, which is typically recognized by marked atypia and mitotic activity greater than 3/mm². This histopathologic view is stained with hematoxylin-eosin at an original magnification of ×100.",
     "used_verbatims": [
       "Areas of hemorrhage and hemosiderin deposition in large atypical CBN.",
       "Hot spots of cellular atypia and increased mitotic activity can also be seen.",
       "atypical CBN shows cytological atypia but not to the malignant extent",
-      "CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present)",
       "Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity (>3/mm 2 )",
-      "These slides are stained with hematoxylin-eosin"
+      "stained with hematoxylin-eosin",
+      "original magnifications ×100 (G)"
     ]
   },
   "cureus-0014-00000026127-i10_1.jpg": {
@@ -373,14 +423,10 @@
     "label": "Figure 10",
     "caption": "Deep penetrating nevus. Reprinted from Luzar B, Calonje E. Deep penetrating nevus: a review. Arch Pathol Lab Med. 2011; 135(3): 321-326 [ 37 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (1) In this figure, the nevus shows a symmetrical wedge-shaped dermal proliferation. The lesion has a plexiform appearance due to several extensions going deep into the reticular dermis along the adnexa and neurovascular bundles (hematoxylin-eosin, original magnification ×40). (2) A junctional component is seen in most deep penetrating nevi, which shows nests and minimal lentiginous proliferation of melanocytes, just like in an ordinary nevus. There is a discontinuity between the junctional and the dermal component of the lesion in the papillary dermis (hematoxylin-eosin, original magnification ×200). (3) Discohesion of melanocytes is seen in the deeper aspects (hematoxylin-eosin, original magnification ×200). (4) Melanocytes grow along the skin adnexa and neurovascular bundles (hematoxylin-eosin, original magnification ×100).",
     "context": "Mild cytological atypia and pleomorphic nuclei can be seen along with rare mitosis in the deeper aspects. These features and a lack of maturation around the adnexa can become a pitfall and lead to the misdiagnosis of melanoma [ 37 , 38 ]. Figure 10 depicts histological features of a deep penetrating nevus [ 37 ].",
-    "enriched_caption": "This H&E-stained image (×40) depicts a deep penetrating nevus, characterized by a symmetrical wedge-shaped dermal proliferation and a plexiform appearance. The lesion shows several extensions going deep into the reticular dermis along the adnexa and neurovascular bundles. Histologically, these nevi can exhibit features such as mild cytological atypia, pleomorphic nuclei, rare mitosis in the deeper aspects, and a lack of maturation around the adnexa. These characteristics represent significant diagnostic pitfalls, potentially leading to a misdiagnosis of melanoma.",
+    "enriched_caption": "A symmetrical wedge-shaped dermal proliferation, with a plexiform appearance due to several extensions going deep into the reticular dermis along the adnexa and neurovascular bundles (hematoxylin-eosin, original magnification ×40). This architectural pattern, particularly the cellular proliferation along the adnexa, poses a diagnostic pitfall due to the potential for misdiagnosis as melanoma, stemming from a lack of maturation in these areas.",
     "used_verbatims": [
-      "Deep penetrating nevus",
       "symmetrical wedge-shaped dermal proliferation",
-      "plexiform appearance",
-      "several extensions going deep into the reticular dermis along the adnexa and neurovascular bundles",
-      "hematoxylin-eosin, original magnification ×40",
-      "Mild cytological atypia and pleomorphic nuclei can be seen along with rare mitosis in the deeper aspects.",
+      "plexiform appearance due to several extensions going deep into the reticular dermis along the adnexa and neurovascular bundles",
       "a lack of maturation around the adnexa can become a pitfall and lead to the misdiagnosis of melanoma"
     ]
   },
@@ -390,13 +436,14 @@
     "label": "Figure 11",
     "caption": "Combined nevus. Reprinted from Harvey NT, Wood BA. A Practical Approach to the Diagnosis of Melanocytic Lesions. Arch Pathol Lab Med. 2019; 143(7): 789-810 [ 17 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) The lesion displays asymmetry, raising concern for melanoma developing within a nevus. (B) On high power, the deep penetrating nevus cells are in the upper panel, and the conventional nevus cells can be seen in the lower panel. Slides are stained with hematoxylin-eosin and can be seen at original magnifications ×20 (A) and ×400 (B).",
     "context": "There should be a concern about melanoma if there are findings like solar elastosis, pagetoid spread, pulverocyte-type cells, and melanoma in situ-like features in the epidermis. The lesion of a combined nevus may seem asymmetrical, but the symmetry becomes evident when considering each component individually [ 18 ]. A point to remember is that, in adult patients, it is very rare for a melanoma to develop in the dermal component of a nevus without an overlying melanoma in situ [ 39 ]. Figure 11 is an image of a combined nevus seen at low and high magnifications [ 17 ].",
-    "enriched_caption": "This high-power (×400) H&E-stained image of a combined nevus illustrates its distinct cellular components: deep penetrating nevus cells are visible in the upper panel, while conventional nevus cells can be seen in the lower panel. The visualization of these individual components helps in understanding the overall symmetry of a combined nevus, supporting its benign diagnosis.",
+    "enriched_caption": "High power (×400) hematoxylin-eosin stained histopathology of a combined nevus, featuring deep penetrating nevus cells in the upper field and conventional nevus cells in the lower field, highlighting the distinct cellular components of this lesion.",
     "used_verbatims": [
-      "On high power, the deep penetrating nevus cells are in the upper panel, and the conventional nevus cells can be seen in the lower panel.",
+      "Combined nevus",
+      "On high power",
+      "the deep penetrating nevus cells are in the upper panel",
+      "the conventional nevus cells can be seen in the lower panel",
       "Slides are stained with hematoxylin-eosin",
-      "original magnifications ×400 (B)",
-      "combined nevus",
-      "the symmetry becomes evident when considering each component individually"
+      "original magnifications ×400"
     ]
   },
   "cureus-0014-00000026127-i04_F.jpg": {
@@ -405,10 +452,10 @@
     "label": "Figure 4",
     "caption": "Slides showing histological features of melanoma. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Pagetoid spread is indicated by single melanocytes going above the basal layer of the epidermis into the upper spinous and even granular layer. (B) Confluent growth is indicated by single melanocytes crowding out the basal keratinocytes. (C) Acral lentiginous melanoma. The epidermis can be seen detaching from the dermis, giving the illusion of a blister. It is called an “unzipping” artifact, which indicates confluent growth. (D) Lentigo maligna type of melanoma. The melanocytes involve the hair follicle, trickling down along the basal layer into the follicle either as nests or single cells. (E) Phenomenon of “epidermal consumption.” Nests occupy the epidermis entirely, and there is only a thin strip of keratinocytes left in the epidermis above the melanocytes. (F) Abnormal maturation is present as large nests of melanocytes can be seen from top to bottom of the lesion. (G) Cytological atypia is present as cells are hyperchromatic and pleomorphic with prominent nucleoli. (H) Invasive melanoma. Sheets of pleomorphic cells with clumped chromatin and a prominent atypical mitotic figure in the dermis can be seen.",
     "context": "Figure 4 demonstrates the histological features of melanoma as seen in hematoxylin and eosin-stained slides [ 2 ].",
-    "enriched_caption": "On hematoxylin and eosin-stained slides, this histological feature of melanoma shows abnormal maturation, characterized by large nests of melanocytes uniformly present from the top to the bottom of the lesion.",
+    "enriched_caption": "Abnormal maturation is observed, indicated by the presence of large nests of melanocytes that extend uniformly from the top to the bottom of the lesion. This lack of normal architectural maturation, where melanocytes typically decrease in size and density with descent in benign nevi, is a crucial histopathologic finding in melanoma.",
     "used_verbatims": [
-      "Abnormal maturation is present as large nests of melanocytes can be seen from top to bottom of the lesion.",
-      "hematoxylin and eosin-stained slides"
+      "Abnormal maturation is present",
+      "large nests of melanocytes can be seen from top to bottom of the lesion"
     ]
   },
   "cureus-0014-00000026127-i04_A.jpg": {
@@ -417,7 +464,7 @@
     "label": "Figure 4",
     "caption": "Slides showing histological features of melanoma. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Pagetoid spread is indicated by single melanocytes going above the basal layer of the epidermis into the upper spinous and even granular layer. (B) Confluent growth is indicated by single melanocytes crowding out the basal keratinocytes. (C) Acral lentiginous melanoma. The epidermis can be seen detaching from the dermis, giving the illusion of a blister. It is called an “unzipping” artifact, which indicates confluent growth. (D) Lentigo maligna type of melanoma. The melanocytes involve the hair follicle, trickling down along the basal layer into the follicle either as nests or single cells. (E) Phenomenon of “epidermal consumption.” Nests occupy the epidermis entirely, and there is only a thin strip of keratinocytes left in the epidermis above the melanocytes. (F) Abnormal maturation is present as large nests of melanocytes can be seen from top to bottom of the lesion. (G) Cytological atypia is present as cells are hyperchromatic and pleomorphic with prominent nucleoli. (H) Invasive melanoma. Sheets of pleomorphic cells with clumped chromatin and a prominent atypical mitotic figure in the dermis can be seen.",
     "context": "Figure 4 demonstrates the histological features of melanoma as seen in hematoxylin and eosin-stained slides [ 2 ].",
-    "enriched_caption": "Histological features of melanoma on hematoxylin and eosin-stained slides demonstrating Pagetoid spread, which is characterized by single melanocytes extending above the basal layer of the epidermis into the upper spinous and even granular layer.",
+    "enriched_caption": "An H&E-stained slide depicting pagetoid spread, a histological feature of melanoma, characterized by single melanocytes extending above the basal layer of the epidermis into the upper spinous and even granular layer.",
     "used_verbatims": [
       "Pagetoid spread is indicated by single melanocytes going above the basal layer of the epidermis into the upper spinous and even granular layer.",
       "histological features of melanoma as seen in hematoxylin and eosin-stained slides"
@@ -429,13 +476,16 @@
     "label": "Figure 13",
     "caption": "Acral junctional nevus and acral lentiginous melanoma. Reprinted from Bravo Puccio F, Chian C. Acral junctional nevus versus acral lentiginous melanoma in situ: a differential diagnosis that should be based on clinicopathologic correlation. Arch Pathol Lab Med. 2011; 135(7): 847-852 [ 44 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (1) Medium power field of acral junctional nevus. Most cells are in solitary units, but they form groups at the base of the rete ridges (hematoxylin-eosin, original magnification ×100). (2) Acral lentiginous melanoma. Single melanocytes proliferate along the dermo-epidermal junction (hematoxylin-eosin, original magnification ×100).",
     "context": "These nevi can be compound or junctional [ 24 ]. There can be melanocytic nests or a lentiginous growth pattern with single melanocytes seen at the dermo-epidermal junction [ 2 , 24 ]. Cytologically, melanocytes appear to be round with prominent dendrites. They have larger nuclei than non-acral nevi and central punctate nucleoli. Pagetoid spread can be seen through the whole thickness of the epidermis [ 2 , 43 ]. Acral lentiginous melanoma can closely mimic acral nevus, especially near its periphery [ 2 ]. To avoid this pitfall, always consider the size of the lesion. If it is a large lesion and a partial biopsy was done, additional biopsies may be needed to rule out melanoma [ 2 , 44 ]. Figure 13 shows the acral junctional nevus (A) and acral lentiginous melanoma (B) [ 44 ].",
-    "enriched_caption": "This medium power field (hematoxylin-eosin, original magnification ×100) illustrates an acral junctional nevus, characterized by melanocytes predominantly in solitary units but also forming groups, or nests, at the base of the rete ridges. Cytologically, melanocytes in acral nevi appear round with prominent dendrites, possess larger nuclei than non-acral nevi, and display central punctate nucleoli. The histopathological features of acral nevi can closely mimic acral lentiginous melanoma, especially near its periphery, necessitating careful consideration of lesion size and potential additional biopsies to differentiate between the two.",
+    "enriched_caption": "An acral junctional nevus is depicted in this medium power field (hematoxylin-eosin, ×100). Most cells are in solitary units, but they form groups at the base of the rete ridges. Additionally, there can be melanocytic nests or a lentiginous growth pattern with single melanocytes seen at the dermo-epidermal junction. Cytologically, melanocytes appear to be round with prominent dendrites, and they have larger nuclei than non-acral nevi with central punctate nucleoli. Pagetoid spread can be seen through the whole thickness of the epidermis. Diagnostic relevance is high as acral lentiginous melanoma can closely mimic acral nevus, especially near its periphery. If it is a large lesion and a partial biopsy was done, additional biopsies may be needed to rule out melanoma.",
     "used_verbatims": [
       "Medium power field of acral junctional nevus.",
       "Most cells are in solitary units, but they form groups at the base of the rete ridges",
       "(hematoxylin-eosin, original magnification ×100).",
-      "Cytologically, melanocytes appear to be round with prominent dendrites. They have larger nuclei than non-acral nevi and central punctate nucleoli.",
-      "Acral lentiginous melanoma can closely mimic acral nevus, especially near its periphery.",
+      "There can be melanocytic nests or a lentiginous growth pattern with single melanocytes seen at the dermo-epidermal junction",
+      "Cytologically, melanocytes appear to be round with prominent dendrites.",
+      "They have larger nuclei than non-acral nevi and central punctate nucleoli.",
+      "Pagetoid spread can be seen through the whole thickness of the epidermis",
+      "Acral lentiginous melanoma can closely mimic acral nevus, especially near its periphery",
       "If it is a large lesion and a partial biopsy was done, additional biopsies may be needed to rule out melanoma"
     ]
   },
@@ -445,10 +495,23 @@
     "label": "Figure 4",
     "caption": "Slides showing histological features of melanoma. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Pagetoid spread is indicated by single melanocytes going above the basal layer of the epidermis into the upper spinous and even granular layer. (B) Confluent growth is indicated by single melanocytes crowding out the basal keratinocytes. (C) Acral lentiginous melanoma. The epidermis can be seen detaching from the dermis, giving the illusion of a blister. It is called an “unzipping” artifact, which indicates confluent growth. (D) Lentigo maligna type of melanoma. The melanocytes involve the hair follicle, trickling down along the basal layer into the follicle either as nests or single cells. (E) Phenomenon of “epidermal consumption.” Nests occupy the epidermis entirely, and there is only a thin strip of keratinocytes left in the epidermis above the melanocytes. (F) Abnormal maturation is present as large nests of melanocytes can be seen from top to bottom of the lesion. (G) Cytological atypia is present as cells are hyperchromatic and pleomorphic with prominent nucleoli. (H) Invasive melanoma. Sheets of pleomorphic cells with clumped chromatin and a prominent atypical mitotic figure in the dermis can be seen.",
     "context": "Figure 4 demonstrates the histological features of melanoma as seen in hematoxylin and eosin-stained slides [ 2 ].",
-    "enriched_caption": "This H&E-stained slide depicts confluent growth, a histological feature of melanoma, characterized by single melanocytes crowding out the basal keratinocytes.",
+    "enriched_caption": "Confluent growth, a histological feature of melanoma observed in hematoxylin and eosin-stained slides, where single melanocytes crowd out the basal keratinocytes.",
     "used_verbatims": [
       "Confluent growth is indicated by single melanocytes crowding out the basal keratinocytes.",
-      "histological features of melanoma as seen in hematoxylin and eosin-stained slides"
+      "histological features of melanoma",
+      "hematoxylin and eosin-stained slides"
+    ]
+  },
+  "cureus-0014-00000026127-i09_E.jpg": {
+    "image_ref": "cureus-0014-00000026127-i09",
+    "panel": "E",
+    "label": "Figure 9",
+    "caption": "Cellular blue nevus. Reprinted from Zembowicz A, Phadke PA. Blue nevi and variants: an update. Arch Pathol Lab Med. 2011; 135(3): 327-336 [ 35 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) & (B) CBN comprises small cellular nodules of epithelioid cells. (C) & (D) Dumbbell-shaped appearance of large CBN. At high power, it shows uniform oval cells with inconspicuous nucleoli and clear cytoplasm. (E) & (F) An area of cystic degeneration can be seen, which should not be confused with tumor necrosis. (G) & (H) Areas of hemorrhage and hemosiderin deposition in large atypical CBN. Hot spots of cellular atypia and increased mitotic activity can also be seen. These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×20 (A, C, and E), ×400 (B, D, and H), ×200 (F), and ×100 (G).",
+    "context": "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present), atypical CBN shows cytological atypia but not to the malignant extent [ 35 ]. Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity (>3/mm 2 ) [ 35 ]. Figure 9 illustrates the features of CBN [ 35 ].",
+    "enriched_caption": "A hematoxylin-eosin stained image at ×20 magnification revealing an area of cystic degeneration within a Cellular Blue Nevus (CBN). This histopathologic finding is crucial for diagnostic relevance as it should not be confused with tumor necrosis, thereby helping to confirm the generally benign behavior of CBN which typically lacks overt atypia and high mitotic activity (usually <1/mm²).",
+    "used_verbatims": [
+      "An area of cystic degeneration can be seen, which should not be confused with tumor necrosis.",
+      "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present)"
     ]
   },
   "cureus-0014-00000026127-i04_H.jpg": {
@@ -457,10 +520,10 @@
     "label": "Figure 4",
     "caption": "Slides showing histological features of melanoma. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Pagetoid spread is indicated by single melanocytes going above the basal layer of the epidermis into the upper spinous and even granular layer. (B) Confluent growth is indicated by single melanocytes crowding out the basal keratinocytes. (C) Acral lentiginous melanoma. The epidermis can be seen detaching from the dermis, giving the illusion of a blister. It is called an “unzipping” artifact, which indicates confluent growth. (D) Lentigo maligna type of melanoma. The melanocytes involve the hair follicle, trickling down along the basal layer into the follicle either as nests or single cells. (E) Phenomenon of “epidermal consumption.” Nests occupy the epidermis entirely, and there is only a thin strip of keratinocytes left in the epidermis above the melanocytes. (F) Abnormal maturation is present as large nests of melanocytes can be seen from top to bottom of the lesion. (G) Cytological atypia is present as cells are hyperchromatic and pleomorphic with prominent nucleoli. (H) Invasive melanoma. Sheets of pleomorphic cells with clumped chromatin and a prominent atypical mitotic figure in the dermis can be seen.",
     "context": "Figure 4 demonstrates the histological features of melanoma as seen in hematoxylin and eosin-stained slides [ 2 ].",
-    "enriched_caption": "Histopathologic interpretation of invasive melanoma (H&E stain) reveals sheets of pleomorphic cells, characterized by clumped chromatin and a prominent atypical mitotic figure within the dermis.",
+    "enriched_caption": "Invasive melanoma on hematoxylin and eosin-stained slides. Sheets of pleomorphic cells with clumped chromatin and a prominent atypical mitotic figure are present in the dermis.",
     "used_verbatims": [
-      "Invasive melanoma.",
-      "Sheets of pleomorphic cells with clumped chromatin and a prominent atypical mitotic figure in the dermis can be seen.",
+      "Invasive melanoma",
+      "Sheets of pleomorphic cells with clumped chromatin and a prominent atypical mitotic figure in the dermis can be seen",
       "hematoxylin and eosin-stained slides"
     ]
   },
@@ -470,11 +533,24 @@
     "label": "Figure 9",
     "caption": "Cellular blue nevus. Reprinted from Zembowicz A, Phadke PA. Blue nevi and variants: an update. Arch Pathol Lab Med. 2011; 135(3): 327-336 [ 35 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) & (B) CBN comprises small cellular nodules of epithelioid cells. (C) & (D) Dumbbell-shaped appearance of large CBN. At high power, it shows uniform oval cells with inconspicuous nucleoli and clear cytoplasm. (E) & (F) An area of cystic degeneration can be seen, which should not be confused with tumor necrosis. (G) & (H) Areas of hemorrhage and hemosiderin deposition in large atypical CBN. Hot spots of cellular atypia and increased mitotic activity can also be seen. These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×20 (A, C, and E), ×400 (B, D, and H), ×200 (F), and ×100 (G).",
     "context": "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present), atypical CBN shows cytological atypia but not to the malignant extent [ 35 ]. Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity (>3/mm 2 ) [ 35 ]. Figure 9 illustrates the features of CBN [ 35 ].",
-    "enriched_caption": "This panel illustrates a large cellular blue nevus (CBN) exhibiting a characteristic dumbbell-shaped appearance. Histopathologically, it is composed of uniform oval cells with inconspicuous nucleoli and clear cytoplasm. As a cellular blue nevus, it typically lacks overt atypia and high mitotic activity (usually <1/mm^2), distinguishing it from atypical CBN or melanoma arising in blue nevi.",
+    "enriched_caption": "A large Cellular Blue Nevus (CBN) exhibits a dumbbell-shaped appearance (magnification ×20). This histopathologic feature is consistent with a generally benign lesion, as CBN typically lacks overt atypia and high mitotic activity (usually <1/mm2), which helps to differentiate it from melanoma characterized by marked atypia and mitotic activity (>3/mm2).",
     "used_verbatims": [
-      "Dumbbell-shaped appearance of large CBN",
-      "uniform oval cells with inconspicuous nucleoli and clear cytoplasm",
-      "lacks overt atypia and high mitotic activity (usually <1/mm 2 is present)"
+      "Dumbbell-shaped appearance of large CBN.",
+      "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present)",
+      "Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity (>3/mm 2 )"
+    ]
+  },
+  "cureus-0014-00000026127-i02_G.jpg": {
+    "image_ref": "cureus-0014-00000026127-i02",
+    "panel": "G",
+    "label": "Figure 2",
+    "caption": "Slides showing histological features of nevi. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Nests of epithelioid melanocytes in a junctional nevus, arranged at the tips of rete ridges. (B) Melanocytes at the basal layer (black arrows) are spaced out, and there are intervening keratinocytes. Mitosis in a basal keratinocyte can be seen (green arrow). (C) Small clusters, cords, or single cells of dermal melanocytes can be seen trickling down the reticular dermis. (D) Shows normal maturation. Large nests in the superficial dermis transition to smaller ones, and finally, single cells are dispersed from one another in the deep dermis. (E) Type A melanocytes are large epithelioid cells at the top, and type B are small round blue cells at the bottom in the dermis. (F) Type A cells have oval to round nuclei with abundant pale pink cytoplasm, forming nests at the junction. (G) Type B melanocytes at low power, resembling lymphocytes. They can mimic an inflamed nevus. (H) At high power, type B melanocytes (green arrows) can be differentiated from lymphocytes (yellow arrows). Lymphocytes are smaller in size than type B melanocytes with darker chromatin.",
+    "context": "Figure 2 demonstrates the histological features of nevi as seen in hematoxylin and eosin-stained slides [ 2 ].",
+    "enriched_caption": "At low power in hematoxylin and eosin-stained slides, Type B melanocytes resemble lymphocytes. This resemblance can mimic an inflamed nevus.",
+    "used_verbatims": [
+      "Type B melanocytes at low power, resembling lymphocytes.",
+      "They can mimic an inflamed nevus.",
+      "hematoxylin and eosin-stained slides"
     ]
   },
   "cureus-0014-00000026127-i10_4.jpg": {
@@ -483,11 +559,25 @@
     "label": "Figure 10",
     "caption": "Deep penetrating nevus. Reprinted from Luzar B, Calonje E. Deep penetrating nevus: a review. Arch Pathol Lab Med. 2011; 135(3): 321-326 [ 37 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (1) In this figure, the nevus shows a symmetrical wedge-shaped dermal proliferation. The lesion has a plexiform appearance due to several extensions going deep into the reticular dermis along the adnexa and neurovascular bundles (hematoxylin-eosin, original magnification ×40). (2) A junctional component is seen in most deep penetrating nevi, which shows nests and minimal lentiginous proliferation of melanocytes, just like in an ordinary nevus. There is a discontinuity between the junctional and the dermal component of the lesion in the papillary dermis (hematoxylin-eosin, original magnification ×200). (3) Discohesion of melanocytes is seen in the deeper aspects (hematoxylin-eosin, original magnification ×200). (4) Melanocytes grow along the skin adnexa and neurovascular bundles (hematoxylin-eosin, original magnification ×100).",
     "context": "Mild cytological atypia and pleomorphic nuclei can be seen along with rare mitosis in the deeper aspects. These features and a lack of maturation around the adnexa can become a pitfall and lead to the misdiagnosis of melanoma [ 37 , 38 ]. Figure 10 depicts histological features of a deep penetrating nevus [ 37 ].",
-    "enriched_caption": "Histopathologic examination (hematoxylin-eosin, original magnification ×100) shows melanocytes proliferating along skin adnexa and neurovascular bundles. This architectural pattern, combined with a lack of maturation around these adnexal structures and potential mild cytological atypia, pleomorphic nuclei, and rare mitoses in deeper aspects, represents a significant diagnostic pitfall that can lead to misdiagnosis of melanoma.",
+    "enriched_caption": "Melanocytes are observed growing along the skin adnexa and neurovascular bundles. In these deeper aspects, a lack of maturation around the adnexa, along with mild cytological atypia, pleomorphic nuclei, and rare mitosis, represents a diagnostic pitfall that can lead to the misdiagnosis of melanoma (hematoxylin-eosin, original magnification ×100).",
     "used_verbatims": [
       "Melanocytes grow along the skin adnexa and neurovascular bundles",
-      "a lack of maturation around the adnexa can become a pitfall and lead to the misdiagnosis of melanoma",
-      "Mild cytological atypia and pleomorphic nuclei can be seen along with rare mitosis in the deeper aspects"
+      "hematoxylin-eosin, original magnification ×100",
+      "Mild cytological atypia and pleomorphic nuclei can be seen along with rare mitosis in the deeper aspects",
+      "lack of maturation around the adnexa",
+      "can become a pitfall and lead to the misdiagnosis of melanoma"
+    ]
+  },
+  "cureus-0014-00000026127-i09_B.jpg": {
+    "image_ref": "cureus-0014-00000026127-i09",
+    "panel": "B",
+    "label": "Figure 9",
+    "caption": "Cellular blue nevus. Reprinted from Zembowicz A, Phadke PA. Blue nevi and variants: an update. Arch Pathol Lab Med. 2011; 135(3): 327-336 [ 35 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) & (B) CBN comprises small cellular nodules of epithelioid cells. (C) & (D) Dumbbell-shaped appearance of large CBN. At high power, it shows uniform oval cells with inconspicuous nucleoli and clear cytoplasm. (E) & (F) An area of cystic degeneration can be seen, which should not be confused with tumor necrosis. (G) & (H) Areas of hemorrhage and hemosiderin deposition in large atypical CBN. Hot spots of cellular atypia and increased mitotic activity can also be seen. These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×20 (A, C, and E), ×400 (B, D, and H), ×200 (F), and ×100 (G).",
+    "context": "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present), atypical CBN shows cytological atypia but not to the malignant extent [ 35 ]. Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity (>3/mm 2 ) [ 35 ]. Figure 9 illustrates the features of CBN [ 35 ].",
+    "enriched_caption": "At high power (×400) with H&E staining, Cellular Blue Nevus (CBN) comprises small cellular nodules of epithelioid cells. These architectural and cellular features are indicative of CBN, which lacks overt atypia and high mitotic activity (usually <1/mm²), distinguishing it from atypical variants or melanoma.",
+    "used_verbatims": [
+      "small cellular nodules of epithelioid cells",
+      "lacks overt atypia and high mitotic activity (usually <1/mm 2 is present)"
     ]
   },
   "cureus-0014-00000026127-i05_A.jpg": {
@@ -496,12 +586,15 @@
     "label": "Figure 5",
     "caption": "Spitz nevus. Reprinted from Harms KL, Lowe L, Fullen DR, Harms PW. Atypical Spitz Tumors: A Diagnostic Challenge. Arch Pathol Lab Med. 2015; 139(10): 1263-1270 [ 21 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) This is the scanning magnification of a Spitz nevus. The lesion is symmetrical and predominantly nested with clefting artifacts around the nests. The epidermis is acanthotic (hematoxylin-eosin, original magnifications ×15). (B) This higher magnification shows large epithelioid melanocytes with prominent nucleoli. Kamino bodies are indicated with yellow arrowheads. Black arrows in the dermis point towards the nevomelanocytes that have retained their spitzoid morphology but have become smaller with their descent into the dermis (hematoxylin-eosin, original magnifications ×100).",
     "context": "Atypical Spitz tumors (AST) fall into the borderline category of this spectrum. They have spitzoid morphology but also other disturbing features like large size (≥10 mm), ulceration, significant depth, abnormal maturation, poor circumscription, cellular atypia, and an increased number of mitosis in the deeper parts of the lesion [ 2 , 17 , 21 ]. The biological potential of these tumors is very uncertain. In borderline cases, the sentinel lymph node can be positive, but the deposit is small, subcapsular, and resembles the lesion in its phenotype. However, if malignant features are present, like dense sheets of pleomorphic cells, it indicates a malignant potential [ 21 ]. It has now been found that different histological varieties of Spitz tumors are associated with specific genomic aberrations, and they can help differentiate benign from malignant neoplasms [ 23 ]. Figure 5 shows features of the Spitz nevus [ 21 ].",
-    "enriched_caption": "Panel A presents a scanning magnification (hematoxylin-eosin, ×15) of a Spitz nevus, characterized by a symmetrical and predominantly nested architectural pattern with characteristic clefting artifacts around the nests. The epidermis is noted to be acanthotic. This benign histological presentation is crucial for differentiation within the spectrum of Spitz tumors, where various histological varieties are associated with specific genomic aberrations that aid in distinguishing benign from malignant neoplasms.",
+    "enriched_caption": "A Spitz nevus is presented at scanning magnification (hematoxylin-eosin, original magnification ×15). This benign lesion displays a symmetrical architectural pattern, being predominantly nested with characteristic clefting artifacts around the nests. The epidermis is acanthotic, reflecting its spitzoid morphology. These histopathologic findings are crucial in differentiating it from atypical Spitz tumors, which often show contrasting features such as poor circumscription. In a broader diagnostic context, different histological varieties of Spitz tumors, including this Spitz nevus, are associated with specific genomic aberrations that can help differentiate benign from malignant neoplasms.",
     "used_verbatims": [
-      "Spitz nevus.",
+      "Spitz nevus",
+      "scanning magnification",
       "The lesion is symmetrical and predominantly nested with clefting artifacts around the nests.",
       "The epidermis is acanthotic",
-      "Figure 5 shows features of the Spitz nevus [ 21 ].",
+      "hematoxylin-eosin, original magnifications ×15",
+      "spitzoid morphology",
+      "poor circumscription",
       "different histological varieties of Spitz tumors are associated with specific genomic aberrations, and they can help differentiate benign from malignant neoplasms"
     ]
   },
@@ -511,11 +604,10 @@
     "label": "Figure 2",
     "caption": "Slides showing histological features of nevi. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Nests of epithelioid melanocytes in a junctional nevus, arranged at the tips of rete ridges. (B) Melanocytes at the basal layer (black arrows) are spaced out, and there are intervening keratinocytes. Mitosis in a basal keratinocyte can be seen (green arrow). (C) Small clusters, cords, or single cells of dermal melanocytes can be seen trickling down the reticular dermis. (D) Shows normal maturation. Large nests in the superficial dermis transition to smaller ones, and finally, single cells are dispersed from one another in the deep dermis. (E) Type A melanocytes are large epithelioid cells at the top, and type B are small round blue cells at the bottom in the dermis. (F) Type A cells have oval to round nuclei with abundant pale pink cytoplasm, forming nests at the junction. (G) Type B melanocytes at low power, resembling lymphocytes. They can mimic an inflamed nevus. (H) At high power, type B melanocytes (green arrows) can be differentiated from lymphocytes (yellow arrows). Lymphocytes are smaller in size than type B melanocytes with darker chromatin.",
     "context": "Figure 2 demonstrates the histological features of nevi as seen in hematoxylin and eosin-stained slides [ 2 ].",
-    "enriched_caption": "Histological features of nevi, as observed in hematoxylin and eosin-stained slides, showing small clusters, cords, or single cells of dermal melanocytes trickling down the reticular dermis.",
+    "enriched_caption": "Small clusters, cords, or single cells of dermal melanocytes are observed trickling down the reticular dermis, representing a histological feature of nevi as seen in hematoxylin and eosin-stained slides.",
     "used_verbatims": [
-      "Small clusters, cords, or single cells of dermal melanocytes can be seen trickling down the reticular dermis",
-      "histological features of nevi",
-      "hematoxylin and eosin-stained slides"
+      "Small clusters, cords, or single cells of dermal melanocytes can be seen trickling down the reticular dermis.",
+      "histological features of nevi as seen in hematoxylin and eosin-stained slides"
     ]
   },
   "cureus-0014-00000026127-i02_A.jpg": {
@@ -524,11 +616,9 @@
     "label": "Figure 2",
     "caption": "Slides showing histological features of nevi. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Nests of epithelioid melanocytes in a junctional nevus, arranged at the tips of rete ridges. (B) Melanocytes at the basal layer (black arrows) are spaced out, and there are intervening keratinocytes. Mitosis in a basal keratinocyte can be seen (green arrow). (C) Small clusters, cords, or single cells of dermal melanocytes can be seen trickling down the reticular dermis. (D) Shows normal maturation. Large nests in the superficial dermis transition to smaller ones, and finally, single cells are dispersed from one another in the deep dermis. (E) Type A melanocytes are large epithelioid cells at the top, and type B are small round blue cells at the bottom in the dermis. (F) Type A cells have oval to round nuclei with abundant pale pink cytoplasm, forming nests at the junction. (G) Type B melanocytes at low power, resembling lymphocytes. They can mimic an inflamed nevus. (H) At high power, type B melanocytes (green arrows) can be differentiated from lymphocytes (yellow arrows). Lymphocytes are smaller in size than type B melanocytes with darker chromatin.",
     "context": "Figure 2 demonstrates the histological features of nevi as seen in hematoxylin and eosin-stained slides [ 2 ].",
-    "enriched_caption": "Subfigure A displays the histological features of a junctional nevus as seen in hematoxylin and eosin-stained slides, characterized by nests of epithelioid melanocytes arranged at the tips of the rete ridges. This architectural pattern is typical for a benign melanocytic lesion confined to the dermal-epidermal junction.",
+    "enriched_caption": "Nests of epithelioid melanocytes are arranged at the tips of rete ridges in a junctional nevus, as observed in hematoxylin and eosin-stained slides.",
     "used_verbatims": [
-      "Nests of epithelioid melanocytes",
-      "junctional nevus",
-      "arranged at the tips of rete ridges",
+      "Nests of epithelioid melanocytes in a junctional nevus, arranged at the tips of rete ridges.",
       "hematoxylin and eosin-stained slides"
     ]
   },
@@ -538,12 +628,12 @@
     "label": "Figure 8",
     "caption": "Dysplastic nevus. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) A thin, broad lesion similar to its flat clinical appearance. The dermal component, if present, is in the papillary dermis and not in the deep dermis. (B) “Shouldering.” The green arrow points to the dermal component and the black to the junctional component. The junctional component extends to the periphery beyond the dermal component. (C) “Bridging.” The nests of melanocytes in the tips of rete ridges bridge across and are connected. Lamellar fibroplasia is seen underlying the nests and is wrapping around them. (D) Black arrows are pointing towards nests of melanocytes which are bridging across multiple adjacent retia and can be confused with confluent growth. The key here is that the inter-rete space above the papillary dermal tips (indicated by blue arrows) is uninvolved. (E) Lamellar fibroplasia. Bands of pink collagen wrap around the rete and nests of melanocytes that bridge between them. Lymphocytes can be seen scattered in the dermis. (F) Melanocytes are displaying cytological atypia. The nuclei of melanocytes are two to three times larger than the nuclei of spinous layer keratinocytes. The melanocytes have abundant grayish cytoplasm with fine dusty melanin pigment, giving it an appearance of “dirty dishwater.”",
     "context": "The distinction with melanoma is challenging based on all the above histological features, especially when the \"dysplastic\" features are developed sufficiently. Large size, architectural disorder, cellular atypia, and fusion of nests are all in common with melanoma [ 18 ]. Significant pagetoid single cells scattered at the border, diffuse cellular atypia, and dermal mitosis are all features indicating melanoma [ 17 ]. Figure 8 shows various features of the dysplastic nevus [ 2 ].",
-    "enriched_caption": "Panel E illustrates lamellar fibroplasia, a characteristic histopathologic feature of dysplastic nevus. This is seen as bands of pink collagen wrapping around the rete ridges and nests of melanocytes that bridge between them. Scattered lymphocytes are also visible within the dermis.",
+    "enriched_caption": "Lamellar fibroplasia, appearing as bands of pink collagen wrapping around rete ridges and bridging nests of melanocytes, is a key architectural histological feature of dysplastic nevus. Scattered lymphocytes are also present in the dermis. This architectural pattern, particularly the bridging nests of melanocytes, contributes to the challenging distinction with melanoma, as architectural disorder and fusion of nests are all in common with melanoma.",
     "used_verbatims": [
-      "Lamellar fibroplasia.",
-      "Bands of pink collagen wrap around the rete and nests of melanocytes that bridge between them.",
-      "Lymphocytes can be seen scattered in the dermis.",
-      "Figure 8 shows various features of the dysplastic nevus [ 2 ]."
+      "histological features",
+      "distinction with melanoma is challenging",
+      "architectural disorder",
+      "fusion of nests are all in common with melanoma"
     ]
   },
   "cureus-0014-00000026127-i06_B.jpg": {
@@ -552,10 +642,10 @@
     "label": "Figure 6",
     "caption": "Atypical Spitz tumor. Reprinted from Harms KL, Lowe L, Fullen DR, Harms PW. Atypical Spitz Tumors: A Diagnostic Challenge. Arch Pathol Lab Med. 2015; 139(10): 1263-1270 [ 21 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) This figure shows a large polypoid tumor with ulceration. (B) Spindled spitzoid cells are arranged in cellular fascicles with minimal pleomorphism and occasional mitotic figures (yellow arrowheads). (C) Yellow arrowheads show subcapsular deposits of spitzoid cells in a sentinel lymph node for an atypical Spitz tumor. These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×5 (A), ×400 (B), and ×200 (C).",
     "context": "Figure 6 shows an atypical Spitz tumor at low and high magnifications [ 21 ].",
-    "enriched_caption": "This panel illustrates an atypical Spitz tumor, showcasing spindled spitzoid cells organized in cellular fascicles. The cells exhibit minimal pleomorphism and feature occasional mitotic figures (indicated by yellow arrowheads).",
+    "enriched_caption": "Histopathologic interpretation of an Atypical Spitz tumor reveals spindled spitzoid cells arranged in cellular fascicles with minimal pleomorphism and occasional mitotic figures (yellow arrowheads).",
     "used_verbatims": [
-      "Spindled spitzoid cells are arranged in cellular fascicles with minimal pleomorphism and occasional mitotic figures (yellow arrowheads).",
-      "atypical Spitz tumor"
+      "Spindled spitzoid cells are arranged in cellular fascicles with minimal pleomorphism and occasional mitotic figures (yellow arrowheads)",
+      "Atypical Spitz tumor"
     ]
   },
   "cureus-0014-00000026127-i09_F.jpg": {
@@ -564,14 +654,13 @@
     "label": "Figure 9",
     "caption": "Cellular blue nevus. Reprinted from Zembowicz A, Phadke PA. Blue nevi and variants: an update. Arch Pathol Lab Med. 2011; 135(3): 327-336 [ 35 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) & (B) CBN comprises small cellular nodules of epithelioid cells. (C) & (D) Dumbbell-shaped appearance of large CBN. At high power, it shows uniform oval cells with inconspicuous nucleoli and clear cytoplasm. (E) & (F) An area of cystic degeneration can be seen, which should not be confused with tumor necrosis. (G) & (H) Areas of hemorrhage and hemosiderin deposition in large atypical CBN. Hot spots of cellular atypia and increased mitotic activity can also be seen. These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×20 (A, C, and E), ×400 (B, D, and H), ×200 (F), and ×100 (G).",
     "context": "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present), atypical CBN shows cytological atypia but not to the malignant extent [ 35 ]. Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity (>3/mm 2 ) [ 35 ]. Figure 9 illustrates the features of CBN [ 35 ].",
-    "enriched_caption": "Panel F, stained with hematoxylin-eosin at original magnification ×200, illustrates an area of cystic degeneration within a Cellular Blue Nevus (CBN). This histopathologic finding is crucial for diagnostic interpretation as it should not be confused with tumor necrosis, a feature typically associated with malignancy. As this figure illustrates characteristic features of CBN, it is important to note that CBN generally lacks the overt atypia and high mitotic activity seen in melanoma, which is recognized by marked atypia and mitotic activity.",
+    "enriched_caption": "At ×200 magnification, a histopathologic section of Cellular Blue Nevus (CBN) exhibits an area of cystic degeneration. This architectural pattern is a key diagnostic feature of CBN and should not be confused with tumor necrosis. The distinction is clinically relevant, as CBN typically lacks overt atypia and high mitotic activity, whereas tumor necrosis, alongside marked atypia and increased mitotic activity, is a recognizing trait of melanoma, a malignant condition that can arise in the background of blue nevus or CBN.",
     "used_verbatims": [
-      "An area of cystic degeneration can be seen, which should not be confused with tumor necrosis.",
-      "Cellular blue nevus.",
-      "Figure 9 illustrates the features of CBN",
-      "stained with hematoxylin-eosin",
-      "original magnifications ×200 (F)",
-      "Although CBN lacks overt atypia and high mitotic activity",
+      "Cellular blue nevus",
+      "An area of cystic degeneration can be seen",
+      "should not be confused with tumor necrosis",
+      "features of CBN",
+      "lacks overt atypia and high mitotic activity",
       "Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity"
     ]
   },
@@ -581,11 +670,10 @@
     "label": "Figure 7",
     "caption": "Reed nevus. Reprinted from Gardner J. Survival Guide To Dermatopathology, Pathology Survival Guides Series 1. Innovative Pathology Press, Arlington Virginia; 2019 [ 2 ] with permission from Copyright 2019 Innovative Pathology Press. (A) Reed nevus. A small, thin, and circumscribed lesion ends in a nest abruptly at both peripheral borders. (B) Junctional nests show vertically oriented spindle cells with fine melanin pigment. The nests of these cells are hanging down from the acanthotic epidermis like “bunches of bananas.” A melanophage band can be seen underlying the lesion, giving the lesion a dark pigmentation clinically. (C) Nests of spindle cells are sometimes seen running horizontally parallel to the epidermis from rete to rete, giving a “bridging” appearance similar to dysplastic nevus. (D) The melanocytes have plump spindled nuclei that resemble spindled melanocytes of Spitz nevus; that is why it is considered a variant of Spitz nevus. The underlying papillary dermis has darkly pigmented melanophages.",
     "context": "Histologically, there are overlapping features between Reed nevus and Spitz nevus. They are mostly found at the junction of the papillary dermis and are small, circumscribed, and thin lesions. The junctional melanocytes are plump spindle cells with abundant cytoplasm and fine melanin pigment. The nests can be oriented vertically, resembling \"bunches of bananas,\" or run horizontally parallel to the epidermis, bridging the rete ridges like a dysplastic nevus [ 2 ]. The nests mostly end abruptly at both peripheral edges, except in growing pigmented spindle nevus, where single cells can be seen in the basal layer at the edges [ 18 ]. A central pagetoid spread of single melanocytes or nests of melanocytes can also be seen. Melanophages that are darkly pigmented can be seen in the papillary dermis. Cytological atypia can be seen but is not severe. The nuclei are hyperchromatic with occasional nucleoli, and mitotic figures are rare (<2/mm2). Differentiating this lesion from melanoma can be challenging because of its dark color, irregular margins, asymmetry, and cellular atypia [ 24 ]. Figure 7 depicts the histological features of Reed nevus [ 2 ].",
-    "enriched_caption": "Histologically, Reed nevus exhibits nests of plump spindle melanocytes with abundant cytoplasm and fine melanin pigment, which are sometimes observed running horizontally parallel to the epidermis, bridging the rete ridges from rete to rete. This 'bridging' architectural pattern, similar to that seen in dysplastic nevus, highlights the diagnostic challenge in differentiating this lesion from melanoma due to overlapping features such as cellular atypia.",
+    "enriched_caption": "Nests of spindle cells display a horizontal orientation, running parallel to the epidermis from rete to rete and creating a characteristic 'bridging' appearance across the rete ridges. This architectural pattern is reminiscent of dysplastic nevus and is a histological feature of Reed nevus, a lesion that can be challenging to distinguish from melanoma due to overlapping characteristics.",
     "used_verbatims": [
       "Nests of spindle cells are sometimes seen running horizontally parallel to the epidermis from rete to rete, giving a “bridging” appearance similar to dysplastic nevus.",
-      "The nests can be ... run horizontally parallel to the epidermis, bridging the rete ridges like a dysplastic nevus [ 2 ].",
-      "Junctional melanocytes are plump spindle cells with abundant cytoplasm and fine melanin pigment.",
+      "The nests can be oriented vertically, resembling \"bunches of bananas,\" or run horizontally parallel to the epidermis, bridging the rete ridges like a dysplastic nevus [ 2 ].",
       "Differentiating this lesion from melanoma can be challenging because of its dark color, irregular margins, asymmetry, and cellular atypia [ 24 ]."
     ]
   },
@@ -595,13 +683,12 @@
     "label": "Figure 9",
     "caption": "Cellular blue nevus. Reprinted from Zembowicz A, Phadke PA. Blue nevi and variants: an update. Arch Pathol Lab Med. 2011; 135(3): 327-336 [ 35 ] with permission from Archives of Pathology & Laboratory Medicine. Copyright 2010 College of American Pathologists. (A) & (B) CBN comprises small cellular nodules of epithelioid cells. (C) & (D) Dumbbell-shaped appearance of large CBN. At high power, it shows uniform oval cells with inconspicuous nucleoli and clear cytoplasm. (E) & (F) An area of cystic degeneration can be seen, which should not be confused with tumor necrosis. (G) & (H) Areas of hemorrhage and hemosiderin deposition in large atypical CBN. Hot spots of cellular atypia and increased mitotic activity can also be seen. These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×20 (A, C, and E), ×400 (B, D, and H), ×200 (F), and ×100 (G).",
     "context": "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present), atypical CBN shows cytological atypia but not to the malignant extent [ 35 ]. Melanoma can arise in the background of blue nevus or CBN and is recognized by marked atypia and mitotic activity (>3/mm 2 ) [ 35 ]. Figure 9 illustrates the features of CBN [ 35 ].",
-    "enriched_caption": "Histopathologic examination of this cellular blue nevus (CBN) in Panel A reveals small cellular nodules composed of epithelioid cells. Typical CBN, as shown here, generally lacks overt atypia and high mitotic activity, with mitotic counts usually less than 1/mm². The slide is stained with hematoxylin-eosin and presented at ×20 magnification.",
+    "enriched_caption": "A cellular blue nevus (CBN) at low power (H&E, original magnification ×20), displaying small cellular nodules composed of epithelioid cells. This typical architectural pattern of CBN generally lacks overt atypia and high mitotic activity (usually <1/mm 2), distinguishing it from atypical CBN and melanoma.",
     "used_verbatims": [
+      "Cellular blue nevus.",
       "CBN comprises small cellular nodules of epithelioid cells.",
-      "lacks overt atypia and high mitotic activity",
-      "usually <1/mm 2 is present",
-      "stained with hematoxylin-eosin",
-      "original magnifications ×20 (A"
+      "These slides are stained with hematoxylin-eosin, seen in the above images at original magnifications ×20 (A, C, and E)",
+      "Although CBN lacks overt atypia and high mitotic activity (usually <1/mm 2 is present)"
     ]
   }
 }
