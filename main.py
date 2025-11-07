@@ -1,7 +1,7 @@
 import os
 import json
-import re
-import unicodedata
+import re, unicodedata, statistics
+from difflib import SequenceMatcher
 import streamlit as st
 from PIL import Image
 from bs4 import BeautifulSoup
@@ -73,30 +73,73 @@ def parse_paper_metadata(nxml_path):
 def load_image(image_path):
     return Image.open(image_path)
 
+# --- Utility ---
 def normalize_for_matching(s):
     if not s:
         return ""
     s = unicodedata.normalize("NFKD", s)
-    s = s.replace("‘", "'").replace("’", "'").replace("“", '"').replace("”", '"')
-    s = s.replace("–", "-").replace("—", "-").replace("−", "-")
     s = re.sub(r"\s+", " ", s.strip())
     return s.lower()
 
+def expand_to_word_boundaries(text, start, end):
+    """Expand highlight range to full word boundaries."""
+    while start > 0 and re.match(r"\w", text[start - 1]):
+        start -= 1
+    while end < len(text) and re.match(r"\w", text[end]):
+        end += 1
+    return start, end
+
+# --- Main function ---
 def highlight_verbatims(text, verbatims, color="#a7d8ff"):
-    if not verbatims or not text:
+    if not text or not verbatims:
         return text
-    matches = []
+
     norm_text = normalize_for_matching(text)
-    for v in verbatims:
-        v = v.strip()
-        if not v:
-            continue
-        for m in re.finditer(re.escape(normalize_for_matching(v)), norm_text, flags=re.IGNORECASE):
-            start = int(m.start() / len(norm_text) * len(text))
-            end = int(m.end() / len(norm_text) * len(text))
-            matches.append((start, end))
-    if not matches:
+    matches = []
+    candidate_groups = []
+
+    # --- precompute normalized verbatims once ---
+    norm_verbatims = [(v, normalize_for_matching(v)) for v in set(verbatims) if v.strip()]
+    if not norm_verbatims:
         return text
+
+    # --- search all verbatims ---
+    for v, nv in norm_verbatims:
+        start = 0
+        spans = []
+        # direct substring find instead of regex for speed
+        while True:
+            idx = norm_text.find(nv, start)
+            if idx == -1:
+                break
+            spans.append((idx, idx + len(nv)))
+            start = idx + len(nv)
+        # small fallback fuzzy match for rare missing ones
+        if not spans and len(nv) > 5:
+            step = max(1, len(nv)//2)
+            for i in range(0, len(norm_text)-len(nv), step):
+                window = norm_text[i:i+len(nv)]
+                if SequenceMatcher(None, nv, window).ratio() > 0.9:
+                    spans.append((i, i + len(nv)))
+        if spans:
+            candidate_groups.append((v, spans))
+
+    # --- pick anchors first (unique occurrences) ---
+    anchors = [spans[0] for _, spans in candidate_groups if len(spans) == 1]
+    matches.extend(anchors)
+
+    # --- pick closest match for redundant verbatims ---
+    if anchors:
+        anchor_mean = statistics.mean((s + e) / 2 for s, e in anchors)
+    else:
+        anchor_mean = len(norm_text) / 2
+
+    for _, spans in candidate_groups:
+        if len(spans) > 1:
+            best = min(spans, key=lambda s: abs(((s[0] + s[1]) / 2) - anchor_mean))
+            matches.append(best)
+
+    # --- merge and expand ---
     matches.sort()
     merged = []
     for s, e in matches:
@@ -104,10 +147,13 @@ def highlight_verbatims(text, verbatims, color="#a7d8ff"):
             merged.append([s, e])
         else:
             merged[-1][1] = max(merged[-1][1], e)
-    out, last = [], 0
+
+    out = []
+    last = 0
     for s, e in merged:
+        s, e = expand_to_word_boundaries(text, s, e)
         out.append(text[last:s])
-        out.append(f"<mark style='background-color:{color}; padding:2px 4px; font-size: 15px; border-radius:4px'>{text[s:e]}</mark>")
+        out.append(f"<mark style='background-color:{color}; padding:2px 4px; border-radius:4px'>{text[s:e]}</mark>")
         last = e
     out.append(text[last:])
     return "".join(out)
