@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,35 +15,32 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module">
-import { mount } from "https://cdn.jsdelivr.net/npm/@stlite/browser@0.89.1/build/stlite.js"
-mount(
-  {
-    archives: [
-      {
-        url: "./data.zip",
-        format: "zip",
-        options: {},
-      },
-    ],
-    requirements: ["beautifulsoup4", "lxml"],
-    entrypoint: "main.py",
-     files: {
-        "main.py": {
-        url: "main.py",
-        },
-       "highlight_component/index.html": {
-        url: "highlight_component/index.html",
-        },
-       "highlight_component/__init__.py": {
-        url: "highlight_component/__init__.py",
-        },
-    },
-  },
-  document.getElementById("root")
-)
 
-function Uu(n){const a=window.atob(n),i=a.length,l=new Uint8Array(i);for(let u=0;u<i;u++)l[u]=a.charCodeAt(u);return l}
+    <script type="module">
+      import { mount } from "https://cdn.jsdelivr.net/npm/@stlite/browser@0.89.1/build/stlite.js";
+
+      mount(
+        {
+          archives: [
+            {
+              url: "./data.zip",
+              format: "zip",
+            },
+          ],
+          requirements: ["beautifulsoup4", "lxml", "streamlit-scroll-to-top"],
+          entrypoint: "main.py",
+          files: {
+            "main.py": { url: "./main.py" },
+            "highlight_component/index.html": {
+              url: "./highlight_component/index.html",
+            },
+            "highlight_component/__init__.py": {
+              url: "./highlight_component/__init__.py",
+            },
+          },
+        },
+        document.getElementById("root")
+      );
     </script>
   </body>
 </html>
