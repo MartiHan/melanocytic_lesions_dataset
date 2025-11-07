@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 
 _component_func = components.declare_component(
     "highlight_component",
-    path=os.path.join(os.path.dirname(__file__)),
+    path=os.path.join(os.path.dirname(__file__), "frontend"),
 )
 
 def highlight_text(text: str, key=None, highlights=None):

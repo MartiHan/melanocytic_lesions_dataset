@@ -11,14 +11,14 @@ from streamlit_scroll_to_top import scroll_to_here
 # =========================================================
 # Streamlit setup
 # =========================================================
-# st.markdown("""
-# <style>
-#     .block-container {
-#         padding: 1rem 0.8rem 0.2rem 0.8rem;
-#         max-width: 98%;
-#     }
-# </style>
-# """, unsafe_allow_html=True)
+st.markdown("""
+<style>
+    .block-container {
+        padding: 1rem 0.8rem 0.2rem 0.8rem;
+        max-width: 98%;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 st.set_page_config(page_title="Pathology Caption Review", layout="wide")
 st.title("Histopathology Figures Caption Enrichment Review Tool")
