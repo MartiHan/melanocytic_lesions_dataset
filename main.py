@@ -243,7 +243,7 @@ annotations = st.session_state.annotations
 # =========================================================
 doi_html = f"<a href='https://doi.org/{metadata['doi']}' target='_blank'>{metadata['doi']}</a>" if metadata['doi'] != "N/A" else "N/A"
 st.markdown(f"""
-<div style="background-color:#f0f2f6;padding:15px;border-radius:10px;margin-bottom:20px">
+<div style="padding:15px;border-radius:10px;margin-bottom:20px">
   <h4 style="margin-bottom:5px;">{metadata['title']}</h4>
   <p><strong>Authors:</strong> {', '.join(metadata['authors']) if metadata['authors'] else 'Unknown'}</p>
   <p><strong>Journal:</strong> {metadata['journal']} ({metadata['year']})</p>
@@ -281,7 +281,6 @@ current_images = image_list[start_idx:end_idx]
 # =========================================================
 for current_img in current_images:
     info = data[current_img]
-    st.markdown("---")
 
     cols = st.columns([1, 2])
     with cols[0]:
@@ -335,6 +334,8 @@ for current_img in current_images:
         st.markdown(highlight_verbatims(info.get("caption", ""), info.get("used_verbatims", [])), unsafe_allow_html=True)
         st.markdown("##### Context Paragraph(s)")
         st.markdown(highlight_verbatims(info.get("context", ""), info.get("used_verbatims", [])), unsafe_allow_html=True)
+
+    st.markdown("---")
 
 # =========================================================
 # Sidebar Navigation
