@@ -1,4 +1,5 @@
 import os
+import io, zipfile
 import json
 import re, unicodedata, statistics
 from difflib import SequenceMatcher
@@ -7,6 +8,8 @@ from PIL import Image
 from bs4 import BeautifulSoup
 from highlight_component import highlight_text
 from streamlit_scroll_to_top import scroll_to_here
+
+allow_loading_from_file = True
 
 # =========================================================
 # Streamlit setup
@@ -20,8 +23,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.set_page_config(page_title="Pathology Caption Review", layout="wide")
-st.title("Histopathology Figures Caption Enrichment Review Tool")
+st.set_page_config(page_title="Melanocytic Lesions Dataset", layout="wide")
+st.title("Multimodal Histopathology Dataset of Melanocytic Lesions")
 
 # =========================================================
 # Utility functions
@@ -170,7 +173,8 @@ if not json_files:
 # Track manually exported JSONs
 if "exported_jsons" not in st.session_state:
     st.session_state.exported_jsons = set()
-
+if "edited_jsons" not in st.session_state:
+    st.session_state.edited_jsons = set()
 # --- Build readable dropdown labels using parsed titles ---
 titles = []
 metadata_cache = {}
@@ -190,7 +194,12 @@ for jf in json_files:
     base_label = f"{meta['title']} ({meta['year']})"
 
     # --- Use emoji only if explicitly exported ---
-    icon = "💾" if jf in st.session_state.exported_jsons else "◽"
+    if jf in st.session_state.exported_jsons:
+        icon = "💾"
+    elif jf in st.session_state.edited_jsons:
+        icon = "✏️"
+    else:
+        icon = "◽"
     display_labels.append(f"{icon} {base_label}")
 
 # --- Map label to path ---
@@ -239,19 +248,6 @@ if selected_json != st.session_state.active_json:
 annotations = st.session_state.annotations
 
 # =========================================================
-# Paper metadata display
-# =========================================================
-doi_html = f"<a href='https://doi.org/{metadata['doi']}' target='_blank'>{metadata['doi']}</a>" if metadata['doi'] != "N/A" else "N/A"
-st.markdown(f"""
-<div style="padding:15px;border-radius:10px;margin-bottom:20px">
-  <h4 style="margin-bottom:5px;">{metadata['title']}</h4>
-  <p><strong>Authors:</strong> {', '.join(metadata['authors']) if metadata['authors'] else 'Unknown'}</p>
-  <p><strong>Journal:</strong> {metadata['journal']} ({metadata['year']})</p>
-  <p><strong>DOI:</strong> {doi_html}</p>
-</div>
-""", unsafe_allow_html=True)
-
-# =========================================================
 # Pagination
 # =========================================================
 image_list = [img for img in sorted(data.keys()) if img.lower().endswith((".jpg", ".jpeg", ".png", ".tif", ".tiff"))]
@@ -263,7 +259,9 @@ IMAGES_PER_PAGE = 5
 if "page_index" not in st.session_state:
     st.session_state.page_index = 0
 
-# --- Smooth scroll only when page changes ---
+if "allow_json_loading" not in st.session_state:
+    st.session_state.allow_json_loading = True
+
 if "last_page_index" not in st.session_state:
     st.session_state.last_page_index = st.session_state.get("page_index", 0)
 
@@ -277,6 +275,167 @@ end_idx = start_idx + IMAGES_PER_PAGE
 current_images = image_list[start_idx:end_idx]
 
 # =========================================================
+# Initialize loading permission
+# =========================================================
+if "allow_json_loading" not in st.session_state:
+    st.session_state.allow_json_loading = True
+if "last_uploaded_zip_name" not in st.session_state:
+    st.session_state.last_uploaded_zip_name = None
+if "upload_counter" not in st.session_state:
+    st.session_state.upload_counter = 0
+
+uploader_key = f"global_upload_zip_{st.session_state.upload_counter}"
+
+upload_col, _, download_col = st.columns([1, 2, 1], vertical_alignment="bottom")
+with upload_col:
+    uploaded_zip = st.file_uploader(
+        "Import ZIP of existing annotations",
+        type=["zip"],
+        key=uploader_key,
+    )
+
+if uploaded_zip is not None:
+    current_name = uploaded_zip.name
+    if current_name != st.session_state.last_uploaded_zip_name:
+        st.session_state.allow_json_loading = True
+        st.session_state.last_uploaded_zip_name = current_name
+        for jf in json_files:
+            ann_path = annotations_path_for(jf)
+            if os.path.exists(ann_path):
+                st.session_state.exported_jsons.add(jf)
+                st.session_state.edited_jsons.discard(jf)
+        st.rerun()
+
+if uploaded_zip is not None:
+    st.session_state.allow_json_loading = True
+    st.session_state.last_uploaded_zip_name = uploaded_zip.name
+
+if uploaded_zip is not None and st.session_state.allow_json_loading:
+    try:
+        with zipfile.ZipFile(uploaded_zip, "r") as zip_ref:
+            updated_count = 0
+            loaded_for_active = None
+
+            for name in zip_ref.namelist():
+                if not name.endswith("_annotations.json"):
+                    continue
+                try:
+                    with zip_ref.open(name) as f:
+                        content = json.load(f)
+
+                    # Match the paper
+                    paper_name = name.replace("_annotations.json", "_captions.json")
+                    matching_jsons = [jf for jf in json_files if os.path.basename(jf) == paper_name]
+                    if not matching_jsons:
+                        continue
+                    json_path = matching_jsons[0]
+
+                    # Load or create existing annotation file
+                    ann_path = annotations_path_for(json_path)
+                    if os.path.exists(ann_path):
+                        with open(ann_path, "r", encoding="utf-8") as f:
+                            existing = json.load(f)
+                    else:
+                        existing = {}
+
+                    # Merge new content
+                    existing.setdefault("ratings", {}).update(content.get("ratings", {}))
+                    existing.setdefault("highlights", {}).update(content.get("highlights", {}))
+
+                    # Write back merged file
+                    with open(ann_path, "w", encoding="utf-8") as f:
+                        json.dump(existing, f, indent=2, ensure_ascii=False)
+
+                    # Capture active paper for immediate sync
+                    if json_path == selected_json:
+                        loaded_for_active = existing
+
+                    updated_count += 1
+
+                except Exception as e:
+                    st.warning(f"⚠️ Skipped {name}: {e}")
+
+        # Sync the current paper in session
+        if loaded_for_active:
+            annotations.update(loaded_for_active)
+            st.session_state.annotations = annotations
+
+            for img_name, score in loaded_for_active.get("ratings", {}).items():
+                st.session_state[f"rating_{img_name}"] = score
+
+            for img_name, hl in loaded_for_active.get("highlights", {}).items():
+                key_prefix = f"highlight_{os.path.basename(selected_json)}_{img_name}_"
+                if img_name in current_images:
+                    key = f"{key_prefix}{st.session_state.page_index}"
+                    st.session_state[key] = hl
+
+        st.cache_data.clear()
+
+        # Disable further loads until user selects a new ZIP
+        st.session_state.allow_json_loading = False
+        st.session_state.upload_counter += 1
+        st.rerun()
+
+    except Exception as e:
+        st.error(f"❌ Failed to read ZIP: {e}")
+
+with download_col:
+    for key, value in st.session_state.items():
+        if key.startswith("highlight_") and isinstance(value, list):
+            # Parse out image name from key pattern
+            parts = key.split("_", 2)
+            if len(parts) >= 3:
+                for img in image_list:
+                    if img in key:
+                        annotations.setdefault("highlights", {})[img] = value
+                        break
+
+        # Write updated annotations for the active paper to disk
+    ann_path = annotations_path_for(selected_json)
+    with open(ann_path, "w", encoding="utf-8") as f:
+        json.dump(annotations, f, indent=2, ensure_ascii=False)
+
+    # Create ZIP in memory
+    zip_buffer = io.BytesIO()
+    with zipfile.ZipFile(zip_buffer, "w", zipfile.ZIP_DEFLATED) as zipf:
+        for jf in json_files:
+            ann_path = annotations_path_for(jf)
+            if os.path.exists(ann_path):
+                with open(ann_path, "r", encoding="utf-8") as f:
+                    content = f.read()
+                # add with proper name
+                zipf.writestr(os.path.basename(ann_path), content)
+    zip_buffer.seek(0)
+
+    if st.download_button(
+        label="💾 Download All Annotations (ZIP)",
+        data=zip_buffer,
+        file_name="all_reviews.zip",
+        mime="application/zip",
+        use_container_width=True,
+        help="Download all saved annotation files as a single ZIP"
+    ):
+        for jf in json_files:
+            ann_path = annotations_path_for(jf)
+            if os.path.exists(ann_path):
+                st.session_state.exported_jsons.add(jf)
+                st.session_state.edited_jsons.discard(jf)
+        st.rerun()
+
+# =========================================================
+# Paper metadata display
+# =========================================================
+doi_html = f"<a href='https://doi.org/{metadata['doi']}' target='_blank'>{metadata['doi']}</a>" if metadata['doi'] != "N/A" else "N/A"
+st.markdown(f"""
+<div style="padding:15px;border-radius:10px;margin-bottom:20px">
+  <h4 style="margin-bottom:5px;">{metadata['title']}</h4>
+  <p><strong>Authors:</strong> {', '.join(metadata['authors']) if metadata['authors'] else 'Unknown'}</p>
+  <p><strong>Journal:</strong> {metadata['journal']} ({metadata['year']})</p>
+  <p><strong>DOI:</strong> {doi_html}</p>
+</div>
+""", unsafe_allow_html=True)
+
+# =========================================================
 # Display Figures (5 per page)
 # =========================================================
 for current_img in current_images:
@@ -286,7 +445,7 @@ for current_img in current_images:
     with cols[0]:
         img_path = os.path.join(os.path.dirname(selected_json), current_img)
         if os.path.exists(img_path):
-            st.image(load_image(img_path), use_container_width=True)
+            st.image(load_image(img_path), width='stretch')
 
         highlight_key = f"highlight_{os.path.basename(selected_json)}_{current_img}_{st.session_state.page_index}"
 
@@ -311,22 +470,29 @@ for current_img in current_images:
             st.session_state[rating_key] = annotations.get("ratings", {}).get(current_img, 0)
 
         cols_rating = st.columns(6)
-        if cols_rating[0].button("🚫", key=f"{rating_key}_NR_{current_img}", use_container_width=True):
+        if cols_rating[0].button("🚫", key=f"{rating_key}_NR_{current_img}", width='stretch'):
             st.session_state[rating_key] = "NR"
             annotations.setdefault("ratings", {})[current_img] = "NR"
+            st.session_state.exported_jsons.discard(selected_json)
+            st.session_state.edited_jsons.add(selected_json)
+            #st.rerun()
 
         for n, c in enumerate(cols_rating[1:], start=1):
-            if c.button(str(n), key=f"{rating_key}_{n}_{current_img}", use_container_width=True):
+            if c.button(str(n), key=f"{rating_key}_{n}_{current_img}", width='stretch'):
                 st.session_state[rating_key] = n
                 annotations.setdefault("ratings", {})[current_img] = n
+                st.session_state.exported_jsons.discard(selected_json)
+                st.session_state.edited_jsons.add(selected_json)
 
         selected_rating = st.session_state[rating_key]
         annotations.setdefault("ratings", {})[current_img] = selected_rating
 
         if selected_rating == "NR":
             st.markdown("<p style='text-align:center;font-size:1.3em;'>🚫 <b>Figure is Not Relevant</b></p>", unsafe_allow_html=True)
+            allow_loading_from_file = False
         elif isinstance(selected_rating, int) and selected_rating > 0:
             st.markdown(f"<p style='text-align:center;font-size:1.3em;'><b>Score:</b> {selected_rating}/5</p>", unsafe_allow_html=True)
+            allow_loading_from_file = False
 
     with cols[1]:
         st.markdown(f"**Panel:** {info.get('panel', '—')} | **Label:** {info.get('label', '—')}")
@@ -358,7 +524,7 @@ for page_num in range(total_pages):
             f"<div style='background-color:#cfe2ff;color:#000;font-weight:600;padding:6px 10px;border-radius:6px;margin-top:6px;margin-bottom:4px;'>"
             f"{btn_label}</div>", unsafe_allow_html=True)
     else:
-        if st.sidebar.button(btn_label, key=f"page_btn_{page_num}", use_container_width=True):
+        if st.sidebar.button(btn_label, key=f"page_btn_{page_num}", width='stretch'):
             clicked_page = page_num
 
     for img in page_imgs:
@@ -381,32 +547,6 @@ if clicked_page is not None and clicked_page != st.session_state.page_index:
     st.session_state.page_index = clicked_page
     st.rerun()
 
-# --- Sync all highlight states from session to annotations before export ---
-for key, value in st.session_state.items():
-    if key.startswith("highlight_") and isinstance(value, list):
-        # Parse out image name from key pattern
-        parts = key.split("_", 2)
-        if len(parts) >= 3:
-            for img in image_list:
-                if img in key:
-                    annotations.setdefault("highlights", {})[img] = value
-                    break
-
-# =========================================================
-# Save & Export + Navigation
-# =========================================================
-if st.download_button(
-    label=f"💾 Export Review to {os.path.basename(ANNOT_PATH)}",
-    data=json.dumps(annotations, indent=2, ensure_ascii=False),
-    file_name=os.path.basename(ANNOT_PATH),
-    mime="application/json",
-    help="Click to export all annotations as JSON",
-):
-    # Mark this paper as manually exported
-    st.session_state.exported_jsons.add(selected_json)
-    #st.toast("✅ Review exported successfully!")
-    st.rerun()
-
 nav_cols = st.columns([1, 6, 1])
 with nav_cols[0]:
     if st.button("⬅ Previous Page") and st.session_state.page_index > 0:
@@ -419,4 +559,5 @@ with nav_cols[1]:
 with nav_cols[2]:
     if st.button("Next Page ➡") and st.session_state.page_index < total_pages - 1:
         st.session_state.page_index += 1
+        st.session_state.allow_json_loading = False
         st.rerun()
