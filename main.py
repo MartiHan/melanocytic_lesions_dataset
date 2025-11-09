@@ -193,20 +193,36 @@ for jf in json_files:
     metadata_cache[jf] = meta
     base_label = f"{meta['title']} ({meta['year']})"
 
-    # --- Use emoji only if explicitly exported ---
-    if jf in st.session_state.exported_jsons:
-        icon = "💾"
-    elif jf in st.session_state.edited_jsons:
+    # --- Determine emoji state ---
+    if jf in st.session_state.edited_jsons:
         icon = "✏️"
+    elif jf in st.session_state.exported_jsons:
+        icon = "💾"
     else:
         icon = "◽"
+
     display_labels.append(f"{icon} {base_label}")
 
 # --- Map label to path ---
 label_to_path = {label: path for label, path in zip(display_labels, json_files)}
 
-selected_label = st.selectbox("Select article to review", display_labels, key="json_selector")
+# --- Preserve current selection when icons change ---
+active_json = st.session_state.get("active_json")
+default_index = 0
+if active_json:
+    for i, lbl in enumerate(display_labels):
+        if label_to_path[lbl] == active_json:
+            default_index = i
+            break
+
+selected_label = st.selectbox(
+    "Select article to review",
+    display_labels,
+    index=default_index,
+    key="json_selector"
+)
 selected_json = label_to_path[selected_label]
+
 
 metadata = metadata_cache[selected_json]
 data = load_json_data(selected_json)
