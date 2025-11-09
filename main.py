@@ -9,7 +9,20 @@ from bs4 import BeautifulSoup
 from highlight_component import highlight_text
 from streamlit_scroll_to_top import scroll_to_here
 
-allow_loading_from_file = True
+# =========================================================
+# Clean up old annotation cache files on first app load
+# =========================================================
+if "initialized" not in st.session_state:
+    base_dir = "data/pubmed_fulltexts"
+    for root, _, files in os.walk(base_dir):
+        for f in files:
+            if f.endswith("_annotations.json"):
+                try:
+                    os.remove(os.path.join(root, f))
+                except Exception as e:
+                    st.warning(f"⚠️ Could not delete {f}: {e}")
+    st.session_state.initialized = True
+
 
 # =========================================================
 # Streamlit setup
@@ -315,16 +328,12 @@ if uploaded_zip is not None:
     if current_name != st.session_state.last_uploaded_zip_name:
         st.session_state.allow_json_loading = True
         st.session_state.last_uploaded_zip_name = current_name
-        for jf in json_files:
-            ann_path = annotations_path_for(jf)
-            if os.path.exists(ann_path):
-                st.session_state.exported_jsons.add(jf)
-                st.session_state.edited_jsons.discard(jf)
-        st.rerun()
 
 if uploaded_zip is not None:
     st.session_state.allow_json_loading = True
     st.session_state.last_uploaded_zip_name = uploaded_zip.name
+
+imported_papers = set()
 
 if uploaded_zip is not None and st.session_state.allow_json_loading:
     try:
@@ -339,12 +348,12 @@ if uploaded_zip is not None and st.session_state.allow_json_loading:
                     with zip_ref.open(name) as f:
                         content = json.load(f)
 
-                    # Match the paper
                     paper_name = name.replace("_annotations.json", "_captions.json")
                     matching_jsons = [jf for jf in json_files if os.path.basename(jf) == paper_name]
                     if not matching_jsons:
                         continue
                     json_path = matching_jsons[0]
+                    imported_papers.add(json_path)
 
                     # Load or create existing annotation file
                     ann_path = annotations_path_for(json_path)
@@ -386,8 +395,36 @@ if uploaded_zip is not None and st.session_state.allow_json_loading:
                     st.session_state[key] = hl
 
         st.cache_data.clear()
+        # Reload all imported annotation files into memory
+        for jf in json_files:
+            ann_path = annotations_path_for(jf)
+            if os.path.exists(ann_path):
+                with open(ann_path, "r", encoding="utf-8") as f:
+                    try:
+                        _content = json.load(f)
+                    except Exception:
+                        _content = {}
+                # prefill session state for all papers
+                st.session_state[f"annotations_{jf}"] = _content
 
-        # Disable further loads until user selects a new ZIP
+        # Sync current paper annotations immediately
+        if loaded_for_active:
+            annotations.update(loaded_for_active)
+            st.session_state.annotations = annotations
+
+            for img_name, score in loaded_for_active.get("ratings", {}).items():
+                st.session_state[f"rating_{img_name}"] = score
+
+            for img_name, hl in loaded_for_active.get("highlights", {}).items():
+                key_prefix = f"highlight_{os.path.basename(selected_json)}_{img_name}_"
+                if img_name in current_images:
+                    key = f"{key_prefix}{st.session_state.page_index}"
+                    st.session_state[key] = hl
+
+        for jf in imported_papers:
+            st.session_state.exported_jsons.add(jf)
+            st.session_state.edited_jsons.discard(jf)
+
         st.session_state.allow_json_loading = False
         st.session_state.upload_counter += 1
         st.rerun()
