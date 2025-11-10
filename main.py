@@ -8,21 +8,16 @@ from PIL import Image
 from bs4 import BeautifulSoup
 from highlight_component import highlight_text
 from streamlit_scroll_to_top import scroll_to_here
+import uuid
+import tempfile
+from datetime import datetime
 
-# =========================================================
-# Clean up old annotation cache files on first app load
-# =========================================================
-if "initialized" not in st.session_state:
-    base_dir = "data/pubmed_fulltexts"
-    for root, _, files in os.walk(base_dir):
-        for f in files:
-            if f.endswith("_annotations.json"):
-                try:
-                    os.remove(os.path.join(root, f))
-                except Exception as e:
-                    st.warning(f"⚠️ Could not delete {f}: {e}")
-    st.session_state.initialized = True
+# Unique ID for this user session
+if "session_id" not in st.session_state:
+    st.session_state.session_id = str(uuid.uuid4())[:8]
 
+user_temp_dir = os.path.join(tempfile.gettempdir(), f"annotations_{st.session_state.session_id}")
+os.makedirs(user_temp_dir, exist_ok=True)
 
 # =========================================================
 # Streamlit setup
@@ -246,9 +241,12 @@ nxml_path = next((os.path.join(nxml_dir, f) for f in os.listdir(nxml_dir) if f.e
 metadata = parse_paper_metadata(nxml_path) if nxml_path else {"title": "Untitled", "authors": [], "doi": "N/A", "journal": "N/A", "year": "N/A"}
 
 def annotations_path_for(selected_json_path: str) -> str:
-    root_dir = os.path.dirname(selected_json_path)
-    ann_base = os.path.basename(selected_json_path).replace("_captions.json", "_annotations.json")
-    return os.path.join(root_dir, ann_base)
+    """
+    Builds a per-session, isolated annotation file path.
+    """
+    base_name = os.path.basename(selected_json_path).replace("_captions.json", "_annotations.json")
+    return os.path.join(user_temp_dir, base_name)
+
 
 ANNOT_PATH = annotations_path_for(selected_json)
 
@@ -315,7 +313,7 @@ if "upload_counter" not in st.session_state:
 
 uploader_key = f"global_upload_zip_{st.session_state.upload_counter}"
 
-upload_col, _, download_col = st.columns([1, 2, 1], vertical_alignment="bottom")
+upload_col, _, download_col = st.columns([2, 2, 1], vertical_alignment="bottom")
 with upload_col:
     uploaded_zip = st.file_uploader(
         "Import ZIP of existing annotations",
@@ -367,8 +365,9 @@ if uploaded_zip is not None and st.session_state.allow_json_loading:
                     existing.setdefault("ratings", {}).update(content.get("ratings", {}))
                     existing.setdefault("highlights", {}).update(content.get("highlights", {}))
 
-                    # Write back merged file
-                    with open(ann_path, "w", encoding="utf-8") as f:
+                    # Write into user’s isolated sandbox
+                    session_ann_path = annotations_path_for(json_path)
+                    with open(session_ann_path, "w", encoding="utf-8") as f:
                         json.dump(existing, f, indent=2, ensure_ascii=False)
 
                     # Capture active paper for immediate sync
@@ -451,19 +450,21 @@ with download_col:
     # Create ZIP in memory
     zip_buffer = io.BytesIO()
     with zipfile.ZipFile(zip_buffer, "w", zipfile.ZIP_DEFLATED) as zipf:
+        # Export only from the user's isolated session folder
         for jf in json_files:
             ann_path = annotations_path_for(jf)
             if os.path.exists(ann_path):
                 with open(ann_path, "r", encoding="utf-8") as f:
                     content = f.read()
-                # add with proper name
                 zipf.writestr(os.path.basename(ann_path), content)
+
     zip_buffer.seek(0)
 
     if st.download_button(
         label="💾 Download All Annotations (ZIP)",
         data=zip_buffer,
-        file_name="all_reviews.zip",
+        file_name=f"melanocytic-lesions-dataset_{datetime.now().strftime("%Y%m%d_%H%M%S")}.zip",
+        key="download_all_button",
         mime="application/zip",
         use_container_width=True,
         help="Download all saved annotation files as a single ZIP"
@@ -528,7 +529,7 @@ for current_img in current_images:
             annotations.setdefault("ratings", {})[current_img] = "NR"
             st.session_state.exported_jsons.discard(selected_json)
             st.session_state.edited_jsons.add(selected_json)
-            #st.rerun()
+            st.rerun()
 
         for n, c in enumerate(cols_rating[1:], start=1):
             if c.button(str(n), key=f"{rating_key}_{n}_{current_img}", width='stretch'):
@@ -536,6 +537,7 @@ for current_img in current_images:
                 annotations.setdefault("ratings", {})[current_img] = n
                 st.session_state.exported_jsons.discard(selected_json)
                 st.session_state.edited_jsons.add(selected_json)
+                st.rerun()
 
         selected_rating = st.session_state[rating_key]
         annotations.setdefault("ratings", {})[current_img] = selected_rating
