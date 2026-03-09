@@ -12,6 +12,19 @@ import uuid
 import tempfile
 from datetime import datetime
 
+ERROR_FIELDS = [
+    ("factual_errors", "Factual errors"),
+    ("unverifiable_statements", "Unverifiable"),
+    ("omission_information", "Omissions"),
+    ("repeated_phrases", "Repetition"),
+]
+
+def metric_state_key(selected_json_path: str, image_name: str, field: str) -> str:
+    return f"metric_{os.path.basename(selected_json_path)}_{image_name}_{field}"
+
+def rating_state_key(selected_json_path: str, image_name: str) -> str:
+    return f"rating_{os.path.basename(selected_json_path)}_{image_name}"
+
 # Unique ID for this user session
 if "session_id" not in st.session_state:
     st.session_state.session_id = str(uuid.uuid4())[:8]
@@ -83,6 +96,41 @@ def parse_paper_metadata(nxml_path):
 @st.cache_data(show_spinner=False)
 def load_image(image_path):
     return Image.open(image_path)
+
+def sync_widgets_to_annotations(selected_json_path: str, annotations_dict: dict):
+    annotations_dict.setdefault("ratings", {})
+    annotations_dict.setdefault("highlights", {})
+    annotations_dict.setdefault("error_counts", {})
+
+    base_name = os.path.basename(selected_json_path)
+
+    # Sync metric widgets
+    for key, value in st.session_state.items():
+        prefix = f"metric_{base_name}_"
+        if key.startswith(prefix):
+            rest = key[len(prefix):]  # e.g. "<image_name>_factual_errors"
+            for field, _ in ERROR_FIELDS:
+                suffix = f"_{field}"
+                if rest.endswith(suffix):
+                    img = rest[:-len(suffix)]
+                    annotations_dict["error_counts"].setdefault(img, {})
+                    annotations_dict["error_counts"][img][field] = int(value)
+                    break
+
+    # Sync highlight widgets
+    for key, value in st.session_state.items():
+        prefix = f"highlight_{base_name}_"
+        if key.startswith(prefix) and isinstance(value, list):
+            rest = key[len(prefix):]
+            # key format: highlight_<jsonbasename>_<image_name>_<page_index>
+            img = re.sub(r"_\d+$", "", rest)
+            annotations_dict["highlights"][img] = value
+
+    # Sync rating widgets
+    for key, value in st.session_state.items():
+        if key.startswith("rating_"):
+            img = key[len("rating_"):]
+            annotations_dict["ratings"][img] = value
 
 # --- Utility ---
 def normalize_for_matching(s):
@@ -257,6 +305,10 @@ if "annotations" not in st.session_state:
 
 if selected_json != st.session_state.active_json:
     prev_ann_path = annotations_path_for(st.session_state.active_json)
+    sync_widgets_to_annotations(
+        st.session_state.active_json,
+        st.session_state.annotations
+    )
     if st.session_state.annotations:
         with open(prev_ann_path, "w", encoding="utf-8") as f:
             json.dump(st.session_state.annotations, f, indent=2, ensure_ascii=False)
@@ -364,6 +416,11 @@ if uploaded_zip is not None and st.session_state.allow_json_loading:
                     # Merge new content
                     existing.setdefault("ratings", {}).update(content.get("ratings", {}))
                     existing.setdefault("highlights", {}).update(content.get("highlights", {}))
+                    existing.setdefault("error_counts", {})
+
+                    for img_name, metrics in content.get("error_counts", {}).items():
+                        existing["error_counts"].setdefault(img_name, {})
+                        existing["error_counts"][img_name].update(metrics)
 
                     # Write into user’s isolated sandbox
                     session_ann_path = annotations_path_for(json_path)
@@ -385,13 +442,17 @@ if uploaded_zip is not None and st.session_state.allow_json_loading:
             st.session_state.annotations = annotations
 
             for img_name, score in loaded_for_active.get("ratings", {}).items():
-                st.session_state[f"rating_{img_name}"] = score
+                st.session_state[rating_state_key(selected_json, img_name)] = score
 
             for img_name, hl in loaded_for_active.get("highlights", {}).items():
                 key_prefix = f"highlight_{os.path.basename(selected_json)}_{img_name}_"
                 if img_name in current_images:
                     key = f"{key_prefix}{st.session_state.page_index}"
                     st.session_state[key] = hl
+
+            for img_name, metrics in loaded_for_active.get("error_counts", {}).items():
+                for field, _ in ERROR_FIELDS:
+                    st.session_state[metric_state_key(selected_json, img_name, field)] = int(metrics.get(field, 0))
 
         st.cache_data.clear()
         # Reload all imported annotation files into memory
@@ -442,7 +503,8 @@ with download_col:
                         annotations.setdefault("highlights", {})[img] = value
                         break
 
-        # Write updated annotations for the active paper to disk
+    # Write updated annotations for the active paper to disk
+    sync_widgets_to_annotations(selected_json, annotations)
     ann_path = annotations_path_for(selected_json)
     with open(ann_path, "w", encoding="utf-8") as f:
         json.dump(annotations, f, indent=2, ensure_ascii=False)
@@ -519,12 +581,51 @@ for current_img in current_images:
             st.session_state[highlight_key] = new_highlights
             annotations.setdefault("highlights", {})[current_img] = new_highlights
 
-        rating_key = f"rating_{current_img}"
+        annotations.setdefault("error_counts", {})
+        annotations["error_counts"].setdefault(current_img, {})
+
+        metric_cols = st.columns(4)
+        for (field, label), metric_col in zip(ERROR_FIELDS, metric_cols):
+            state_key = metric_state_key(selected_json, current_img, field)
+
+            if state_key not in st.session_state:
+                st.session_state[state_key] = int(
+                    annotations.get("error_counts", {}).get(current_img, {}).get(field, 0)
+                )
+
+            previous_value = int(
+                annotations.get("error_counts", {}).get(current_img, {}).get(field, 0)
+            )
+
+            new_value = metric_col.number_input(
+                label,
+                min_value=0,
+                step=1,
+                format="%d",
+                key=state_key,
+                width="stretch",
+            )
+
+            new_value = int(new_value)
+            annotations["error_counts"][current_img][field] = new_value
+
+            if new_value != previous_value:
+                st.session_state.exported_jsons.discard(selected_json)
+                st.session_state.edited_jsons.add(selected_json)
+
+        rating_key = rating_state_key(selected_json, current_img)
+
         if rating_key not in st.session_state:
             st.session_state[rating_key] = annotations.get("ratings", {}).get(current_img, 0)
 
+        st.markdown("###### Overall score:")
         cols_rating = st.columns(6)
-        if cols_rating[0].button("🚫", key=f"{rating_key}_NR_{current_img}", width='stretch'):
+
+        if cols_rating[0].button(
+                "🚫",
+                key=f"btn_nr_{os.path.basename(selected_json)}_{current_img}",
+                width='stretch'
+        ):
             st.session_state[rating_key] = "NR"
             annotations.setdefault("ratings", {})[current_img] = "NR"
             st.session_state.exported_jsons.discard(selected_json)
@@ -532,7 +633,11 @@ for current_img in current_images:
             st.rerun()
 
         for n, c in enumerate(cols_rating[1:], start=1):
-            if c.button(str(n), key=f"{rating_key}_{n}_{current_img}", width='stretch'):
+            if c.button(
+                    str(n),
+                    key=f"btn_rating_{n}_{os.path.basename(selected_json)}_{current_img}",
+                    width='stretch'
+            ):
                 st.session_state[rating_key] = n
                 annotations.setdefault("ratings", {})[current_img] = n
                 st.session_state.exported_jsons.discard(selected_json)

@@ -327,18 +327,5 @@
       "Histopathologically the tumor shares with the previous case the striking asymmetry",
       "hematoxylin-eosin, ×25"
     ]
-  },
-  "fonc-11-675296-g005_E.jpg": {
-    "image_ref": "fonc-11-675296-g005",
-    "panel": "E",
-    "label": "Figure 5",
-    "caption": "(A–E) Man 52 years. Dermoscopy of a large pigmented lesion of the back with an irregular pigment network at the baseline (A) after one year, the lesion shows an increase in size with a homogeneous remodeling and a more prominent pigment network (B) such a slow clinical evolution is akin to a lentigo maligna of chronically sun-exposed skin and virtually excludes a diagnosis of nevus. Histopathologically, the tumor has a dysplastic nevus-like silhouette ( C ; hematoxylin–eosin, ×25) but is severely atypical because of the striking predominance of tightly packed single melanocytes at the junction ( D ; hematoxylin–eosin, ×100). PRAME immunostain shows a strong and diffuse nuclear positivity in intraepidermal melanocytes (E) ×250), as expected in melanoma. Clinicopathological features of the lesion are diagnostic for lentiginous melanoma in situ . (F–I) Man, 59 years. A large pigmented lesion of the abdomen, dermoscopically characterized by tiny eccentically grouped globules and structureless peripheral areas (F) after seven months the peripheral strucureless areas show a clear-cut increase in size (G) . Histopathologically there are some areas with a dysplastic nevus-like silhouette, but the epidermis is largely atrophic ( H ; hematoxylin – eosin, ×25) and junctional nests are very large and irregular ( I ; hematoxylin–eosin, ×250). These features suggest a diagnosis of melanoma in situ with a focally “nested” architecture.",
-    "context": "",
-    "enriched_caption": "PRAME immunostain reveals a strong and diffuse nuclear positivity in intraepidermal melanocytes, a finding characteristic of melanoma and consistent with the overall diagnosis of lentiginous melanoma in situ.",
-    "used_verbatims": [
-      "PRAME immunostain shows a strong and diffuse nuclear positivity in intraepidermal melanocytes",
-      "as expected in melanoma",
-      "Clinicopathological features of the lesion are diagnostic for lentiginous melanoma in situ ."
-    ]
   }
 }

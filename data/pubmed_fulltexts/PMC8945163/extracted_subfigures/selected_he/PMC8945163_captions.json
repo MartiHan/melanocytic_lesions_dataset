@@ -166,32 +166,6 @@
       "may demonstrate an atypical junctional component with pagetoid upward migration of melanocytes, irregular epidermal hyperplasia or epidermal atrophy and consumption, infiltrative growth patterns or nodular growth at the base, increased cellularity, significant cytologic atypia"
     ]
   },
-  "biology-11-00460-g004_B.jpg": {
-    "image_ref": "biology-11-00460-g004",
-    "panel": "B",
-    "label": "Figure 4",
-    "caption": "Immunohistochemical features of a deep penetrating nevus. ( A ) Diffuse expression of HMB45 is present (HMB45, 20×). ( B ) Dual MART1/Ki67 staining reveals a low proliferative index (MART1/Ki67, 200×). ( C ) Cytoplasmic, membranous, and nuclear expression of beta-catenin is present (beta catenin, 200×). ( D ) There is nuclear positivity for cyclin D1 (cyclin D1, 200×). ( E ) P16 is retained (p16, 40×). ( F ) BAP1 nuclear expression is retained (BAP1, 200×). ( G ) Lesional cells are negative for preferentially expressed antigen in melanoma (PRAME) (PRAME, 100×).",
-    "context": "Some immunohistochemical features of DPNs are highlighted in Figure 4 .",
-    "enriched_caption": "Dual MART1/Ki67 immunohistochemical staining of a deep penetrating nevus demonstrates a low proliferative index, indicating a benign proliferative behavior. (Magnification: 200×)",
-    "used_verbatims": [
-      "Dual MART1/Ki67 staining reveals a low proliferative index",
-      "Immunohistochemical features of a deep penetrating nevus",
-      "DPNs are highlighted in Figure 4"
-    ]
-  },
-  "biology-11-00460-g004_G.jpg": {
-    "image_ref": "biology-11-00460-g004",
-    "panel": "G",
-    "label": "Figure 4",
-    "caption": "Immunohistochemical features of a deep penetrating nevus. ( A ) Diffuse expression of HMB45 is present (HMB45, 20×). ( B ) Dual MART1/Ki67 staining reveals a low proliferative index (MART1/Ki67, 200×). ( C ) Cytoplasmic, membranous, and nuclear expression of beta-catenin is present (beta catenin, 200×). ( D ) There is nuclear positivity for cyclin D1 (cyclin D1, 200×). ( E ) P16 is retained (p16, 40×). ( F ) BAP1 nuclear expression is retained (BAP1, 200×). ( G ) Lesional cells are negative for preferentially expressed antigen in melanoma (PRAME) (PRAME, 100×).",
-    "context": "Some immunohistochemical features of DPNs are highlighted in Figure 4 .",
-    "enriched_caption": "Immunohistochemical analysis demonstrates negativity for preferentially expressed antigen in melanoma (PRAME) in the lesional cells of a deep penetrating nevus, highlighted as an immunohistochemical feature (100x magnification).",
-    "used_verbatims": [
-      "Lesional cells are negative for preferentially expressed antigen in melanoma (PRAME)",
-      "deep penetrating nevus",
-      "immunohistochemical features"
-    ]
-  },
   "biology-11-00460-g007_A.jpg": {
     "image_ref": "biology-11-00460-g007",
     "panel": "A",

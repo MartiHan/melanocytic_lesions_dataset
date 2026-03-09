@@ -33,20 +33,6 @@
       "eventually with the presence of few suprabasal melanocytes, but only focally"
     ]
   },
-  "dermatopathology-12-00003-g010_D.jpg": {
-    "image_ref": "dermatopathology-12-00003-g010",
-    "panel": "D",
-    "label": "Figure 10",
-    "caption": "Superficial spreading melanoma (Breslow 0.3 mm). ( A ) Dermatoscopy (original magnification 10x). The lesion shows an asymmetry, multi-component pattern, areas without structure, irregularly distributed dots and an abrupt interruption. ( B ) Hematoxylin and eosin stain (original magnification 10x). Intraepidermal anarchic proliferation with irregular nests, many solitary units and pagetoid spread, showing ( C ) severe cytonuclear atypia (very large cytoplasm, and very large nuclei), with the same atypia in few nests in the superficial dermis (arrow). There is a moderate dermal lymphocytic infiltrate associated with melanophages (original magnification 20x). ( D ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, highlighting the solitary units and the pagetoid spread, as well as the presence of very few nests in the superficial dermis (arrow). ( E ) PRAME IHC (original magnification 10x) is positive (>75% with strong positivity), including the dermal component (arrow).",
-    "context": "We usually do not observe major or specific differences in terms of clinical atypia between DN with marked and/or severe atypia and superficial borderline atypical melanocytic lesions. However, these lesions usually show at least one worrisome dermatoscopic feature such as an eccentric area without structure, radial striae, pseudopods, white lines more or less diffuse possibly generating an “inverted network”, abrupt interruption of the network, varying pattern, asymmetry, etc. ( Figure 5 , Figure 6 , Figure 7 and Figure 8 ). Figure 9 and Figure 10 are a melanoma in situ and a microinvasive superficial spreading melanoma, shown for comparison.",
-    "enriched_caption": "Melan-A/MART-1 immunohistochemistry (10x magnification) for a microinvasive superficial spreading melanoma (Breslow 0.3 mm) highlights intraepidermal solitary units and pagetoid spread, in addition to very few nests (arrow) present in the superficial dermis, which are key histopathologic features characterizing this microinvasive lesion and are shown for comparison.",
-    "used_verbatims": [
-      "Melan-A/MART-1 IHC (original magnification 10x)",
-      "Superficial spreading melanoma (Breslow 0.3 mm)",
-      "highlighting the solitary units and the pagetoid spread, as well as the presence of very few nests in the superficial dermis (arrow)",
-      "microinvasive superficial spreading melanoma, shown for comparison"
-    ]
-  },
   "dermatopathology-12-00003-g001_C.jpg": {
     "image_ref": "dermatopathology-12-00003-g001",
     "panel": "C",
@@ -86,26 +72,6 @@
   },
   "PMC11860396_captions.json": {
     "error": "No figure found referencing PMC11860396"
-  },
-  "dermatopathology-12-00003-g002_H.jpg": {
-    "image_ref": "dermatopathology-12-00003-g002",
-    "panel": "H",
-    "label": "Figure 2",
-    "caption": "( A ) Hematoxylin and eosin stain (original magnification 10x), DN with marked atypia. The junctional component shows marked cytonuclear atypia, in this case with marked nuclear hyperchromasia, and a continuous proliferation along the dermal–epidermal junction, with solitary units between the rete ridges. ( B ) Melan-A/MART-1 IHC (original magnification 10x), with very few suprabasal melanocytes. There is a “shoulder sign”, papillary fibroplasia, and a slight dermal lymphocytic infiltrate associated with melanophages. ( C ) PRAME IHC (original magnification 10x) is negative (note that this immunochemistry is not exactly performed on the same level as Melan-A). ( D ) Hematoxylin and eosin stain (original magnification 10x) DN with severe atypia. Junctional component shows a very disorganized proliferation with solitary units and irregular nests, with (inset) marked/severe cytonuclear atypia (abundant cytoplasm, and irregular nuclei with hyperchromasia; original magnification 40x). The dermal component shows maturation, without atypia, and with a superficial congenital architecture. The “shoulder sign” is not evident in these pictures, there is papillary fibroplasia, and a slight dermal lymphocytic infiltrate associated with melanophages. ( E ) Melan-A/MART-1 (original magnification 10x) of the same lesion, showing the same features and some pagetoid spread. ( F ) PRAME (original magnification 10x) is negative. ( G ) Hematoxylin and eosin stain (original magnification 10x). Superficial borderline atypical melanocytic lesion with junctional atypia. The presence of a very disorganized intraepidermal melanocytic proliferation with numerous solitary units and voluminous and irregular nests, with (inset) marked/severe cytonuclear atypia (abundant cytoplasm, and hyperchromatic nuclei; original magnification 30x). There is papillary fibroplasia, and a slight dermal lymphocytic infiltrate associated with melanophages. ( H ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features and pagetoid spread. ( I ) PRAME IHC (original magnification 10x) is negative. We discussed, as a differential diagnosis, the possibility of a melanoma in situ arising on a pre-existing dysplastic nevus in this case.",
-    "context": "DN with marked atypia is defined by marked cytological, nuclear, and nucleolar atypia, and architecturally by a continuous proliferation along the dermal–epidermal junction, or with solitary units between the rete ridges, eventually with the presence of few suprabasal melanocytes, but only focally ( Figure 2 A–C).\n\nDN with severe atypia is defined by marked (or severe) cytological, nuclear, and nucleolar atypia, a continuous proliferation along the dermal–epidermal junction, and the presence of more suprabasal melanocytes, generally restricted to the central part of the lesion. The lesion does not fulfill the criteria of a melanoma in situ. There is an overlap with DN with marked atypia, because the only difference is the presence of a more pronounced pagetoid spread. These lesions are categorized as DN with marked to severe atypia ( Figure 2 D–F).\n\nThese superficial borderline atypical melanocytic lesions are only junctional or compound lesions. In the case of a compound melanocytic lesion, the atypia are restricted to the junctional part. The lesion is usually characterized by severe cytonuclear and architectural atypia, but does not fulfill all the criteria of a melanoma in situ. However, the presence of these significant atypia does generally not allow pathologists to exclude a melanoma in situ, or the possibility of a melanoma in situ arising on a pre-existing nevus, usually dysplastic ( Figure 2 G–I). These criteria include the following: Cytoplasmic atypia: dirty cytoplasm, epithelioid morphology, vacuolated cytoplasm; Nuclear atypia: large nucleus, hyperchromasia; Nucleolar atypia: prominent nucleolus; Architectural atypia: disorganized/anarchic proliferation with irregular nests and numerous solitary units; Some pagetoid spread.",
-    "enriched_caption": "Melan-A/MART-1 immunohistochemistry (original magnification 10x) of a superficial borderline atypical melanocytic lesion, highlighting the melanocytic proliferation. This panel demonstrates features consistent with the lesion seen in H&E, specifically confirming the presence of pagetoid spread, which is an architectural atypia. These lesions, characterized by severe cytonuclear and architectural atypia, may not fulfill all criteria of a melanoma in situ, but their significant atypia generally prevents pathologists from excluding a melanoma in situ or the possibility of a melanoma in situ arising on a pre-existing dysplastic nevus.",
-    "used_verbatims": [
-      "Melan-A/MART-1 IHC",
-      "original magnification 10x",
-      "same lesion",
-      "same features",
-      "pagetoid spread",
-      "Superficial borderline atypical melanocytic lesion",
-      "severe cytonuclear and architectural atypia",
-      "does not fulfill all the criteria of a melanoma in situ",
-      "does generally not allow pathologists to exclude a melanoma in situ",
-      "possibility of a melanoma in situ arising on a pre-existing nevus, usually dysplastic"
-    ]
   },
   "dermatopathology-12-00003-g003_B.jpg": {
     "image_ref": "dermatopathology-12-00003-g003",
@@ -152,38 +118,6 @@
       "moderate dermal lymphocytic infiltrate associated with melanophages",
       "a melanoma in situ",
       "shown for comparison"
-    ]
-  },
-  "dermatopathology-12-00003-g006_D.jpg": {
-    "image_ref": "dermatopathology-12-00003-g006",
-    "panel": "D",
-    "label": "Figure 6",
-    "caption": "DN with severe atypia. ( A ) Dermatoscopy (original magnification 10x). The lesion shows a slight asymmetry, an irregular and somewhat “inverted” network made of diffuse white lines. ( B ) Hematoxylin and eosin stain (original magnification 10x). Junctional component shows a very disorganized proliferation with solitary units and irregular nests, with ( C ) marked/severe cytonuclear atypia (abundant cytoplasm, and large and irregular nuclei with hyperchromasia; original magnification 20x). There is a “shoulder sign”, papillary fibroplasia, and a moderate dermal lymphocytic infiltrate associated with melanophages. ( D ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features and very little pagetoid spread. ( E ) PRAME IHC (original magnification 10x) is negative.",
-    "context": "We usually do not observe major or specific differences in terms of clinical atypia between DN with marked and/or severe atypia and superficial borderline atypical melanocytic lesions. However, these lesions usually show at least one worrisome dermatoscopic feature such as an eccentric area without structure, radial striae, pseudopods, white lines more or less diffuse possibly generating an “inverted network”, abrupt interruption of the network, varying pattern, asymmetry, etc. ( Figure 5 , Figure 6 , Figure 7 and Figure 8 ). Figure 9 and Figure 10 are a melanoma in situ and a microinvasive superficial spreading melanoma, shown for comparison.",
-    "enriched_caption": "Melan-A/MART-1 immunohistochemistry (10x magnification) for this dysplastic nevus with severe atypia, confirming the histopathologic findings of a very disorganized proliferation with solitary units and irregular nests, and marked/severe cytonuclear atypia. Notably, this superficial borderline atypical melanocytic lesion exhibits very little pagetoid spread, a key finding in its diagnostic assessment.",
-    "used_verbatims": [
-      "DN with severe atypia",
-      "Melan-A/MART-1 IHC (original magnification 10x) of the same lesion",
-      "showing the same features",
-      "very little pagetoid spread",
-      "very disorganized proliferation with solitary units and irregular nests, with marked/severe cytonuclear atypia",
-      "superficial borderline atypical melanocytic lesions"
-    ]
-  },
-  "dermatopathology-12-00003-g002_E.jpg": {
-    "image_ref": "dermatopathology-12-00003-g002",
-    "panel": "E",
-    "label": "Figure 2",
-    "caption": "( A ) Hematoxylin and eosin stain (original magnification 10x), DN with marked atypia. The junctional component shows marked cytonuclear atypia, in this case with marked nuclear hyperchromasia, and a continuous proliferation along the dermal–epidermal junction, with solitary units between the rete ridges. ( B ) Melan-A/MART-1 IHC (original magnification 10x), with very few suprabasal melanocytes. There is a “shoulder sign”, papillary fibroplasia, and a slight dermal lymphocytic infiltrate associated with melanophages. ( C ) PRAME IHC (original magnification 10x) is negative (note that this immunochemistry is not exactly performed on the same level as Melan-A). ( D ) Hematoxylin and eosin stain (original magnification 10x) DN with severe atypia. Junctional component shows a very disorganized proliferation with solitary units and irregular nests, with (inset) marked/severe cytonuclear atypia (abundant cytoplasm, and irregular nuclei with hyperchromasia; original magnification 40x). The dermal component shows maturation, without atypia, and with a superficial congenital architecture. The “shoulder sign” is not evident in these pictures, there is papillary fibroplasia, and a slight dermal lymphocytic infiltrate associated with melanophages. ( E ) Melan-A/MART-1 (original magnification 10x) of the same lesion, showing the same features and some pagetoid spread. ( F ) PRAME (original magnification 10x) is negative. ( G ) Hematoxylin and eosin stain (original magnification 10x). Superficial borderline atypical melanocytic lesion with junctional atypia. The presence of a very disorganized intraepidermal melanocytic proliferation with numerous solitary units and voluminous and irregular nests, with (inset) marked/severe cytonuclear atypia (abundant cytoplasm, and hyperchromatic nuclei; original magnification 30x). There is papillary fibroplasia, and a slight dermal lymphocytic infiltrate associated with melanophages. ( H ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features and pagetoid spread. ( I ) PRAME IHC (original magnification 10x) is negative. We discussed, as a differential diagnosis, the possibility of a melanoma in situ arising on a pre-existing dysplastic nevus in this case.",
-    "context": "DN with marked atypia is defined by marked cytological, nuclear, and nucleolar atypia, and architecturally by a continuous proliferation along the dermal–epidermal junction, or with solitary units between the rete ridges, eventually with the presence of few suprabasal melanocytes, but only focally ( Figure 2 A–C).\n\nDN with severe atypia is defined by marked (or severe) cytological, nuclear, and nucleolar atypia, a continuous proliferation along the dermal–epidermal junction, and the presence of more suprabasal melanocytes, generally restricted to the central part of the lesion. The lesion does not fulfill the criteria of a melanoma in situ. There is an overlap with DN with marked atypia, because the only difference is the presence of a more pronounced pagetoid spread. These lesions are categorized as DN with marked to severe atypia ( Figure 2 D–F).\n\nThese superficial borderline atypical melanocytic lesions are only junctional or compound lesions. In the case of a compound melanocytic lesion, the atypia are restricted to the junctional part. The lesion is usually characterized by severe cytonuclear and architectural atypia, but does not fulfill all the criteria of a melanoma in situ. However, the presence of these significant atypia does generally not allow pathologists to exclude a melanoma in situ, or the possibility of a melanoma in situ arising on a pre-existing nevus, usually dysplastic ( Figure 2 G–I). These criteria include the following: Cytoplasmic atypia: dirty cytoplasm, epithelioid morphology, vacuolated cytoplasm; Nuclear atypia: large nucleus, hyperchromasia; Nucleolar atypia: prominent nucleolus; Architectural atypia: disorganized/anarchic proliferation with irregular nests and numerous solitary units; Some pagetoid spread.",
-    "enriched_caption": "Melan-A/MART-1 immunohistochemistry, shown at original magnification 10x, highlights a dysplastic nevus (DN) with severe atypia. This lesion displays a very disorganized melanocytic proliferation at the junction, characterized by solitary units and irregular nests, accompanied by marked cytonuclear atypia including abundant cytoplasm, and irregular and hyperchromatic nuclei. The presence of some pagetoid spread is a distinguishing feature, indicating a more pronounced pagetoid spread compared to DN with marked atypia. Despite these severe atypical features, the lesion does not fulfill the criteria of a melanoma in situ.",
-    "used_verbatims": [
-      "Melan-A/MART-1 (original magnification 10x)",
-      "DN with severe atypia",
-      "Junctional component shows a very disorganized proliferation with solitary units and irregular nests, with marked/severe cytonuclear atypia (abundant cytoplasm, and irregular nuclei with hyperchromasia)",
-      "some pagetoid spread",
-      "the only difference is the presence of a more pronounced pagetoid spread",
-      "The lesion does not fulfill the criteria of a melanoma in situ"
     ]
   },
   "dermatopathology-12-00003-g008_E.jpg": {
@@ -297,17 +231,6 @@
       "There is a “shoulder sign”, papillary fibroplasia, and a slight dermal lymphocytic infiltrate associated with melanophages"
     ]
   },
-  "dermatopathology-12-00003-g006_E.jpg": {
-    "image_ref": "dermatopathology-12-00003-g006",
-    "panel": "E",
-    "label": "Figure 6",
-    "caption": "DN with severe atypia. ( A ) Dermatoscopy (original magnification 10x). The lesion shows a slight asymmetry, an irregular and somewhat “inverted” network made of diffuse white lines. ( B ) Hematoxylin and eosin stain (original magnification 10x). Junctional component shows a very disorganized proliferation with solitary units and irregular nests, with ( C ) marked/severe cytonuclear atypia (abundant cytoplasm, and large and irregular nuclei with hyperchromasia; original magnification 20x). There is a “shoulder sign”, papillary fibroplasia, and a moderate dermal lymphocytic infiltrate associated with melanophages. ( D ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features and very little pagetoid spread. ( E ) PRAME IHC (original magnification 10x) is negative.",
-    "context": "We usually do not observe major or specific differences in terms of clinical atypia between DN with marked and/or severe atypia and superficial borderline atypical melanocytic lesions. However, these lesions usually show at least one worrisome dermatoscopic feature such as an eccentric area without structure, radial striae, pseudopods, white lines more or less diffuse possibly generating an “inverted network”, abrupt interruption of the network, varying pattern, asymmetry, etc. ( Figure 5 , Figure 6 , Figure 7 and Figure 8 ). Figure 9 and Figure 10 are a melanoma in situ and a microinvasive superficial spreading melanoma, shown for comparison.",
-    "enriched_caption": "Immunohistochemical staining for PRAME in this dysplastic nevus with severe atypia shows a negative result (10x magnification), which is a diagnostically relevant finding that often helps differentiate such lesions from melanoma, where PRAME positivity is frequently observed.",
-    "used_verbatims": [
-      "PRAME IHC (original magnification 10x) is negative."
-    ]
-  },
   "dermatopathology-12-00003-g010_C.jpg": {
     "image_ref": "dermatopathology-12-00003-g010",
     "panel": "C",
@@ -342,18 +265,6 @@
       "mild cytological, nuclear, and nucleolar atypia",
       "architecturally by a discrete junctional proliferation showing no nests or very small nests, irregularly distributed along the dermal–epidermal junction",
       "frequently show lentigo-like epidermal hyperplasia and hyperpigmentation"
-    ]
-  },
-  "dermatopathology-12-00003-g009_E.jpg": {
-    "image_ref": "dermatopathology-12-00003-g009",
-    "panel": "E",
-    "label": "Figure 9",
-    "caption": "Melanoma in situ. ( A ) Dermatoscopy (original magnification 10x). The lesion shows an asymmetry, and an irregular and very coarse pigmented reticular network, with gray areas and radial striae. ( B ) Hematoxylin and eosin stain (original magnification 10x). Intraepidermal anarchic proliferation with irregular nests, many solitary units, and pagetoid spread, showing ( C ) severe cytonuclear atypia (very large cytoplasm, and very large nuclei; original magnification 20x. There is a moderate dermal lymphocytic infiltrate associated with melanophages. ( D ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features. ( E ) PRAME IHC (original magnification 15x) is diffusely positive.",
-    "context": "We usually do not observe major or specific differences in terms of clinical atypia between DN with marked and/or severe atypia and superficial borderline atypical melanocytic lesions. However, these lesions usually show at least one worrisome dermatoscopic feature such as an eccentric area without structure, radial striae, pseudopods, white lines more or less diffuse possibly generating an “inverted network”, abrupt interruption of the network, varying pattern, asymmetry, etc. ( Figure 5 , Figure 6 , Figure 7 and Figure 8 ). Figure 9 and Figure 10 are a melanoma in situ and a microinvasive superficial spreading melanoma, shown for comparison.",
-    "enriched_caption": "PRAME immunohistochemistry (IHC) shows diffuse positivity (original magnification 15x), a characteristic finding in melanoma in situ.",
-    "used_verbatims": [
-      "PRAME IHC (original magnification 15x) is diffusely positive.",
-      "melanoma in situ"
     ]
   },
   "dermatopathology-12-00003-g005_C.jpg": {
@@ -422,36 +333,6 @@
       "Junctional component shows a continuous proliferation with solitary units along the dermal–epidermal junction"
     ]
   },
-  "dermatopathology-12-00003-g003_C.jpg": {
-    "image_ref": "dermatopathology-12-00003-g003",
-    "panel": "C",
-    "label": "Figure 3",
-    "caption": "DN with mild atypia. ( A ) Dermatoscopy (original magnification 10x). The lesion is displaying relative symmetry and a thin pigmented reticular network with very few dots at the center. ( B ) Hematoxylin and eosin stain (original magnification 10x). Pigmented parakeratosis overlying a hyperplastic epidermis with lentigo-like features, associated with a melanocytic proliferation showing a discrete junctional proliferation with very small nests, irregularly distributed along the dermal–epidermal junction. There is a “shoulder sign”, a slight papillary fibroplasia, and a slight dermal lymphocytic infiltrate associated with melanophages. ( C ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features and the absence of continuous proliferation and pagetoid spread. DN with moderate atypia. ( D ) Dermatoscopy (original magnification 10x). The lesion shows a relative symmetry, an irregular pigmented reticular network, with foci showing a larger and more pigmented network, and a central area corresponding to a dermal component. ( E ) Hematoxylin and eosin stain (original magnification 10x). Junctional proliferation shows small nests irregularly distributed along the dermal–epidermal junction, not completely filling the rete ridges, and ( F ) with mild cytonuclear atypia (original magnification 15x). There is papillary fibroplasia, a “shoulder sign”, and a slight dermal lymphocytic infiltrate associated with melanophages. The dermal component shows a superficial congenital architecture. ( G ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features and the absence of continuous proliferation and pagetoid spread.",
-    "context": "Histologically, DN with mild atypia frequently shows lentigo-like epidermal modifications. Clinically, these lesions usually exhibit a thin pigmented reticular network ( Figure 3 A–C).\n\nThese lesions show a slightly larger pigmented network and/or small globi, probably corresponding to the medium-sized nests observed histologically ( Figure 3 D–G).",
-    "enriched_caption": "Melan-A/MART-1 immunohistochemistry (original magnification 10x) of a dysplastic nevus (DN) with mild atypia, illustrating the discrete junctional melanocytic proliferation with very small, irregularly distributed nests and crucially demonstrating the absence of continuous proliferation and pagetoid spread, consistent with benign behavior. Clinically, such lesions commonly exhibit a thin pigmented reticular network.",
-    "used_verbatims": [
-      "Melan-A/MART-1 IHC (original magnification 10x)",
-      "DN with mild atypia",
-      "discrete junctional proliferation with very small nests, irregularly distributed along the dermal–epidermal junction",
-      "absence of continuous proliferation and pagetoid spread",
-      "thin pigmented reticular network"
-    ]
-  },
-  "dermatopathology-12-00003-g001_H.jpg": {
-    "image_ref": "dermatopathology-12-00003-g001",
-    "panel": "H",
-    "label": "Figure 1",
-    "caption": "( A ) Hematoxylin and eosin stain (original magnification 10x); DN with mild atypia. Pigmented parakeratosis overlying a hyperplastic epidermis with lentigo-like features, associated with a melanocytic proliferation with a discrete junctional proliferation showing very small nests, irregularly distributed along the dermal–epidermal junction. There is a slight “shoulder sign”, slight papillary fibroplasia, and a slight-to-moderate dermal lymphocytic infiltrate associated with melanophages. ( B ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features and the absence of continuous proliferation and pagetoid spread. ( C ) Hematoxylin and eosin stain (original magnification 10x); DN with moderate atypia. The junctional component shows irregularly distributed nests, but not completely filling the rete ridges, and mild cytonuclear atypia. There is a “shoulder sign”, papillary fibroplasia, and a slight dermal lymphocytic infiltrate associated with melanophages. ( D ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features and the absence of continuous proliferation and pagetoid spread. ( E ) Hematoxylin and eosin stain (original magnification 10x), DN with distinct atypia, “nested type”. The junctional component shows large irregularly distributed nests, completely filling the rete ridges, and moderate cytonuclear atypia. There is a “shoulder sign”, papillary fibroplasia, and a slight-to-moderate dermal lymphocytic infiltrate associated with melanophages. ( F ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features and the absence of continuous proliferation and pagetoid spread. ( G ) Hematoxylin and eosin stain (original magnification 10x); DN with distinct atypia; solitary unit type. Lentiginous hyperplasia and hyperpigmentation of the epidermis, and a junctional melanocytic proliferation with moderate cytonuclear atypia, filling the rete ridges is visible without signs of continuous proliferation or pagetoid spread. ( H ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features.",
-    "context": "DN with mild atypia is defined by mild cytological, nuclear, and nucleolar atypia, as in other classifications, and architecturally by a discrete junctional proliferation showing no nests or very small nests, irregularly distributed along the dermal–epidermal junction. These nevi frequently show lentigo-like epidermal hyperplasia and hyperpigmentation ( Figure 1 A,B).\n\nDN with moderate atypia is also defined by mild cytological, nuclear, and nucleolar atypia, but architecturally by a more pronounced junctional proliferation showing well-developed nests, not completely filling the rete ridges ( Figure 1 C,D).\n\nDN with distinct atypia is defined by more pronounced cytological, and nucleolar atypia, and architecturally by voluminous nests, or solitary units, completely filling the rete ridges. Both patterns can be frequently observed in the same lesion (solitary units filling the rete ridges and voluminous nests). There is no suprabasal melanocyte proliferation and no solitary units between the rete ridges ( Figure 1 E–H).",
-    "enriched_caption": "Melan-A/MART-1 immunohistochemical stain (10x original magnification) depicting a dysplastic nevus (DN) with distinct atypia, solitary unit type. This panel highlights the junctional melanocytic proliferation with moderate cytonuclear atypia, characterized by solitary units that completely fill the rete ridges, consistent with the architectural definition of DN with distinct atypia. The image also confirms the absence of continuous proliferation, pagetoid spread, suprabasal melanocyte proliferation, and solitary units between the rete ridges.",
-    "used_verbatims": [
-      "Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features.",
-      "DN with distinct atypia; solitary unit type.",
-      "Lentiginous hyperplasia and hyperpigmentation of the epidermis, and a junctional melanocytic proliferation with moderate cytonuclear atypia, filling the rete ridges is visible without signs of continuous proliferation or pagetoid spread.",
-      "DN with distinct atypia is defined by more pronounced cytological, and nucleolar atypia, and architecturally by voluminous nests, or solitary units, completely filling the rete ridges.",
-      "There is no suprabasal melanocyte proliferation and no solitary units between the rete ridges ( Figure 1 E–H)."
-    ]
-  },
   "dermatopathology-12-00003-g009_C.jpg": {
     "image_ref": "dermatopathology-12-00003-g009",
     "panel": "C",
@@ -480,40 +361,6 @@
       "few nests in the superficial dermis",
       "moderate dermal lymphocytic infiltrate associated with melanophages",
       "microinvasive superficial spreading melanoma"
-    ]
-  },
-  "dermatopathology-12-00003-g003_G.jpg": {
-    "image_ref": "dermatopathology-12-00003-g003",
-    "panel": "G",
-    "label": "Figure 3",
-    "caption": "DN with mild atypia. ( A ) Dermatoscopy (original magnification 10x). The lesion is displaying relative symmetry and a thin pigmented reticular network with very few dots at the center. ( B ) Hematoxylin and eosin stain (original magnification 10x). Pigmented parakeratosis overlying a hyperplastic epidermis with lentigo-like features, associated with a melanocytic proliferation showing a discrete junctional proliferation with very small nests, irregularly distributed along the dermal–epidermal junction. There is a “shoulder sign”, a slight papillary fibroplasia, and a slight dermal lymphocytic infiltrate associated with melanophages. ( C ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features and the absence of continuous proliferation and pagetoid spread. DN with moderate atypia. ( D ) Dermatoscopy (original magnification 10x). The lesion shows a relative symmetry, an irregular pigmented reticular network, with foci showing a larger and more pigmented network, and a central area corresponding to a dermal component. ( E ) Hematoxylin and eosin stain (original magnification 10x). Junctional proliferation shows small nests irregularly distributed along the dermal–epidermal junction, not completely filling the rete ridges, and ( F ) with mild cytonuclear atypia (original magnification 15x). There is papillary fibroplasia, a “shoulder sign”, and a slight dermal lymphocytic infiltrate associated with melanophages. The dermal component shows a superficial congenital architecture. ( G ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features and the absence of continuous proliferation and pagetoid spread.",
-    "context": "Histologically, DN with mild atypia frequently shows lentigo-like epidermal modifications. Clinically, these lesions usually exhibit a thin pigmented reticular network ( Figure 3 A–C).\n\nThese lesions show a slightly larger pigmented network and/or small globi, probably corresponding to the medium-sized nests observed histologically ( Figure 3 D–G).",
-    "enriched_caption": "Melan-A/MART-1 immunohistochemistry (IHC) of a dysplastic nevus (DN) with moderate atypia. This panel confirms the histological features observed in H&E, showing junctional proliferation with small nests irregularly distributed along the dermal–epidermal junction, not completely filling the rete ridges, along with mild cytonuclear atypia. Also confirmed are papillary fibroplasia, a “shoulder sign”, slight dermal lymphocytic infiltrate, melanophages, and a superficial congenital dermal architecture. Crucially, there is an absence of continuous proliferation and pagetoid spread. These histological findings correlate with a dermatoscopic presentation of a slightly larger pigmented network and/or small globi, which likely correspond to the medium-sized nests observed histologically.",
-    "used_verbatims": [
-      "Melan-A/MART-1 IHC",
-      "same features",
-      "absence of continuous proliferation and pagetoid spread",
-      "Junctional proliferation shows small nests irregularly distributed along the dermal–epidermal junction, not completely filling the rete ridges",
-      "mild cytonuclear atypia",
-      "papillary fibroplasia, a “shoulder sign”, and a slight dermal lymphocytic infiltrate associated with melanophages",
-      "The dermal component shows a superficial congenital architecture",
-      "slightly larger pigmented network and/or small globi",
-      "medium-sized nests observed histologically"
-    ]
-  },
-  "dermatopathology-12-00003-g009_D.jpg": {
-    "image_ref": "dermatopathology-12-00003-g009",
-    "panel": "D",
-    "label": "Figure 9",
-    "caption": "Melanoma in situ. ( A ) Dermatoscopy (original magnification 10x). The lesion shows an asymmetry, and an irregular and very coarse pigmented reticular network, with gray areas and radial striae. ( B ) Hematoxylin and eosin stain (original magnification 10x). Intraepidermal anarchic proliferation with irregular nests, many solitary units, and pagetoid spread, showing ( C ) severe cytonuclear atypia (very large cytoplasm, and very large nuclei; original magnification 20x. There is a moderate dermal lymphocytic infiltrate associated with melanophages. ( D ) Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features. ( E ) PRAME IHC (original magnification 15x) is diffusely positive.",
-    "context": "We usually do not observe major or specific differences in terms of clinical atypia between DN with marked and/or severe atypia and superficial borderline atypical melanocytic lesions. However, these lesions usually show at least one worrisome dermatoscopic feature such as an eccentric area without structure, radial striae, pseudopods, white lines more or less diffuse possibly generating an “inverted network”, abrupt interruption of the network, varying pattern, asymmetry, etc. ( Figure 5 , Figure 6 , Figure 7 and Figure 8 ). Figure 9 and Figure 10 are a melanoma in situ and a microinvasive superficial spreading melanoma, shown for comparison.",
-    "enriched_caption": "Panel D, utilizing Melan-A/MART-1 immunohistochemistry (10x magnification), illustrates a melanoma in situ. It demonstrates the characteristic intraepidermal anarchic proliferation with irregular nests, numerous solitary units, and pagetoid spread. The image further reveals severe cytonuclear atypia, marked by very large cytoplasm and nuclei, and is associated with a moderate dermal lymphocytic infiltrate and melanophages.",
-    "used_verbatims": [
-      "Melan-A/MART-1 IHC (original magnification 10x) of the same lesion, showing the same features.",
-      "Intraepidermal anarchic proliferation with irregular nests, many solitary units, and pagetoid spread",
-      "severe cytonuclear atypia (very large cytoplasm, and very large nuclei)",
-      "moderate dermal lymphocytic infiltrate associated with melanophages",
-      "melanoma in situ"
     ]
   },
   "dermatopathology-12-00003-g003_F.jpg": {
